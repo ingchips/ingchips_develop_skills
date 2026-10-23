@@ -1,0 +1,101 @@
+{
+  "book": "an_libaudio_cn",
+  "site_dir": "application-notes/an_libaudio_cn",
+  "source": "html",
+  "title": "应用指南：音频处理库",
+  "files": [
+    {
+      "file": "index.md",
+      "title": "应用指南：音频处理库",
+      "size": 293,
+      "source_path": "application-notes/an_libaudio_cn/index.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/index.html",
+      "source_sha256": "da04176049daebab26aaf7c69abe8028e7b38023f706cf758ca8ada7bcd85d41",
+      "conversion_source": "application-notes/an_libaudio_cn/index.html"
+    },
+    {
+      "file": "ch-overview.md",
+      "title": "2 概览",
+      "size": 3877,
+      "source_path": "application-notes/an_libaudio_cn/ch-overview.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-overview.html",
+      "source_sha256": "706ccb7ba102ca0fb87a07560de49ec6d2dbeb81086d1eedd764b6e9fe3b150a",
+      "conversion_source": "application-notes/an_libaudio_cn/ch-overview.html"
+    },
+    {
+      "file": "ch-denoise.md",
+      "title": "3 降噪",
+      "size": 2081,
+      "source_path": "application-notes/an_libaudio_cn/ch-denoise.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-denoise.html",
+      "source_sha256": "4846e686dffca7557113e332379827e36eecf9358fa35e3df4589ea279576b80",
+      "conversion_source": "application-notes/an_libaudio_cn/ch-denoise.html"
+    },
+    {
+      "file": "ch-adpcm.md",
+      "title": "4 ADPCM 编解码",
+      "size": 2607,
+      "source_path": "application-notes/an_libaudio_cn/ch-adpcm.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-adpcm.html",
+      "source_sha256": "b3d610858e063edd779f2f2e41ff4403f89dbf2e0f0d63b6f4146ad387ee1ea7",
+      "conversion_source": "application-notes/an_libaudio_cn/ch-adpcm.html"
+    },
+    {
+      "file": "ch-sbc.md",
+      "title": "5 SBC/mSBC 编解码",
+      "size": 6318,
+      "source_path": "application-notes/an_libaudio_cn/ch-sbc.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-sbc.html",
+      "source_sha256": "e24057e952ee67c08696d0d610967bf26e4a4d7759b52a4c29c37ab20d2b9c2b",
+      "conversion_source": "application-notes/an_libaudio_cn/ch-sbc.html"
+    },
+    {
+      "file": "ch-opus.md",
+      "title": "6 Opus 编码",
+      "size": 9575,
+      "source_path": "application-notes/an_libaudio_cn/ch-opus.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-opus.html",
+      "source_sha256": "4cfc05fe6dc353c102db6c60940adff565a106f082057b6cabc36bfb8874732a",
+      "conversion_source": "application-notes/an_libaudio_cn/ch-opus.html"
+    },
+    {
+      "file": "ch-amr-wb.md",
+      "title": "7 AMR-WB 编解码",
+      "size": 7367,
+      "source_path": "application-notes/an_libaudio_cn/ch-amr-wb.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-amr-wb.html",
+      "source_sha256": "4e9d59790e8e02d308b86d364e6dc6196de0bc3a1a74c9823937f9badc49d1d2",
+      "conversion_source": "application-notes/an_libaudio_cn/ch-amr-wb.html"
+    },
+    {
+      "file": "ch-tts.md",
+      "title": "8 语音合成",
+      "size": 21182,
+      "source_path": "application-notes/an_libaudio_cn/ch-tts.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-tts.html",
+      "source_sha256": "6b5e77f26f751932511ef674dd249f9928e5cc6759466a5c6b83a8e31c9bb201",
+      "conversion_source": "application-notes/an_libaudio_cn/ch-tts.html"
+    },
+    {
+      "file": "ch-stretch.md",
+      "title": "9 语音变速",
+      "size": 4288,
+      "source_path": "application-notes/an_libaudio_cn/ch-stretch.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-stretch.html",
+      "source_sha256": "52b0c63177ad79343eb02e9ef25d9523f827a20827a241bfa042d550043d3993",
+      "conversion_source": "application-notes/an_libaudio_cn/ch-stretch.html"
+    },
+    {
+      "file": "ch-acknowledgement.md",
+      "title": "10 致谢",
+      "size": 419,
+      "source_path": "application-notes/an_libaudio_cn/ch-acknowledgement.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-acknowledgement.html",
+      "source_sha256": "5148c9f02a5c15c53e0f188f6a21320f496b6ead3ce30b6cf6ae6514a929ace7",
+      "conversion_source": "application-notes/an_libaudio_cn/ch-acknowledgement.html"
+    }
+  ],
+  "warnings": [
+    "EPUB chapter mapping incomplete; using site HTML"
+  ]
+}

@@ -1,0 +1,371 @@
+<!-- an_aoa_positioning_cn: 3 3D 定位 -->
+
+# 3 3D 定位 {#d-定位}
+
+## 3.1 定位原理 {#定位原理}
+
+使用 BLE AoA 寻向功能[1](#fn1)可以计算目标到天线阵的来波方向对应的方位角、仰角。 综合使用多个天线阵的来波方向，就可以计算出目标在三维空间中的坐标， 见图 [3.1](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch1-dir-to-position) 。
+
+![从寻向到 3D 定位](assets/dir_to_position.png)
+
+Figure 3.1: 从寻向到 3D 定位
+
+## 3.2 工作架构 {#ch1-AoA-structure}
+
+我们将先对 AoA 定位工作的整体架构进行介绍。
+
+### 3.2.1 整体架构图 {#整体架构图}
+
+AoA 定位的整体架构图如下（图 [3.2](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch1-AoA-work-structure)）：
+
+![AoA整体架构图](assets/AOA-work-structure.png)
+
+Figure 3.2: AoA整体架构图
+
+### 3.2.2 AoA 定位工作流程 {#aoa-定位工作流程}
+
+工作流程有以下3步：
+
+**1.** 位置参数生成
+
+**2.** 位置参数的采集上报
+
+**3.** 角度解算并上报
+
+### 3.2.3 AoA 定位主要角色 {#aoa-定位主要角色}
+
+这里主要有以下几种角色：
+
+- ***tag:*** 被定位的目标板
+- ***Array Board #:*** 接收目标板位置信号的天线阵列板
+- ***ING918:*** 配套天线板阵列的信号接收板
+- ***8266WIFI:*** 8266WiFi开发板
+- ***MQTT服务器:*** 基于 `mosquitto` 的本地MQTT服务器
+- ***alg.exe:*** 基于Python脚本运行的alg角度解算程序
+
+### 3.2.4 角色功能说明 {#角色功能说明}
+
+- **tag:** `tag` 是我们最终要定位到的目标板。 `tag` 可以在蓝牙支持的合理范围内任意移动，并持续发送CTE信号给天线板阵列。
+- **Array Board #:** `Array Board` 默认的由3块天线板组成阵列，每个天线板都有其固定编号。在这里为了方便起见我们用天线板的特有蓝牙地址作为其编号，如：`D1:29:F6:BE:F3:26` 、 `D2:29:F6:BE:F3:26` 、 `D3:29:F6:BE:F3:26` 。每个天线板独立工作，其在开始阶段由接收板发起并建立蓝牙连接，并在工作中实时上报从 `tag` 收到的位置参数。 `Array Board` 发送给接收板的位置参数为 `BASE64` 编码格式，上报速率大约为每秒4条消息。
+- **ING918:** 为了将阵列天线板的多组数据进行统筹上报，我们用一块接收板完成。接收板可以完成上电自动配置8266、自动连接天线板并采集数据发送给8266。
+- **8266WIFI:** 8266WiFi开发板通过串口和接收板通信，其正常识别AT指令并完成应答，其他消息进行透传。8266会将接收到的位置参数通过WiFi上传到MQTT服务器。至此，整个位置参数的采集上报过程结束。
+- **MQTT服务器:** 本教程中使用的是一个基于 `mosquitto` 的MQTT服务器。AoA对实时性要求非常高，所以选用MQTT服务器需要满足处理速度快、实时性好的要求。需要注意的是这里的服务器参数需要及时更新到接收板程序以及Python脚本中去。
+- **alg.exe:** `alg.exe` 是用来进行位置解算的应用程序。由Python脚本完成位置参数的接收和解码，将结果输入到 `alg.exe` 中，并接收 `alg.exe` 输出的角度结果。再由Python脚本将角度结果组装成 `JSON` 格式上报到MQTT上。
+
+## 3.3 环境搭建 {#ch2-AoA-establishment}
+
+目标板只需要烧录好相应的程序一直运行就好，主要的环境搭建工作有：
+
+**1.** 天线板阵列搭建
+
+**2.** 接收板&8266接收上报系统搭建
+
+**3.** alg程序Python脚本运行
+
+### 3.3.1 天线板阵列搭建 {#天线板阵列搭建}
+
+下面将主要对天线板的结构、烧录以及阵列搭建进行介绍。
+
+#### 3.3.1.1 天线板结构 {#天线板结构}
+
+天线板阵列由3块如下天线板组成（图 [3.3](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch2-array-board)）：
+
+![AoA阵列天线板](assets/Array-Board.png)
+
+Figure 3.3: AoA阵列天线板
+
+其中每块天线板的引脚定义如下（图 [3.4](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch1-welcome)）：
+
+![天线板引脚](assets/Array-Board-Pin.png)
+
+Figure 3.4: 天线板引脚
+
+#### 3.3.1.2 天线板烧录 {#天线板烧录}
+
+在拿到天线板之后如果不确定天线板地址建议自行烧录一次程序。天线板集成我们 `ING918` 芯片，程序可以使用SDK里面的 `Central CTE` 例程。
+
+在打开的例程中，请先确认宏 `AOA_REPORT` 已经被定义。之后修改代码中设定的蓝牙地址，位于 `./Central CTE/profile.c` ，有如下代码段：
+
+```c
+    /* You can modify the BT address here */
+    static const bd_addr_t rand_addr = {0xD4, 0x29, 0xF6, 0xBE, 0xF3, 0x26};
+```
+
+如果修改了此处的蓝牙地址请同时注册蓝牙地址到接收板程序中，详见[连接天线板](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#连接天线板)。
+
+在烧录时需要连接 `RST` 、 `EXT` 、 `GND` 、 `VCC` 、 `UART TX` 和 `UART RX` 六个引脚到另一块开发板，之后按下按键正常烧录即可。
+
+#### 3.3.1.3 阵列搭建 {#阵列搭建}
+
+在搭建环境时需要将三个天线板分别接通电源（ `3.3V` 和 `GND` ）即可开始正常工作。
+
+天线板摆放方面并无特殊要求，但需要注意以下3点：
+
+**1.** 每块天线板要背面（没有丝印的一面）朝向目标板
+
+**2.** 天线板放置方向要一致
+
+**3.** 两个天线板之间不要距离太近，建议1m以上
+
+### 3.3.2 接收板&8266接收上报系统搭建 {#接收板8266接收上报系统搭建}
+
+本接收上报系统所使用的接收板是我们 `ING9188`开发板，如图所示（图 [3.5](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch2-AoA-Received-Board)）：
+
+![ING9188接收板](assets/AOA-Received-Board.png)
+
+Figure 3.5: ING9188接收板
+
+所用到的8266开发板（图 [3.6](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch2-8266-Wifi-Board)）：
+
+![8266 WiFi开发板](assets/8266-Wifi-Board.png)
+
+Figure 3.6: 8266 WiFi开发板
+
+接收板和8266通过8266的 `AT` 模块通信。 `ESP8266` 为主流WIFI模块，[更多资料](https://www.espressif.com.cn/zh-hans/products/socs/esp8266)。
+
+在环境搭建时需要将接收板的 `Tx` 接到8266的 `Rx` 即可与8266正常通信。如需查看串口log打印请另外将接收板的 `Rx` 接到8266的 `Tx` ，并将串口波特率设置为 `115200` 即可正常查看log。
+
+在开始工作之前要先把线接好，如需重新配置8266或重新建立连接只需按下接收板的 `reset` 键。
+
+### 3.3.3 mosquitto服务器搭建 {#mosquitto服务器搭建}
+
+由于需要用到 `mosquitto` 下的私网MQTT，在这里我们介绍一下私网MQTT服务器搭建。关于 `mosquitto` 用法很多在这里我们只介绍和AoA运行有关的内容。
+
+首先从官网下载 `Windows` 版本 `mosquitto` ，[下载路径](https://mosquitto.org/download).
+
+安装完成，直接启动服务即可开始使用（图 [3.7](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch2-Mosquitto-service-start)），而不用每次都通过命令行打开MQTT服务器。
+
+![mosquitto服务](assets/Mosquitto-service-start.png)
+
+Figure 3.7: mosquitto服务
+
+之后需要配置账号和密码。在 `mosquitto` 目录下找到配置文件 `mosquitto.conf` 任意位置加入下面文本，保存退出（全新安装的情况下，如果是维护已经使用很久的系统，可在配置文件中找到对应的属性进行更改）
+
+![mosquitto配置文件](assets/Mosquitto-Cfg-File.png)
+
+Figure 3.8: mosquitto配置文件
+
+```
+#设置不允许匿名登录
+allow_anonymous false
+#设置账户密码文件位置（根据自己电脑路径设置）
+password_file /Mosquitto/pwfile.example
+#设置监听地址（自己电脑IP地址）
+listener 1883/192.168.3.1
+```
+
+打开CMD并进入 `mosquitto` 根目录输入：
+
+```
+#根据自己电脑路径，以及实际情况 设置
+mosquitto_passwd -c /Mosquitto/pwfile.example FirstUserName
+
+mosquitto_passwd /Mosquitto/pwfile.example SecondUserName
+```
+
+这样就可以添加多个用户信息。（图 [3.9](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch2-Mosquitto-User-Password)）
+
+![mosquitto用户注册](assets/Mosquitto-User-Password.png)
+
+Figure 3.9: mosquitto用户注册
+
+在配置好用户信息之后还需关闭本地电脑的防火墙，否则MQTT服务器开启不成功。
+
+![mosquitto防火墙关闭](assets/Mosquitto-Firewall.png)
+
+Figure 3.10: mosquitto防火墙关闭
+
+在完成以上工作之后可以尝试连接MQTT服务器。一般情况下可以正常进行连接，如果连接失败请检查以上配置是否完成，MQTT参数是否正确。
+
+### 3.3.4 alg程序Python脚本运行 {#alg程序python脚本运行}
+
+首先要保证所运行的Python脚本和 `alg.exe` 在同一个路径下。
+
+之后在运行Python脚本之前需要先配置好脚本中的MQTT参数：
+
+```python
+broker = '192.168.3.1'
+port = 1883
+keepalive = 60     # 与代理通信之间允许的最长时间段（以秒为单位）
+username = 'username'
+password = '123456'
+subscribe_topic = "ingchips/iq_report"
+publish_topic = "ingchips/direction"
+client_id = 'python-mqtt-11111' # generate client ID with pub prefix randomly
+```
+
+其中 `broker` 、 `username` 、 `password` 和 `client_id` 是需要根据配置进行修改的参数，其他参数一般不需要修改，也强烈建议不要修改其他参数，否则可能会脚本运行失败。
+
+之后运行Python脚本，出现如图（图 [3.11](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch2-Python-Alg-Output)）的结果说明已经正常生成角度解算结果：
+
+![Python脚本运行alg.exe正常输出](assets/Python-Alg-Output.png)
+
+Figure 3.11: Python脚本运行alg.exe正常输出
+
+### 3.3.5 方位解算 {#方位解算}
+
+1. 天线板按等边三角形布置，以其中一个天线板为原点标记坐标[0,0,0]，其他两个天线板按实际距离等比标记坐标，配置坐标文件“localfile”，以供角度解算使用。
+2. 通过mqtt server 获取方位角（azimuth）和仰角（elevation），天线阵ID和蓝牙设备ID
+3. 根据方位角和仰角，通过正弦余弦定理计算，得到以天线板为原点，以方向角和仰角方向的射线。通过三个天线板，拿到三条射线。
+4. 求解离三条射线解算蓝牙设备位置。
+5. 通过mqtt 发布坐标。
+6. 运行：配置localfile文件坐标，执行calculation.py。
+
+## 3.4 使用方法 {#ch3-AoA-direction---for-use}
+
+我们将在本节为大家介绍具体的AoA使用方法，以及一些软件层面的说明。
+
+### 3.4.1 操作步骤 {#操作步骤}
+
+在我们搭建好所有硬件环境以后，我们开始运行AoA。
+
+由于所有的软件配置以及数据传输及处理都已经集成到了我们的接收板程序中，在此我们只需要按下 `reset` 键并等待一段时间。如果所有配置都成功即完成AoA启动。
+
+![软件配置流程图](assets/Software-Cfg-Flowchart.png)
+
+Figure 3.12: 软件配置流程图
+
+如图（图 [3.12](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch3-Software-Cfg-Flowchart)），在我们按下 `reset` 键程序自动完成以下工作：
+
+**1.** 测试8266通信并配置8266连接WiFi、连接MQTT
+
+**2.** 连接第一个天线板，发现服务并订阅 `GENERIC_OUTPUT` （handle=8）
+
+**3.** 重复上一个过程直到三个天线板都连接并订阅成功
+
+**4.** 运行数据输出到8266，正常运行
+
+#### 3.4.1.1 配置8266 {#配置8266}
+
+要注意在配置8266之前需要将已有的WiFi信息和MQTT信息修改好并烧录到接收板程序中。具体代码位置在 `ingchips_AoA/src/AoA_service.h` 中，有如下注释和代码：
+
+```c
+    /*
+    * This MQTT is base on mosquitto of a PC.
+    * There are three factors: wifi, MQTT and publishing topic.
+    * Keep in mind that you need to modify these information manaully
+    * when one of them change.
+    * Of course except MQTT_CLIENT_ID for it is a random value.
+    * Modifying MQTT_TOPIC_NAME is prohibited!!!
+    */
+    #define MQTT_WIFI_NAME     "INGCHIPS"
+    #define MQTT_WIFI_PASSWORD "123456"
+    #define MQTT_CLIENT_ID     "123"
+    #define MQTT_PASSWORD      "123456"
+    #define MQTT_USER_NAME     "username"
+    #define MQTT_HOST_NAME     "192.168.3.1"
+    #define MQTT_PORT_NUMBER    1883
+    #define MQTT_TOPIC_NAME    "ingchips/iq_report"
+```
+
+请详细阅读注释后结合实际信息配置。
+
+之后将修改后的程序烧录到接收板中，如果在配置8266过程中都应答 `OK` 则说明配置生效，8266工作正常。
+
+如果8266在配置过程中应答 `ERROR` 则8266配置失败。这时程序会继续执行下面配置过程但没有意义，需要检查8266配置并按 `reset` 键重新配置8266.
+
+一般失败的原因有：
+
+- WiFi信息错误，8266连网失败
+- `mosquitto` 下的MQTT服务器搭建不成功
+- MQTT信息错误（用户名、密码、服务器地址、端口号）
+
+**注意**：8266整个配置过程大概需要10S时间，请耐心等待。
+
+#### 3.4.1.2 连接天线板 {#连接天线板}
+
+为了提高AoA工作效率以及整体系统的可靠性，我们将目标板的地址固定并写入到程序中。当然的，为了提高程序的适应性，我们也在程序中留有手动配置地址的开关 `AoA_MANAUL_SETUP_ARRAY` ，在 `ingchips_AoA/src/AoA_service.h` 中：
+
+```c
+    /*
+    * If your array-boards' addresses are not in default,
+    * you can set AoA_MANAUL_SETUP_ARRAY = 1.
+    * Then you can config 8266 and connect the array-board with special
+    * address manaully.
+    * Otherwise, use default array-boards and set AoA_MANAUL_SETUP_ARRAY = 0
+    * is highly recommended.
+    */
+    #define AoA_MANAUL_SETUP_ARRAY 0
+```
+
+请仔细阅读注释,理解并根据实际情况进行配置。
+
+在这里我们十分推荐使用默认配置，即自动连接阵列天线板。
+
+初始代码默认的三个天线板地址是 `D1:29:F6:BE:F3:26` 、 `D2:29:F6:BE:F3:26` 、 `D3:29:F6:BE:F3:26` ，如果实际的天线板地址和默认地址不一样，需要修改代码中的地址值。代码位置在 `ingchips_AoA/src/AoA_service.c` 中的 `AoA_deviceAddrMap` ：
+
+```c
+    /*
+    * If your array-boards' addresses are not in default, you have to motify
+    * the information below.
+    * The Map's factors from up to down are the array-boards' number 1 to 3.
+    * Please note that the Map should be correct or the Aotomatic-Setup will
+    * work fail.
+    */
+    static deviceAddr_t AoA_deviceAddrMap[] = {
+        {0xD1, 0x29, 0xF6, 0xBE, 0xF3, 0x26},
+        {0xD2, 0x29, 0xF6, 0xBE, 0xF3, 0x26},
+        {0xD3, 0x29, 0xF6, 0xBE, 0xF3, 0x26}
+    };
+```
+
+同样的，请阅读并理解注释，根据实际情况修改地址值，烧录程序。
+
+通常的，如果出现如下打印则说明连接天线板成功（图 [3.13](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch3-Array-Board-Connect-successfully)）：
+
+![连接天线板成功](assets/Array-Board-Connect-successfully.png)
+
+Figure 3.13: 连接天线板成功
+
+如果出现下图（图 [3.14](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fig:ch3-Array-Board-Connect-waiting)）则说明一直在等待建立连接中：
+
+![等待建立连接](assets/Array-Board-Connect-waiting.png)
+
+Figure 3.14: 等待建立连接
+
+如果长时间等待建立连接说明接收板一直没发现目标天线板，有以下两种可能：
+
+- 信号弱，接收板未收到信号。需要加装天线或缩短距离。
+- 配置的地址值错误。需检查代码配置。
+
+> 注意：整个连接天线板的过程时间较长且实际用时不确定，会受到测试环境以及实际连接情况的影响。如果环境良好，一般整个连接过程会在15秒内完成。
+
+#### 3.4.1.3 正常工作 {#正常工作}
+
+当以上所有配置过程成功后，会自动进入正常工作状态。
+
+在正常工作阶段，程序会完成以下工作：
+
+- 实时接收天线板发过来的位置参数信息
+- 统筹收到的三个天线板参数信息，组织成指令给到8266
+- 程序每5秒检查一次当前的天线板连接状态，对断连天线板进行重连
+
+如果在正常工作阶段对于每条接收板转发给8266的指令都返回 `OK` ，则说明数据成功发送到了MQTT上；如果返回 `ERROR` 则数据发送失败。
+
+对于返回 `ERROR` 的情况，建议检查：
+
+- 硬件环境是否正确
+- 接收板发送给8266的指令是否正常
+- 8266配置是否正常，是否连网，是否成功连接MQTT服务器
+
+根据以往经验显示，数据发送失败多数情况是参数配置不正确。如果各方面都没问题但依旧失败，可以联系我们获得相应的技术支持。
+
+更多芯片&SDK资料请参考 `ingchips` 官方网站[ingchips](https://ingchips.github.io/)
+
+### 3.4.2 APP 展示定位 {#app-展示定位}
+
+1. app通过mqtt server 获取蓝牙设备地址和x、y、z坐标
+2. 过滤偏差较大坐标
+3. 通过x、y坐标，绘制二维平面定位。
+4. 通过3d扫描设备获取空间3d模型，通过x、y、z坐标，绘制空间3D坐标。
+5. 根据xyz，通过AR相机，绘制设备位置变化。
+
+## 3.5 APP预览 {#app预览}
+
+![app预览](assets/app-show.png)
+
+Figure 3.15: app预览
+
+---
+
+1. <a id="fn1"></a>Application Note - Direction Finding Solution[↩︎](https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html#fnref1)

@@ -1,0 +1,74 @@
+{
+  "book": "user_guide_cn",
+  "site_dir": "user_guide_cn",
+  "source": "html",
+  "title": "INGCHIPS SDK 开发者用户手册",
+  "files": [
+    {
+      "file": "index.md",
+      "title": "INGCHIPS SDK 开发者用户手册",
+      "size": 372,
+      "source_path": "user_guide_cn/index.html",
+      "source_url": "https://ingchips.github.io/user_guide_cn/index.html",
+      "source_sha256": "9aece857b32be421ea93444fd5bbca8533f9059801566f59bb82310b1487c914",
+      "conversion_source": "user_guide_cn/index.html"
+    },
+    {
+      "file": "intro.md",
+      "title": "2 简介",
+      "size": 6454,
+      "source_path": "user_guide_cn/intro.html",
+      "source_url": "https://ingchips.github.io/user_guide_cn/intro.html",
+      "source_sha256": "0b4a45d00fec016fb1602604805c2a3d1024dbbe98d183777177e5f53a5dfd85",
+      "conversion_source": "user_guide_cn/intro.html"
+    },
+    {
+      "file": "tutorial.md",
+      "title": "3 教程",
+      "size": 40330,
+      "source_path": "user_guide_cn/tutorial.html",
+      "source_url": "https://ingchips.github.io/user_guide_cn/tutorial.html",
+      "source_sha256": "572a9cebb5646d43c01377074783a7374181a9191aa917471cf1b2ec5e7d4410",
+      "conversion_source": "user_guide_cn/tutorial.html"
+    },
+    {
+      "file": "core-tools.md",
+      "title": "4 核心工具",
+      "size": 14675,
+      "source_path": "user_guide_cn/core-tools.html",
+      "source_url": "https://ingchips.github.io/user_guide_cn/core-tools.html",
+      "source_sha256": "84e98e9a0a96ae4b1e1689363e6be5c7151ed6ddf9d169ef2b008e34d93cebac",
+      "conversion_source": "user_guide_cn/core-tools.html"
+    },
+    {
+      "file": "dive-into-sdk.md",
+      "title": "5 深入 SDK",
+      "size": 10815,
+      "source_path": "user_guide_cn/dive-into-sdk.html",
+      "source_url": "https://ingchips.github.io/user_guide_cn/dive-into-sdk.html",
+      "source_sha256": "a85461af543140babc41227428f52a4a08b268372ad1df8fe0589a2b4cd22570",
+      "conversion_source": "user_guide_cn/dive-into-sdk.html"
+    },
+    {
+      "file": "api-ref.md",
+      "title": "6 Platform API 参考",
+      "size": 50769,
+      "source_path": "user_guide_cn/api-ref.html",
+      "source_url": "https://ingchips.github.io/user_guide_cn/api-ref.html",
+      "source_sha256": "4d0f08ff9d8bb8827ac246e1d08f8b9e5483b18790b2d469c8ce8447d26b4c78",
+      "conversion_source": "user_guide_cn/api-ref.html"
+    },
+    {
+      "file": "revision-history.md",
+      "title": "7 版本历史",
+      "size": 991,
+      "source_path": "user_guide_cn/revision-history.html",
+      "source_url": "https://ingchips.github.io/user_guide_cn/revision-history.html",
+      "source_sha256": "11b54dad6a8efff36bdbf4478e33a0ee2befc5cacfe89e9de4fc58e78bfae62f",
+      "conversion_source": "user_guide_cn/revision-history.html"
+    }
+  ],
+  "warnings": [
+    "EPUB chapter mapping incomplete; using site HTML"
+  ]
+}

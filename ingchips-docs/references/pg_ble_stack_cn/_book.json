@@ -1,0 +1,146 @@
+{
+  "book": "pg_ble_stack_cn",
+  "site_dir": "application-notes/pg_ble_stack_cn",
+  "source": "html",
+  "title": "低功耗蓝牙开发者手册",
+  "files": [
+    {
+      "file": "index.md",
+      "title": "低功耗蓝牙开发者手册",
+      "size": 593,
+      "source_path": "application-notes/pg_ble_stack_cn/index.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/index.html",
+      "source_sha256": "6f08ebc045f26ee71b3cc8f957a30d321b0d4b3c63f64dd6d13fdbd97acc0e44",
+      "conversion_source": "application-notes/pg_ble_stack_cn/index.html"
+    },
+    {
+      "file": "ch-intro.md",
+      "title": "2 简介",
+      "size": 3354,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-intro.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-intro.html",
+      "source_sha256": "a4e42ac203abd671024320002072122e3d64e43cb6e5505454a4e4b46bf16cbd",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-intro.html"
+    },
+    {
+      "file": "ch-overview.md",
+      "title": "3 概览",
+      "size": 29363,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-overview.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-overview.html",
+      "source_sha256": "649188df25fe1e0507485166c97e57e1cccb2e7420122df9b03b70fb3e77a773",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-overview.html"
+    },
+    {
+      "file": "ch-features.md",
+      "title": "4 特性简析",
+      "size": 14250,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-features.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-features.html",
+      "source_sha256": "4f76ab9e43bb7a7ceb404a8a913d96e81b12ea4b250a454f96591f97f6db100e",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-features.html"
+    },
+    {
+      "file": "ch-adv.md",
+      "title": "5 GAP - 广播",
+      "size": 15942,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-adv.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-adv.html",
+      "source_sha256": "809ec13d7507b48e79e0f98727025a6eff24738f793072130d34587b11af6bfe",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-adv.html"
+    },
+    {
+      "file": "ch-scan.md",
+      "title": "6 GAP - 扫描",
+      "size": 9266,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-scan.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-scan.html",
+      "source_sha256": "430bad140471c33fcc2c8192e53b2606f2bfea718d7dc4da38e2eee42224d2ce",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-scan.html"
+    },
+    {
+      "file": "ch-conn.md",
+      "title": "7 GAP - 连接",
+      "size": 12861,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-conn.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-conn.html",
+      "source_sha256": "a4c5e8520d063486a8d6ef3dd4191ef2ea8b5804b0b54ffd1f3a1fe44d1ac1a8",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-conn.html"
+    },
+    {
+      "file": "ch-gatt-server.md",
+      "title": "8 GATT - 服务器",
+      "size": 13871,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-gatt-server.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-gatt-server.html",
+      "source_sha256": "f923c0eef31fc4c73aeea0a5ca835b90781ff328ed573df85a6ca159aabfb2ec",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-gatt-server.html"
+    },
+    {
+      "file": "ch-gatt-client.md",
+      "title": "9 GATT - 客户端",
+      "size": 13883,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-gatt-client.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-gatt-client.html",
+      "source_sha256": "517c5d5c12318ead25160d09c18df9f8a35b8bb7b62782c731db5fa54993a6d2",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-gatt-client.html"
+    },
+    {
+      "file": "ch-l2cap.md",
+      "title": "10 L2CAP",
+      "size": 8469,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-l2cap.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-l2cap.html",
+      "source_sha256": "54f3cacd54a7614b540c0dad6011e00a683b360d9856c6eafe0538aac2756b93",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-l2cap.html"
+    },
+    {
+      "file": "ch-sm.md",
+      "title": "11 安全管理",
+      "size": 15923,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-sm.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-sm.html",
+      "source_sha256": "87afa73ccc253eb2299484b3804bc7f76a7285bba5db9642d70584343827e5fe",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-sm.html"
+    },
+    {
+      "file": "ch-controller.md",
+      "title": "12 Controller",
+      "size": 44261,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-controller.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-controller.html",
+      "source_sha256": "e5303ecf598efe54ed05af9fbb81e666b55bcb55e73d298aa2c75777e6e706af",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-controller.html"
+    },
+    {
+      "file": "ch-eatt.md",
+      "title": "13 Enhanced ATT Bearer",
+      "size": 7391,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-eatt.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-eatt.html",
+      "source_sha256": "8c510bdd95aed867884ce120249192d8d5fe668ec0b656c82f0b5cd3e3ef7bf6",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-eatt.html"
+    },
+    {
+      "file": "ch-misc.md",
+      "title": "14 杂项",
+      "size": 38974,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-misc.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-misc.html",
+      "source_sha256": "9f6c21f327db0355343d47e9f83d42735fdbd3602376e1661994969ce150db40",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-misc.html"
+    },
+    {
+      "file": "ch-cap.md",
+      "title": "15 协议栈能力",
+      "size": 17863,
+      "source_path": "application-notes/pg_ble_stack_cn/ch-cap.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-cap.html",
+      "source_sha256": "f9781e7fdb9cbbd039d242c7890298d2d2a6203c8f75c63b390edd478269ede1",
+      "conversion_source": "application-notes/pg_ble_stack_cn/ch-cap.html"
+    }
+  ],
+  "warnings": [
+    "EPUB chapter mapping incomplete; using site HTML"
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "book": "blog",
+  "title": "INGCHIPS 博客",
+  "source": "html",
+  "site_dir": "blog",
+  "files": [
+    {
+      "file": "2020-10-13-sdk4.0_ext/index.md",
+      "title": "SDK 4.0：引入 BLE 扩展功能",
+      "size": 2473,
+      "source_path": "blog/2020-10-13-sdk4.0_ext/index.html",
+      "source_url": "https://ingchips.github.io/blog/2020-10-13-sdk4.0_ext/",
+      "source_sha256": "07f77d6729e3b05714a68265abcd7473442101ec24767063d248b7f8dbd7ecd6",
+      "date": "2020-10-13"
+    },
+    {
+      "file": "2020-10-26-next-g/index.md",
+      "title": "将蓝牙用于物联网数据采集",
+      "size": 6861,
+      "source_path": "blog/2020-10-26-next-g/index.html",
+      "source_url": "https://ingchips.github.io/blog/2020-10-26-next-g/",
+      "source_sha256": "b0b2826b6af92a50a157e723f22d2ec8ae6a13f785df3febd434202b7e41daee",
+      "date": "2020-10-26"
+    },
+    {
+      "file": "2021-01-13-stack-overflow/index.md",
+      "title": "“免费的代价”：从 GCC 项目移植到如何防止栈溢出",
+      "size": 6607,
+      "source_path": "blog/2021-01-13-stack-overflow/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-01-13-stack-overflow/",
+      "source_sha256": "e6b7de9f1c1ef8a4c537e17fc57a0291f890a40e7ed4f1ddf1e40c76ef4e0df8",
+      "date": "2021-01-13"
+    },
+    {
+      "file": "2021-01-25-zig-async/index.md",
+      "title": "用 Zig 语言“消灭”回调函数",
+      "size": 6416,
+      "source_path": "blog/2021-01-25-zig-async/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-01-25-zig-async/",
+      "source_sha256": "0929a5ce6b189aee93dfc01a21c12c501f7e54e162b23836f01406a75d5dab64",
+      "date": "2021-01-25"
+    },
+    {
+      "file": "2021-04-20-secure-fota/index.md",
+      "title": "安全地进行空中固件升级",
+      "size": 4613,
+      "source_path": "blog/2021-04-20-secure-fota/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-04-20-secure-fota/",
+      "source_sha256": "0d71eef0b71c32e941fc0b85ee1bf5af79f516808ddf5b93acba1e68cd1ec178",
+      "date": "2021-04-20"
+    },
+    {
+      "file": "2021-06-02-sdk-6/index.md",
+      "title": "SDK 6.0 新功能",
+      "size": 4818,
+      "source_path": "blog/2021-06-02-sdk-6/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-06-02-sdk-6/",
+      "source_sha256": "72b250f322ebd3d9998ac67d556dced8e91f4f2d905ab126d6c804457d8fb691",
+      "date": "2021-06-02"
+    },
+    {
+      "file": "2021-06-17-sdk-6.1.0/index.md",
+      "title": "SDK 6.1 新功能：延迟读取",
+      "size": 2869,
+      "source_path": "blog/2021-06-17-sdk-6.1.0/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-06-17-sdk-6.1.0/",
+      "source_sha256": "510194250521fa49f5aa05c08da1097a8d05d7871edd330083db149520c42a9b",
+      "date": "2021-06-17"
+    },
+    {
+      "file": "2021-07-29-vscode/index.md",
+      "title": "用 Visual Studio Code 打造集成开发环境",
+      "size": 4598,
+      "source_path": "blog/2021-07-29-vscode/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-07-29-vscode/",
+      "source_sha256": "5f55f2c4ce8ad094d7a16c945ef3e88271b38a9681626ae7d4008828a05c1014",
+      "date": "2021-07-29"
+    },
+    {
+      "file": "2021-09-03-sdk-6.3-new/index.md",
+      "title": "SDK 6.2 & 6.3 新功能",
+      "size": 7187,
+      "source_path": "blog/2021-09-03-sdk-6.3-new/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-09-03-sdk-6.3-new/",
+      "source_sha256": "6c21b141e069ebf89f3a37106dc617f64158c1ce03f64bfea908fd3b8599056b",
+      "date": "2021-09-03"
+    },
+    {
+      "file": "2021-09-29-sdk-6.5-new/index.md",
+      "title": "SDK 6.4 & 6.5 新功能",
+      "size": 5633,
+      "source_path": "blog/2021-09-29-sdk-6.5-new/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-09-29-sdk-6.5-new/",
+      "source_sha256": "d0e0c0b691bf9fa2412cb0015959f5740a3fabbe01769a85682d6ae99cdbab19",
+      "date": "2021-09-29"
+    },
+    {
+      "file": "2021-11-05-sdk-6.6-new/index.md",
+      "title": "SDK 6.6 更新说明",
+      "size": 1582,
+      "source_path": "blog/2021-11-05-sdk-6.6-new/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-11-05-sdk-6.6-new/",
+      "source_sha256": "f9ae9aeff182dc3762d47344adc35c997aa28d8d3cdd28279cdaca3ad492d233",
+      "date": "2021-11-05"
+    },
+    {
+      "file": "2021-12-04-sdk-6.7-new/index.md",
+      "title": "SDK 6.7 更新说明",
+      "size": 4549,
+      "source_path": "blog/2021-12-04-sdk-6.7-new/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-12-04-sdk-6.7-new/",
+      "source_sha256": "457022e6bf791c2413077946622f9f583ec4c85c157cb8fba2b9d3f826d5c107",
+      "date": "2021-12-04"
+    },
+    {
+      "file": "2021-12-27-sdk-7.0-new/index.md",
+      "title": "SDK 7.0 更新说明",
+      "size": 4236,
+      "source_path": "blog/2021-12-27-sdk-7.0-new/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-12-27-sdk-7.0-new/",
+      "source_sha256": "6cd72c042678c4ac3f8edf460c3bebd92b9a5115912428550334a9547f4a430d",
+      "date": "2021-12-27"
+    },
+    {
+      "file": "2021-7-29-vscode/index.md",
+      "title": "用 Visual Studio Code 打造集成开发环境",
+      "size": 4126,
+      "source_path": "blog/2021-7-29-vscode/index.html",
+      "source_url": "https://ingchips.github.io/blog/2021-7-29-vscode/",
+      "source_sha256": "b2dd634ece9f2c3a42a5cd90ca27f355fb0a809d7db51bbcf288c210fccbacea",
+      "date": "2021-7-29"
+    },
+    {
+      "file": "2022-01-12-trace-over-the-air/index.md",
+      "title": "通过 BLE 抓取 Trace",
+      "size": 7159,
+      "source_path": "blog/2022-01-12-trace-over-the-air/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-01-12-trace-over-the-air/",
+      "source_sha256": "5c5dfacd48682d8d29595331905e539ebcef967d3397f95f2faa8e2137849534",
+      "date": "2022-01-12"
+    },
+    {
+      "file": "2022-01-23-trace-over-the-air/index.md",
+      "title": "通过 BLE 抓取 Trace",
+      "size": 7154,
+      "source_path": "blog/2022-01-23-trace-over-the-air/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-01-23-trace-over-the-air/",
+      "source_sha256": "29eeac5a920d3315ad4674cd1e0833cf2aa9441b7a6662b0ea6c266f3094a625",
+      "date": "2022-01-23"
+    },
+    {
+      "file": "2022-01-28-sdk-8.0-new/index.md",
+      "title": "SDK 8.0 更新说明",
+      "size": 7938,
+      "source_path": "blog/2022-01-28-sdk-8.0-new/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-01-28-sdk-8.0-new/",
+      "source_sha256": "a6d3028a86459134785f8cb12be6ed2e35986c8c003b86f3f9959790186b5d0d",
+      "date": "2022-01-28"
+    },
+    {
+      "file": "2022-03-04-ing918-playground/index.md",
+      "title": "ING9188 开发板 Playground 半日游",
+      "size": 14017,
+      "source_path": "blog/2022-03-04-ing918-playground/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-03-04-ing918-playground/",
+      "source_sha256": "6bb22aa4fc1999c3e5b3d59b7968187303ba6fa133c986a7ea51ee644e28b52a",
+      "date": "2022-03-04"
+    },
+    {
+      "file": "2022-03-11-threadx-porting/index.md",
+      "title": "使用 Azure RTOS ThreadX",
+      "size": 11183,
+      "source_path": "blog/2022-03-11-threadx-porting/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-03-11-threadx-porting/",
+      "source_sha256": "4cc714906b190c36cbbb966fd3d5d82ebe0e72cdfa41bf0e596788c992f0fa5e",
+      "date": "2022-03-11"
+    },
+    {
+      "file": "2022-06-02-sdk-8.1-new/index.md",
+      "title": "SDK 8.1：引入 BLE 5.2/5.3 新特性",
+      "size": 9451,
+      "source_path": "blog/2022-06-02-sdk-8.1-new/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-06-02-sdk-8.1-new/",
+      "source_sha256": "d39cfa7cc13712ca149eb02e07ad6feada3091192a21eeb783a372fcc0776743",
+      "date": "2022-06-02"
+    },
+    {
+      "file": "2022-08-08-ble_remote_ctrl_car/index.md",
+      "title": "蓝牙开发零门槛之六：蓝牙遥控车",
+      "size": 16791,
+      "source_path": "blog/2022-08-08-ble_remote_ctrl_car/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-08-08-ble_remote_ctrl_car/",
+      "source_sha256": "5a628b8a3cdc282080b854a45e53db4dc2f372c36cbcab7fd7751770d86597dc",
+      "date": "2022-08-08"
+    },
+    {
+      "file": "2022-08-09-ota_private_service/index.md",
+      "title": "在 ING918xx 上实现客户私有 OTA Service",
+      "size": 7012,
+      "source_path": "blog/2022-08-09-ota_private_service/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-08-09-ota_private_service/",
+      "source_sha256": "779ed98b0810d70b3fbc48553ca7d57a00c0105cf1c4f498b2fa386aa47f43ba",
+      "date": "2022-08-09"
+    },
+    {
+      "file": "2022-08-12-ble-follower/index.md",
+      "title": "AoA 自动跟随小车",
+      "size": 5435,
+      "source_path": "blog/2022-08-12-ble-follower/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-08-12-ble-follower/",
+      "source_sha256": "45fa7d28b183c123680113d0c21d7b22841bea80072a4a511a601fc321ba804e",
+      "date": "2022-08-12"
+    },
+    {
+      "file": "2022-08-13-eink-word-builder/index.md",
+      "title": "蓝牙开发零门槛之七：我爱背单词",
+      "size": 8125,
+      "source_path": "blog/2022-08-13-eink-word-builder/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-08-13-eink-word-builder/",
+      "source_sha256": "c1a0e1f38c4041b02d493f579e9f17974c200e8494a9cbfe73dd8bf7b5bb8731",
+      "date": "2022-08-13"
+    },
+    {
+      "file": "2022-09-24-use-rust/index.md",
+      "title": "使用 Rust 开发 BLE 应用",
+      "size": 7007,
+      "source_path": "blog/2022-09-24-use-rust/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-09-24-use-rust/",
+      "source_sha256": "3481ff4cb0faf23753b6428e01b0164b8f67bf3557fc792925ad14358677601c",
+      "date": "2022-09-24"
+    },
+    {
+      "file": "2022-10-11-ram-limit/index.md",
+      "title": "能用多少 RAM ?",
+      "size": 5169,
+      "source_path": "blog/2022-10-11-ram-limit/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-10-11-ram-limit/",
+      "source_sha256": "552169c7d6b8c62fd7f4a5c787dfff3a8af09b35d9a73a3fb1b7372e2894f562",
+      "date": "2022-10-11"
+    },
+    {
+      "file": "2022-11-30-sdk-8.2/index.md",
+      "title": "SDK 8.2：支持 ING916XX 量产版",
+      "size": 11360,
+      "source_path": "blog/2022-11-30-sdk-8.2/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-11-30-sdk-8.2/",
+      "source_sha256": "0235505713dbfb80833eff2ca013a6b079cb6720c289e967daa97966c4dd0b94",
+      "date": "2022-11-30"
+    },
+    {
+      "file": "2022-12-16-cube/index.md",
+      "title": "SDK 新工具：Cube",
+      "size": 5462,
+      "source_path": "blog/2022-12-16-cube/index.html",
+      "source_url": "https://ingchips.github.io/blog/2022-12-16-cube/",
+      "source_sha256": "a78bacbd8f5a712103f98b7460a63f86eb56608c755ec8b97cd127a4e7488131",
+      "date": "2022-12-16"
+    },
+    {
+      "file": "2023-02-15-sdk-8.3-new/index.md",
+      "title": "SDK 8.3：支持 ING916XX 量产版",
+      "size": 848,
+      "source_path": "blog/2023-02-15-sdk-8.3-new/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-02-15-sdk-8.3-new/",
+      "source_sha256": "0683fae8070ac1466f175ac4cb63577784eb59264c073d5a38d5bb5e804b4977",
+      "date": "2023-02-15"
+    },
+    {
+      "file": "2023-03-09-code-static-analysis/index.md",
+      "title": "代码的静态分析",
+      "size": 3890,
+      "source_path": "blog/2023-03-09-code-static-analysis/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-03-09-code-static-analysis/",
+      "source_sha256": "58c5c3c07c7569294fdc6cfe16ecdd49e101d624dafac6fcb116e5a6515b1140",
+      "date": "2023-03-09"
+    },
+    {
+      "file": "2023-03-11-legacy-aoa/index.md",
+      "title": "使用 ING916 定位传统蓝牙设备",
+      "size": 5379,
+      "source_path": "blog/2023-03-11-legacy-aoa/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-03-11-legacy-aoa/",
+      "source_sha256": "8c2d6253e503a32cdfedf8edd951cef769228c2a1859cdb472571c6a8b0eb0fa",
+      "date": "2023-03-11"
+    },
+    {
+      "file": "2023-03-11-sdk-8.3-new/index.md",
+      "title": "SDK 8.3 更新说明",
+      "size": 12633,
+      "source_path": "blog/2023-03-11-sdk-8.3-new/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-03-11-sdk-8.3-new/",
+      "source_sha256": "4570a0e1dd6e624db1fc52964d263d552156ba4d26d3fac91fd3c261a4177255",
+      "date": "2023-03-11"
+    },
+    {
+      "file": "2023-03-17-cache_to_ram/index.md",
+      "title": "ING916xx将Cache用作普通RAM",
+      "size": 6608,
+      "source_path": "blog/2023-03-17-cache_to_ram/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-03-17-cache_to_ram/",
+      "source_sha256": "ee4150cb066e60825c26bcb47e4139dce345aabb1a7e23a0f8e065c88bbb8808",
+      "date": "2023-03-17"
+    },
+    {
+      "file": "2023-03-23-code-check-valgrind/index.md",
+      "title": "使用 Valgrind 动态分析程序",
+      "size": 4932,
+      "source_path": "blog/2023-03-23-code-check-valgrind/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-03-23-code-check-valgrind/",
+      "source_sha256": "89409ce5b9d09a5a5c2ab05c607fcf538dba10c4cdc110175807026c87bc67be",
+      "date": "2023-03-23"
+    },
+    {
+      "file": "2023-05-08-uart_receives_variable_length_data/index.md",
+      "title": "UART接收变长字节数据",
+      "size": 7438,
+      "source_path": "blog/2023-05-08-uart_receives_variable_length_data/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-05-08-uart_receives_variable_length_data/",
+      "source_sha256": "08397e31bb699b9eb9f75a0caa944ab2f2efcf126b2dca5a09a7c59123b67dcf",
+      "date": "2023-05-08"
+    },
+    {
+      "file": "2023-08-30-override-vector/index.md",
+      "title": "覆写中断向量表",
+      "size": 3387,
+      "source_path": "blog/2023-08-30-override-vector/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-08-30-override-vector/",
+      "source_sha256": "8c2dc86f7f4914de13f8f1a65689ee5f8b2a3611d8f0e7ddcd0648c5379f9468",
+      "date": "2023-08-30"
+    },
+    {
+      "file": "2023-09-01-sdk-8.4-new/index.md",
+      "title": "SDK 8.4 更新说明",
+      "size": 40762,
+      "source_path": "blog/2023-09-01-sdk-8.4-new/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-09-01-sdk-8.4-new/",
+      "source_sha256": "96234611dc6a8d492f32f2c1fd1e148116ef69598eff6a237f45b2e6f49f19d3",
+      "date": "2023-09-01"
+    },
+    {
+      "file": "2023-11-02-axf-tool/index.md",
+      "title": "SDK 新工具：Axf Tool",
+      "size": 8495,
+      "source_path": "blog/2023-11-02-axf-tool/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-11-02-axf-tool/",
+      "source_sha256": "fca50b50ec05a316cec011760cd6e2a49c1de47a82222bf120197359ceb2d2f8",
+      "date": "2023-11-02"
+    },
+    {
+      "file": "2023-11-23-ing916-2nd-bootloader/index.md",
+      "title": "为 ING916 添加二级 Bootloader",
+      "size": 11944,
+      "source_path": "blog/2023-11-23-ing916-2nd-bootloader/index.html",
+      "source_url": "https://ingchips.github.io/blog/2023-11-23-ing916-2nd-bootloader/",
+      "source_sha256": "9353c608925c73bc7dacfb97b9e86871cf169c3549ae604378828986ea8330ce",
+      "date": "2023-11-23"
+    },
+    {
+      "file": "2024-02-05-external-flash/index.md",
+      "title": "为 ING916 添加外部 Flash 扩充容量",
+      "size": 6647,
+      "source_path": "blog/2024-02-05-external-flash/index.html",
+      "source_url": "https://ingchips.github.io/blog/2024-02-05-external-flash/",
+      "source_sha256": "9d8fabc49bb8c3984012845905532a5c91cc53a0d78834b1088386c9ef87047b",
+      "date": "2024-02-05"
+    },
+    {
+      "file": "2024-04-26-zephyr-setup/index.md",
+      "title": "为 ING916 搭建 Zephyr 开发环境",
+      "size": 7396,
+      "source_path": "blog/2024-04-26-zephyr-setup/index.html",
+      "source_url": "https://ingchips.github.io/blog/2024-04-26-zephyr-setup/",
+      "source_sha256": "adf2097bbde07e7a9cd76cd783352730d9425e603b2d87d2822441cf5d2d2333",
+      "date": "2024-04-26"
+    },
+    {
+      "file": "2024-11-28-dev-with-windsurf/index.md",
+      "title": "用 Windsurf 打造 AI 辅助集成开发环境",
+      "size": 5691,
+      "source_path": "blog/2024-11-28-dev-with-windsurf/index.html",
+      "source_url": "https://ingchips.github.io/blog/2024-11-28-dev-with-windsurf/",
+      "source_sha256": "a3a10a1d4bd4dd320d7901551be2cf1f544b05b67da40b38915b688f4fba65e8",
+      "date": "2024-11-28"
+    },
+    {
+      "file": "2024-11-28-llcp-preview/index.md",
+      "title": "基于 Trace 实现 LLPC预览功能",
+      "size": 5179,
+      "source_path": "blog/2024-11-28-llcp-preview/index.html",
+      "source_url": "https://ingchips.github.io/blog/2024-11-28-llcp-preview/",
+      "source_sha256": "6142843e9537237e34e7e959ea1a8ef5063319587279c3ad197c2583b0fe7ac4",
+      "date": "2024-11-28"
+    },
+    {
+      "file": "2025-04-22-sdk-8.5/index.md",
+      "title": "SDK 8.5 更新说明",
+      "size": 9970,
+      "source_path": "blog/2025-04-22-sdk-8.5/index.html",
+      "source_url": "https://ingchips.github.io/blog/2025-04-22-sdk-8.5/",
+      "source_sha256": "53c8ba7fb3b384e3ed16acbc90333c319456e43213a4b7963579f514f9c0c666",
+      "date": "2025-04-22"
+    },
+    {
+      "file": "2025-06-13-create-independent-app/index.md",
+      "title": "创建独立于 platform 版本的应用",
+      "size": 2518,
+      "source_path": "blog/2025-06-13-create-independent-app/index.html",
+      "source_url": "https://ingchips.github.io/blog/2025-06-13-create-independent-app/",
+      "source_sha256": "79b7e784210f0b227a8d8f286c73fc55aa1398cf6605082954a7e78e484381f3",
+      "date": "2025-06-13"
+    },
+    {
+      "file": "2025-09-12-sdk-9.0/index.md",
+      "title": "SDK 9.0 更新说明",
+      "size": 15803,
+      "source_path": "blog/2025-09-12-sdk-9.0/index.html",
+      "source_url": "https://ingchips.github.io/blog/2025-09-12-sdk-9.0/",
+      "source_sha256": "9ce0e2468cc1621c2c6af8c9c6af4acccc45193ef7db4d3ad4f09e6bed711a8f",
+      "date": "2025-09-12"
+    },
+    {
+      "file": "2026-05-15-sdk-9.1/index.md",
+      "title": "SDK 9.1 更新说明",
+      "size": 5716,
+      "source_path": "blog/2026-05-15-sdk-9.1/index.html",
+      "source_url": "https://ingchips.github.io/blog/2026-05-15-sdk-9.1/",
+      "source_sha256": "bd3fa0a96567e0287525a4787135f09315f3716507c43a2fbdab9c81f057fe1a",
+      "date": "2026-05-15"
+    },
+    {
+      "file": "dual_role_zh/index.md",
+      "title": "蓝牙开发零门槛之五：多角色多状态并发",
+      "size": 4752,
+      "source_path": "blog/dual_role_zh/index.html",
+      "source_url": "https://ingchips.github.io/blog/dual_role_zh/",
+      "source_sha256": "437a05f674fed50424d0705114c61fd6ef13b82b901d9af6e332d829a1d670c5",
+      "date": null
+    },
+    {
+      "file": "fota_demo_zh/index.md",
+      "title": "空中固件升级（FOTA）的快速演示",
+      "size": 8103,
+      "source_path": "blog/fota_demo_zh/index.html",
+      "source_url": "https://ingchips.github.io/blog/fota_demo_zh/",
+      "source_sha256": "7f3bdcf81c5d57d9b7692d8191b07dc647b211842328deb32a3c754555b4953a",
+      "date": null
+    },
+    {
+      "file": "hello_world/index.md",
+      "title": "蓝牙开发零门槛之一：Hello, 世界",
+      "size": 3225,
+      "source_path": "blog/hello_world/index.html",
+      "source_url": "https://ingchips.github.io/blog/hello_world/",
+      "source_sha256": "f431a1ead2308d00864cb6605faeeb4a3f9a7b1ba0c061f5a04a7e9206b9f6cf",
+      "date": null
+    },
+    {
+      "file": "ibeacon_zh/index.md",
+      "title": "蓝牙开发零门槛之二：iBeacon",
+      "size": 7580,
+      "source_path": "blog/ibeacon_zh/index.html",
+      "source_url": "https://ingchips.github.io/blog/ibeacon_zh/",
+      "source_sha256": "f76e4ad146240969ac50c1bb5650896df5f7f6bbfe3d77250cd3d30a39c1ac50",
+      "date": null
+    },
+    {
+      "file": "sdk2.0_nim_zh/index.md",
+      "title": "SDK 2.0：使用 Nim 语言开发蓝牙应用",
+      "size": 5698,
+      "source_path": "blog/sdk2.0_nim_zh/index.html",
+      "source_url": "https://ingchips.github.io/blog/sdk2.0_nim_zh/",
+      "source_sha256": "bcfc2cd4afb08d8f74f1025d5ef6e46765faae462c8d79a14ccc7f0d9dc55761",
+      "date": null
+    },
+    {
+      "file": "throughput_zh/index.md",
+      "title": "蓝牙开发零门槛之三：BLE 5.x 测速",
+      "size": 3032,
+      "source_path": "blog/throughput_zh/index.html",
+      "source_url": "https://ingchips.github.io/blog/throughput_zh/",
+      "source_sha256": "d115090cbef8ae6869cd90333418b1b59d51f35754305e88dde428610f71d794",
+      "date": null
+    }
+  ],
+  "warnings": []
+}

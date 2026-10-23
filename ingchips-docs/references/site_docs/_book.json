@@ -1,0 +1,315 @@
+{
+  "book": "site_docs",
+  "title": "INGCHIPS 站点指南",
+  "source": "html",
+  "site_dir": "docs",
+  "files": [
+    {
+      "file": "about/index.md",
+      "title": "关于我们",
+      "size": 763,
+      "source_path": "docs/about/index.html",
+      "source_url": "https://ingchips.github.io/docs/about/",
+      "source_sha256": "804c0a44bf07b81dc6af4334fc48af3f8e3669ec2f76a4d728e9e77cde1e9023",
+      "date": null
+    },
+    {
+      "file": "about/jobs/index.md",
+      "title": "招贤纳士",
+      "size": 8212,
+      "source_path": "docs/about/jobs/index.html",
+      "source_url": "https://ingchips.github.io/docs/about/jobs/",
+      "source_sha256": "f118cdacd3c56d4e72d41b78594d71a4514fed560817223340176c85ec7b8560",
+      "date": null
+    },
+    {
+      "file": "about/partners/index.md",
+      "title": "合作伙伴",
+      "size": 319,
+      "source_path": "docs/about/partners/index.html",
+      "source_url": "https://ingchips.github.io/docs/about/partners/",
+      "source_sha256": "d1d20f2aa6e80d41d1aec587c384ca540067f76d554da176321ba94ec986fbcc",
+      "date": null
+    },
+    {
+      "file": "application-notes/index.md",
+      "title": "应用指南 & 开发手册",
+      "size": 2376,
+      "source_path": "docs/application-notes/index.html",
+      "source_url": "https://ingchips.github.io/docs/application-notes/",
+      "source_sha256": "4235e3aba6c3eb3461df70897becb44079aa84ca526bdf56b467c12103170a06",
+      "date": null
+    },
+    {
+      "file": "community/index.md",
+      "title": "社区",
+      "size": 227,
+      "source_path": "docs/community/index.html",
+      "source_url": "https://ingchips.github.io/docs/community/",
+      "source_sha256": "695c6fe60fd6b9808e7cc4f0bdc44d36c28fbc7bf1e6ea3f4221ac9716c4e7e4",
+      "date": null
+    },
+    {
+      "file": "faq/iar/index.md",
+      "title": "IAR 相关问题",
+      "size": 953,
+      "source_path": "docs/faq/iar/index.html",
+      "source_url": "https://ingchips.github.io/docs/faq/iar/",
+      "source_sha256": "bb3818686cfd87c63f25d22c2ef503a37d6032cf5fde55d7d87421770adbe0da",
+      "date": null
+    },
+    {
+      "file": "faq/index.md",
+      "title": "FAQ",
+      "size": 10317,
+      "source_path": "docs/faq/index.html",
+      "source_url": "https://ingchips.github.io/docs/faq/",
+      "source_sha256": "4c747afa3335879b795459ecca959c4412dfabf81496c3d513ec6b440bc31512",
+      "date": null
+    },
+    {
+      "file": "getting-started/ai_assistant/index.md",
+      "title": "使用 AI",
+      "size": 2939,
+      "source_path": "docs/getting-started/ai_assistant/index.html",
+      "source_url": "https://ingchips.github.io/docs/getting-started/ai_assistant/",
+      "source_sha256": "27917b9ccfdd34fe90cd83a8fbed7f741d2c6fd5807f38db5ae3ee086b1664d2",
+      "date": null
+    },
+    {
+      "file": "getting-started/dev_board/index.md",
+      "title": "开发板使用手册",
+      "size": 8157,
+      "source_path": "docs/getting-started/dev_board/index.html",
+      "source_url": "https://ingchips.github.io/docs/getting-started/dev_board/",
+      "source_sha256": "b2604327472511893b39498ccb18303884ec5dd9ed7e84bb22f86ed6c6ef629d",
+      "date": null
+    },
+    {
+      "file": "getting-started/dev_board_91682/index.md",
+      "title": "DB682AC1A 核心板使用手册",
+      "size": 3783,
+      "source_path": "docs/getting-started/dev_board_91682/index.html",
+      "source_url": "https://ingchips.github.io/docs/getting-started/dev_board_91682/",
+      "source_sha256": "2d2b24ab832f0037054b36f7c988cf8af2bdc1840e6f2c6b6ff006a8b88f92e0",
+      "date": null
+    },
+    {
+      "file": "getting-started/dev_board_91880/index.md",
+      "title": "ING91880 开发板使用手册",
+      "size": 10651,
+      "source_path": "docs/getting-started/dev_board_91880/index.html",
+      "source_url": "https://ingchips.github.io/docs/getting-started/dev_board_91880/",
+      "source_sha256": "795873fd54f72e6aa212cc2ae2e3185bd6660d538e15bd151b85eed42053760a",
+      "date": null
+    },
+    {
+      "file": "getting-started/dev_board_91881B/index.md",
+      "title": "ING91881B 开发板使用手册",
+      "size": 10971,
+      "source_path": "docs/getting-started/dev_board_91881B/index.html",
+      "source_url": "https://ingchips.github.io/docs/getting-started/dev_board_91881B/",
+      "source_sha256": "4d1841721b148f185a8191b33f57b8cea0646ceb31a771b8ca8e621deefd5eca",
+      "date": null
+    },
+    {
+      "file": "getting-started/dev_board_db72c8k1a/index.md",
+      "title": "DB72C8K1A 扩展板使用手册",
+      "size": 7362,
+      "source_path": "docs/getting-started/dev_board_db72c8k1a/index.html",
+      "source_url": "https://ingchips.github.io/docs/getting-started/dev_board_db72c8k1a/",
+      "source_sha256": "ac1c125ea9fd67b3eb2a75525793056f71129b353cf1d098bdb364ac1ba7441d",
+      "date": null
+    },
+    {
+      "file": "getting-started/index.md",
+      "title": "快速上手",
+      "size": 4214,
+      "source_path": "docs/getting-started/index.html",
+      "source_url": "https://ingchips.github.io/docs/getting-started/",
+      "source_sha256": "b5542a5a8382b382ab4a1c0a026003f3bd83dbf45585d89444b865bebb49f76a",
+      "date": null
+    },
+    {
+      "file": "getting-started/playground/index.md",
+      "title": "Playground",
+      "size": 6042,
+      "source_path": "docs/getting-started/playground/index.html",
+      "source_url": "https://ingchips.github.io/docs/getting-started/playground/",
+      "source_sha256": "7b07aa6624e9621ca65ee15a449f5880e3c08df108d6b43d1b4ea4486c13b8e1",
+      "date": null
+    },
+    {
+      "file": "getting-started/setup_debuggers/index.md",
+      "title": "配置调试工具",
+      "size": 5279,
+      "source_path": "docs/getting-started/setup_debuggers/index.html",
+      "source_url": "https://ingchips.github.io/docs/getting-started/setup_debuggers/",
+      "source_sha256": "efa589dd94ff29295371b868703e68496faa59d24edeb1db41aa2e789bd1d0f8",
+      "date": null
+    },
+    {
+      "file": "index.md",
+      "title": "欢迎",
+      "size": 74,
+      "source_path": "docs/index.html",
+      "source_url": "https://ingchips.github.io/docs/",
+      "source_sha256": "a0f0aaf2019dcbddd09785443790760fffae8fe139ba9ac8127957b74ae66e24",
+      "date": null
+    },
+    {
+      "file": "mass_production/index.md",
+      "title": "产品量产",
+      "size": 455,
+      "source_path": "docs/mass_production/index.html",
+      "source_url": "https://ingchips.github.io/docs/mass_production/",
+      "source_sha256": "e66b9a7e5cb120206ae6a6959f68a766711467a4eb3911d30d6a1be5475fcbad",
+      "date": null
+    },
+    {
+      "file": "mass_production/ip_protection/index.md",
+      "title": "IP 保护",
+      "size": 2042,
+      "source_path": "docs/mass_production/ip_protection/index.html",
+      "source_url": "https://ingchips.github.io/docs/mass_production/ip_protection/",
+      "source_sha256": "81044f06152fcf9a89edf85ac83f13824b4a7c390f95891f0e0e7864d2216dca",
+      "date": null
+    },
+    {
+      "file": "mass_production/prod_suite/index.md",
+      "title": "使用量产套件进行量产",
+      "size": 8537,
+      "source_path": "docs/mass_production/prod_suite/index.html",
+      "source_url": "https://ingchips.github.io/docs/mass_production/prod_suite/",
+      "source_sha256": "dacbc0958c517b87438f25be78f7215e82cea3ca8f98e801190a2e667e293e56",
+      "date": null
+    },
+    {
+      "file": "mass_production/swd_burn/index.md",
+      "title": "使用 SWD 接口进行产品量产",
+      "size": 4858,
+      "source_path": "docs/mass_production/swd_burn/index.html",
+      "source_url": "https://ingchips.github.io/docs/mass_production/swd_burn/",
+      "source_sha256": "fac593bd6746cd7942a60b6bd0ef4384b24f1a668a1a8783ce5c4d00c0f2e02d",
+      "date": null
+    },
+    {
+      "file": "mass_production/uart_burn/index.md",
+      "title": "使用 UART/USB 接口进行产品量产",
+      "size": 3314,
+      "source_path": "docs/mass_production/uart_burn/index.html",
+      "source_url": "https://ingchips.github.io/docs/mass_production/uart_burn/",
+      "source_sha256": "7d4f2dcae599b8ea4d0436d1827b33e4bfeea9ea3944992de797b3d8eaacd193",
+      "date": null
+    },
+    {
+      "file": "products/index.md",
+      "title": "产品",
+      "size": 862,
+      "source_path": "docs/products/index.html",
+      "source_url": "https://ingchips.github.io/docs/products/",
+      "source_sha256": "b6c008679fe7ee075a3706e160a575b2dc64086e280058621d602019ec5461d5",
+      "date": null
+    },
+    {
+      "file": "products/ing9168xx/index.md",
+      "title": "ING916X 系列",
+      "size": 782,
+      "source_path": "docs/products/ing9168xx/index.html",
+      "source_url": "https://ingchips.github.io/docs/products/ing9168xx/",
+      "source_sha256": "69fc0611a058de4020bacec36ca6b0fedbafe2b714c525e0be0ee899a3a962e7",
+      "date": null
+    },
+    {
+      "file": "products/ing9187xx/index.md",
+      "title": "ING9187 系列",
+      "size": 1017,
+      "source_path": "docs/products/ing9187xx/index.html",
+      "source_url": "https://ingchips.github.io/docs/products/ing9187xx/",
+      "source_sha256": "1535c3849b98b56c12e5645009804927a82c3e909aab9e91bf07823498f18785",
+      "date": null
+    },
+    {
+      "file": "products/ing9188xx/index.md",
+      "title": "ING9188 系列",
+      "size": 1017,
+      "source_path": "docs/products/ing9188xx/index.html",
+      "source_url": "https://ingchips.github.io/docs/products/ing9188xx/",
+      "source_sha256": "4c1269e0fa8c636ae7bb3dec80baf9efb618346c90963d994d715643371d6f0c",
+      "date": null
+    },
+    {
+      "file": "ref_design/index.md",
+      "title": "参考设计",
+      "size": 344,
+      "source_path": "docs/ref_design/index.html",
+      "source_url": "https://ingchips.github.io/docs/ref_design/",
+      "source_sha256": "61f941084e95e18017187688910610dbd13915e710ab34f6fd5623b7bb02d5d1",
+      "date": null
+    },
+    {
+      "file": "ref_design/ing02-03/index.md",
+      "title": "ING02-03",
+      "size": 1307,
+      "source_path": "docs/ref_design/ing02-03/index.html",
+      "source_url": "https://ingchips.github.io/docs/ref_design/ing02-03/",
+      "source_sha256": "fec1bc39730a2e8bb1931bec239e61de52579327ba903beb13a95cdf3c064209",
+      "date": null
+    },
+    {
+      "file": "ref_design/ing04-01-05/index.md",
+      "title": "ING04-01-05",
+      "size": 497,
+      "source_path": "docs/ref_design/ing04-01-05/index.html",
+      "source_url": "https://ingchips.github.io/docs/ref_design/ing04-01-05/",
+      "source_sha256": "a5705069045897ebc203c9706f065e6d2f18bb294aff2877a8411ed6d18f36da",
+      "date": null
+    },
+    {
+      "file": "ref_design/ing04-01-07/index.md",
+      "title": "ING04-01-07",
+      "size": 497,
+      "source_path": "docs/ref_design/ing04-01-07/index.html",
+      "source_url": "https://ingchips.github.io/docs/ref_design/ing04-01-07/",
+      "source_sha256": "edfbfbe19756f208a060ba8d0f326e2b6d68e08993c5ab5ab27652b8d81f36ab",
+      "date": null
+    },
+    {
+      "file": "ref_design/ing918_hardware_design_notes/index.md",
+      "title": "ING918X芯片硬件设计指导",
+      "size": 525,
+      "source_path": "docs/ref_design/ing918_hardware_design_notes/index.html",
+      "source_url": "https://ingchips.github.io/docs/ref_design/ing918_hardware_design_notes/",
+      "source_sha256": "3530e058c1ba7795194add38dda20b46f805e4a8f03f712524dd0181c2d34b6a",
+      "date": null
+    },
+    {
+      "file": "sdk/apps/index.md",
+      "title": "Apps",
+      "size": 4959,
+      "source_path": "docs/sdk/apps/index.html",
+      "source_url": "https://ingchips.github.io/docs/sdk/apps/",
+      "source_sha256": "57cf50fc402364af9ebaf29dfd0302f4ac0a1c581adc0798b531ae0e0c3a0ecc",
+      "date": null
+    },
+    {
+      "file": "sdk/download/index.md",
+      "title": "Download",
+      "size": 3842,
+      "source_path": "docs/sdk/download/index.html",
+      "source_url": "https://ingchips.github.io/docs/sdk/download/",
+      "source_sha256": "be4c7789e226712f3ff519055d21211b4c84abf350c435ee855a7b768e35fb54",
+      "date": null
+    },
+    {
+      "file": "sdk/index.md",
+      "title": "SDK & Apps",
+      "size": 1372,
+      "source_path": "docs/sdk/index.html",
+      "source_url": "https://ingchips.github.io/docs/sdk/",
+      "source_sha256": "d63385a4a82d26256dbcdb2359fd924b4895c35a27b10da4e567cfd87ae7cfc5",
+      "date": null
+    }
+  ],
+  "warnings": []
+}

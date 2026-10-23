@@ -1,0 +1,227 @@
+{
+  "book": "pg_ing916",
+  "site_dir": "drafts/pg_ing916",
+  "source": "html",
+  "title": "ING916XX 系列芯片外设开发者手册",
+  "files": [
+    {
+      "file": "index.md",
+      "title": "ING916XX 系列芯片外设开发者手册",
+      "size": 451,
+      "source_path": "drafts/pg_ing916/index.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/index.html",
+      "source_sha256": "b12744b61d9feb8d57d9fd801aaa801674984612f21fb9856747be87c227d304",
+      "conversion_source": "drafts/pg_ing916/index.html"
+    },
+    {
+      "file": "ch-overview.md",
+      "title": "2 概览",
+      "size": 2505,
+      "source_path": "drafts/pg_ing916/ch-overview.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-overview.html",
+      "source_sha256": "039d305dac4a58c029c0e1279cd9a74a8079d9598ef64f54f6d608ef8936323f",
+      "conversion_source": "drafts/pg_ing916/ch-overview.html"
+    },
+    {
+      "file": "ch-adc.md",
+      "title": "3 ADC简介",
+      "size": 17850,
+      "source_path": "drafts/pg_ing916/ch-adc.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-adc.html",
+      "source_sha256": "ca5872697e47724ed6f055f6b0b6422bd159919f62c32772bdb99b727490aa8b",
+      "conversion_source": "drafts/pg_ing916/ch-adc.html"
+    },
+    {
+      "file": "ch-comparator.md",
+      "title": "4 模拟比较器（COMPARATOR）",
+      "size": 6188,
+      "source_path": "drafts/pg_ing916/ch-comparator.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-comparator.html",
+      "source_sha256": "2266352f17ac7d546c60c237622e08ad0d51e29d8feb112ee0facd7e4e193a3d",
+      "conversion_source": "drafts/pg_ing916/ch-comparator.html"
+    },
+    {
+      "file": "ch-dma.md",
+      "title": "5 DMA简介",
+      "size": 9073,
+      "source_path": "drafts/pg_ing916/ch-dma.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-dma.html",
+      "source_sha256": "9407a84a042fb3be931a93e8085b62fa41bb3676fb0796685108d79128ddee71",
+      "conversion_source": "drafts/pg_ing916/ch-dma.html"
+    },
+    {
+      "file": "ch-efuse.md",
+      "title": "6 一次性可编程存储器(eFuse)",
+      "size": 2135,
+      "source_path": "drafts/pg_ing916/ch-efuse.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-efuse.html",
+      "source_sha256": "1b1bfa3dc716a0bd2c0fb5dc77f035b6d8a6baced3479be5fadaf21c4c530d78",
+      "conversion_source": "drafts/pg_ing916/ch-efuse.html"
+    },
+    {
+      "file": "ch-gpio.md",
+      "title": "7 通用输入输出（GPIO）",
+      "size": 11907,
+      "source_path": "drafts/pg_ing916/ch-gpio.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-gpio.html",
+      "source_sha256": "88976121be043987cd552619e30f7652cccbb6a3efc20b88a316ad2c7d082c2c",
+      "conversion_source": "drafts/pg_ing916/ch-gpio.html"
+    },
+    {
+      "file": "ch-iic.md",
+      "title": "8 I2C总线",
+      "size": 41035,
+      "source_path": "drafts/pg_ing916/ch-iic.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-iic.html",
+      "source_sha256": "b63c3dfd73b0fdf347255f4ff66f838d978cf1bdadbda08f383aecbde86cd2ad",
+      "conversion_source": "drafts/pg_ing916/ch-iic.html"
+    },
+    {
+      "file": "ch-I2S.md",
+      "title": "9 I2S简介",
+      "size": 9927,
+      "source_path": "drafts/pg_ing916/ch-I2S.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-I2S.html",
+      "source_sha256": "8fc85bfd64704d6f8bc439e5e8ffab39314a8531cc208baf88bc5ed27d00c846",
+      "conversion_source": "drafts/pg_ing916/ch-I2S.html"
+    },
+    {
+      "file": "ch-ir.md",
+      "title": "10 红外(IR)",
+      "size": 9137,
+      "source_path": "drafts/pg_ing916/ch-ir.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-ir.html",
+      "source_sha256": "443b4a9bec263c4ff432e9de3bec09a04710eb4801ff7a77cfa398296314b0c2",
+      "conversion_source": "drafts/pg_ing916/ch-ir.html"
+    },
+    {
+      "file": "ch-keyscan.md",
+      "title": "11 硬件键盘扫描控制器（KEYSCAN）",
+      "size": 8861,
+      "source_path": "drafts/pg_ing916/ch-keyscan.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-keyscan.html",
+      "source_sha256": "6639e6f63b08d0d4531a95214fa27a43c8d9146b708fb4dc163b56a656838648",
+      "conversion_source": "drafts/pg_ing916/ch-keyscan.html"
+    },
+    {
+      "file": "ch-PDM.md",
+      "title": "12 PDM简介",
+      "size": 5560,
+      "source_path": "drafts/pg_ing916/ch-PDM.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-PDM.html",
+      "source_sha256": "8c4ce4c65ff806531d69acc7498c3d979cd95f8f48980aec46f8467162ea5321",
+      "conversion_source": "drafts/pg_ing916/ch-PDM.html"
+    },
+    {
+      "file": "ch-pinctrl.md",
+      "title": "13 管脚管理（PINCTRL）",
+      "size": 11303,
+      "source_path": "drafts/pg_ing916/ch-pinctrl.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-pinctrl.html",
+      "source_sha256": "c62b830bee99456101502a4b2846c721b551e89feafa2909381c8c847e7cede6",
+      "conversion_source": "drafts/pg_ing916/ch-pinctrl.html"
+    },
+    {
+      "file": "ch-pte.md",
+      "title": "14 PTE简介",
+      "size": 5543,
+      "source_path": "drafts/pg_ing916/ch-pte.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-pte.html",
+      "source_sha256": "9237bb345c0cc8def2118fd2ad9ff57963b6a3bba58e279e8ccad515d42d453f",
+      "conversion_source": "drafts/pg_ing916/ch-pte.html"
+    },
+    {
+      "file": "ch-pwm.md",
+      "title": "15 增强型脉宽调制发生器（PWM）",
+      "size": 10613,
+      "source_path": "drafts/pg_ing916/ch-pwm.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-pwm.html",
+      "source_sha256": "389c1c282b3fd90c193732f39020794d7a7a65bf66df4b1aef7d75205b2314aa",
+      "conversion_source": "drafts/pg_ing916/ch-pwm.html"
+    },
+    {
+      "file": "ch-qdec.md",
+      "title": "16 QDEC简介",
+      "size": 6686,
+      "source_path": "drafts/pg_ing916/ch-qdec.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-qdec.html",
+      "source_sha256": "6216b711f23caa8c0a71b2b91f2ca0b7927ddb4829dbcd0986333facd6ae2ea7",
+      "conversion_source": "drafts/pg_ing916/ch-qdec.html"
+    },
+    {
+      "file": "ch-rtc.md",
+      "title": "17 实时时钟（RTC）",
+      "size": 5119,
+      "source_path": "drafts/pg_ing916/ch-rtc.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-rtc.html",
+      "source_sha256": "97a39784858de145073103473a88c5088802729d4883b169a8eceff6ccb007be",
+      "conversion_source": "drafts/pg_ing916/ch-rtc.html"
+    },
+    {
+      "file": "ch-spi.md",
+      "title": "18 串行外围设备接口（SPI）",
+      "size": 29329,
+      "source_path": "drafts/pg_ing916/ch-spi.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-spi.html",
+      "source_sha256": "fceeae2e8d7125e1d188933376a6397a41764ccddca878a2143449701fded58a",
+      "conversion_source": "drafts/pg_ing916/ch-spi.html"
+    },
+    {
+      "file": "ch-sysctrl.md",
+      "title": "19 系统控制（SYSCTRL）",
+      "size": 16847,
+      "source_path": "drafts/pg_ing916/ch-sysctrl.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-sysctrl.html",
+      "source_sha256": "7a63f33d47750a2fb99616917677c1cf31959b95b4ce1d2b57a07d15c9748b0e",
+      "conversion_source": "drafts/pg_ing916/ch-sysctrl.html"
+    },
+    {
+      "file": "ch-timer.md",
+      "title": "20 定时器（TIMER）",
+      "size": 9446,
+      "source_path": "drafts/pg_ing916/ch-timer.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-timer.html",
+      "source_sha256": "23c94d5620b5e698f4bc813261ccd1d1513542aae727e26eb279fff30beb3ba8",
+      "conversion_source": "drafts/pg_ing916/ch-timer.html"
+    },
+    {
+      "file": "ch-uart.md",
+      "title": "21 通用异步收发传输器（UART）",
+      "size": 11577,
+      "source_path": "drafts/pg_ing916/ch-uart.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-uart.html",
+      "source_sha256": "85c502a0da5a471b593d905ece8c56b36e3362f9e7d44bf345f6f28dbe3be4be",
+      "conversion_source": "drafts/pg_ing916/ch-uart.html"
+    },
+    {
+      "file": "ch-usb.md",
+      "title": "22 通用串行总线 (USB)",
+      "size": 21054,
+      "source_path": "drafts/pg_ing916/ch-usb.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-usb.html",
+      "source_sha256": "2a3a7c2b79a5425e3343209671cd8063011e216b56a36cf8637e902f8dd7ac86",
+      "conversion_source": "drafts/pg_ing916/ch-usb.html"
+    },
+    {
+      "file": "ch-watchdog.md",
+      "title": "23 看门狗（WATCHDOG）",
+      "size": 5499,
+      "source_path": "drafts/pg_ing916/ch-watchdog.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-watchdog.html",
+      "source_sha256": "813fe843681c79a3c9f8ff5ee2380411f95b220c6b3a9ea0c723f1403cf0a7c1",
+      "conversion_source": "drafts/pg_ing916/ch-watchdog.html"
+    },
+    {
+      "file": "ch-eflash.md",
+      "title": "24 内置 Flash（EFlash）",
+      "size": 4503,
+      "source_path": "drafts/pg_ing916/ch-eflash.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-eflash.html",
+      "source_sha256": "fbc49029366a41cf8b78921447c08d7924c66316f8c57d9c21556605e9939fe6",
+      "conversion_source": "drafts/pg_ing916/ch-eflash.html"
+    }
+  ],
+  "warnings": [
+    "EPUB chapter mapping incomplete; using site HTML"
+  ]
+}

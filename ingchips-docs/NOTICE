@@ -1,0 +1,39 @@
+INGCHIPS Skills
+Copyright 2026 INGCHIPS Skills contributors
+
+Original skill instructions, scenario guides, scripts and repository documentation
+are licensed under the Apache License, Version 2.0. See LICENSE.
+
+Third-party documentation is a separate collection and is not relicensed under
+Apache-2.0 by this project:
+
+1. INGCHIPS documentation
+   Source: https://ingchips.github.io/
+   Upstream notice: Copyright INGCHIPS. All rights reserved.
+   Location: ingchips-docs/references/ (references/ in an installed skill),
+   excluding freertos_manual/.
+   Changes: conversion from HTML/EPUB to Markdown, removal of navigation,
+   chapter splitting, link rewriting and generated search metadata.
+   Original rights remain with INGCHIPS and other respective rights holders.
+   No additional redistribution permission for these materials is granted here.
+   File-level source URLs and available hashes are recorded in sources.json
+   and catalog.json inside the skill.
+
+2. FreeRTOS website documentation
+   Source: https://github.com/FreeRTOS/FreeRTOS-Website-Content
+   Copyright remains with the upstream FreeRTOS documentation contributors
+   and respective rights holders.
+   Location: ingchips-docs/references/freertos_manual/ (references/freertos_manual/
+   in an installed skill).
+   License: Creative Commons Attribution-ShareAlike 4.0 International
+   https://creativecommons.org/licenses/by-sa/4.0/
+   Changes: selected kernel documentation, frontmatter/component cleanup,
+   Markdown conversion and link rewriting. These adapted documents remain
+   under CC BY-SA 4.0; the FreeRTOS kernel's MIT license is not the license
+   of this website documentation collection.
+   The license text from the cached upstream source archive is retained in
+   ingchips-docs/licenses/FreeRTOS-CC-BY-SA-4.0.txt (licenses/ in the installed skill).
+   The precise historical revision of the existing converted snapshot is unknown.
+
+Product and project names identify compatibility and sources; their trademarks
+remain the property of their respective owners.

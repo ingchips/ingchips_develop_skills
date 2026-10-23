@@ -1,0 +1,128 @@
+{
+  "book": "pg_ing918",
+  "site_dir": "drafts/pg_ing918",
+  "source": "html",
+  "title": "ING918XX 系列芯片外设开发者手册",
+  "files": [
+    {
+      "file": "index.md",
+      "title": "ING918XX 系列芯片外设开发者手册",
+      "size": 281,
+      "source_path": "drafts/pg_ing918/index.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/index.html",
+      "source_sha256": "12396fe7b9c33e0703be93989a6229b6d34e55469bfe69457c27526355424279",
+      "conversion_source": "drafts/pg_ing918/index.html"
+    },
+    {
+      "file": "ch-overview.md",
+      "title": "2 概览",
+      "size": 1706,
+      "source_path": "drafts/pg_ing918/ch-overview.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-overview.html",
+      "source_sha256": "b4c22b44fae123a70e1f02b0e98c2a6acd361c08000f91f08567b66c83b4a15e",
+      "conversion_source": "drafts/pg_ing918/ch-overview.html"
+    },
+    {
+      "file": "ch-adc.md",
+      "title": "3 模数转换器（ADC）",
+      "size": 3811,
+      "source_path": "drafts/pg_ing918/ch-adc.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-adc.html",
+      "source_sha256": "1458e857d9a4719980ec543e90c0f21da98bd3792306c3a4ec6d91517832f568",
+      "conversion_source": "drafts/pg_ing918/ch-adc.html"
+    },
+    {
+      "file": "ch-eflash.md",
+      "title": "4 嵌入式闪存（Embedded Flash）",
+      "size": 1711,
+      "source_path": "drafts/pg_ing918/ch-eflash.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-eflash.html",
+      "source_sha256": "84ca8fa02f6025b34eea3f473d206073387459944b43abb6f04e61807f52ef40",
+      "conversion_source": "drafts/pg_ing918/ch-eflash.html"
+    },
+    {
+      "file": "ch-gpio.md",
+      "title": "5 通用输入输出（GPIO）",
+      "size": 3912,
+      "source_path": "drafts/pg_ing918/ch-gpio.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-gpio.html",
+      "source_sha256": "e61300e2e50ebab1573268ac065ab39105b9d32d24347f29d01211c4d271c541",
+      "conversion_source": "drafts/pg_ing918/ch-gpio.html"
+    },
+    {
+      "file": "ch-i2c.md",
+      "title": "6 集成电路间总线（I2C）",
+      "size": 5070,
+      "source_path": "drafts/pg_ing918/ch-i2c.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-i2c.html",
+      "source_sha256": "9a202954646df83feb4738e02cd56ac56dc78fffdfb4dfa605595363b4aa9bc7",
+      "conversion_source": "drafts/pg_ing918/ch-i2c.html"
+    },
+    {
+      "file": "ch-pinctrl.md",
+      "title": "7 管脚管理（PINCTRL）",
+      "size": 5748,
+      "source_path": "drafts/pg_ing918/ch-pinctrl.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-pinctrl.html",
+      "source_sha256": "751c9af9fd8e134d960c5bff5d49e3bab7e40c6dbb9035333351dde52199c97b",
+      "conversion_source": "drafts/pg_ing918/ch-pinctrl.html"
+    },
+    {
+      "file": "ch-pwm.md",
+      "title": "8 脉宽调制发生器（PWM）",
+      "size": 6499,
+      "source_path": "drafts/pg_ing918/ch-pwm.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-pwm.html",
+      "source_sha256": "8399258a1d68d085209435093f4ed821bc600ac83dd6d862bdcd6ea21572e652",
+      "conversion_source": "drafts/pg_ing918/ch-pwm.html"
+    },
+    {
+      "file": "ch-rtc.md",
+      "title": "9 实时时钟（RTC）",
+      "size": 2704,
+      "source_path": "drafts/pg_ing918/ch-rtc.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-rtc.html",
+      "source_sha256": "bab0f60d48c67b34e0797553775c4f5ed90feb4cec5745a44b890bf9f2e1749b",
+      "conversion_source": "drafts/pg_ing918/ch-rtc.html"
+    },
+    {
+      "file": "ch-spi.md",
+      "title": "10 SPI功能概述",
+      "size": 9803,
+      "source_path": "drafts/pg_ing918/ch-spi.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-spi.html",
+      "source_sha256": "84df7fb1db865e661c52b1ed362797b1991045f657a2b6a214aa2e5b37a6a6a1",
+      "conversion_source": "drafts/pg_ing918/ch-spi.html"
+    },
+    {
+      "file": "ch-sysctrl.md",
+      "title": "11 系统控制（SYSCTRL）",
+      "size": 2538,
+      "source_path": "drafts/pg_ing918/ch-sysctrl.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-sysctrl.html",
+      "source_sha256": "a68c98ae4ccd6d2afbad8892f7d85c92561240e9d2787747eee72be226cadf81",
+      "conversion_source": "drafts/pg_ing918/ch-sysctrl.html"
+    },
+    {
+      "file": "ch-timer.md",
+      "title": "12 定时器和看门狗",
+      "size": 6163,
+      "source_path": "drafts/pg_ing918/ch-timer.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-timer.html",
+      "source_sha256": "5cede55a8524ae85a0c076a4c1902c1e9e4dd82536796c14964cfa645a0e81e9",
+      "conversion_source": "drafts/pg_ing918/ch-timer.html"
+    },
+    {
+      "file": "ch-uart.md",
+      "title": "13 通用异步收发传输器（UART）",
+      "size": 6724,
+      "source_path": "drafts/pg_ing918/ch-uart.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-uart.html",
+      "source_sha256": "025c0907b936d69b4c1efe8624b5652a58a38d49fefe9564ed4ca8dd266f5a54",
+      "conversion_source": "drafts/pg_ing918/ch-uart.html"
+    }
+  ],
+  "warnings": [
+    "EPUB chapter mapping incomplete; using site HTML"
+  ]
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+maintenance
+dist/
+.docs-stage-*/
+.ingchips-install-*/
+.ingchips-package-*/
+.ingchips-skill-backups/
+.agents/
+.claude/

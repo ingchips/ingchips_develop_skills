@@ -1,0 +1,74 @@
+{
+  "book": "pg_power_saving_en",
+  "site_dir": "application-notes/pg_power_saving_en",
+  "source": "html",
+  "title": "Programmer’s Guide - Power Saving",
+  "files": [
+    {
+      "file": "index.md",
+      "title": "Programmer’s Guide - Power Saving",
+      "size": 832,
+      "source_path": "application-notes/pg_power_saving_en/index.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/index.html",
+      "source_sha256": "bf95874a37dbf29fb3000102b1d0156425268cc6d1653f3996bd1005cb1964d1",
+      "conversion_source": "application-notes/pg_power_saving_en/index.html"
+    },
+    {
+      "file": "ch-intro.md",
+      "title": "2 Introduction",
+      "size": 2645,
+      "source_path": "application-notes/pg_power_saving_en/ch-intro.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-intro.html",
+      "source_sha256": "5597ba482fa09f0db3fdee608eb5efba6384494358c98f710874a3f0f41d13dd",
+      "conversion_source": "application-notes/pg_power_saving_en/ch-intro.html"
+    },
+    {
+      "file": "ch-framework.md",
+      "title": "3 Framework",
+      "size": 9373,
+      "source_path": "application-notes/pg_power_saving_en/ch-framework.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-framework.html",
+      "source_sha256": "80e4102588f9b680b66aeaecc03cc86c464a64cf7b28c46a4d2868735cadba31",
+      "conversion_source": "application-notes/pg_power_saving_en/ch-framework.html"
+    },
+    {
+      "file": "ch-api.md",
+      "title": "4 API",
+      "size": 20517,
+      "source_path": "application-notes/pg_power_saving_en/ch-api.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-api.html",
+      "source_sha256": "ce3ef8953d0550296651ee63a4d336c11624df5cedd983a53a3ce19e849289d8",
+      "conversion_source": "application-notes/pg_power_saving_en/ch-api.html"
+    },
+    {
+      "file": "ch-porting.md",
+      "title": "5 Porting",
+      "size": 9269,
+      "source_path": "application-notes/pg_power_saving_en/ch-porting.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-porting.html",
+      "source_sha256": "762e3aeb5069cf47dd98ec989833ac33f08cbbc63b911adc1a521245310f826d",
+      "conversion_source": "application-notes/pg_power_saving_en/ch-porting.html"
+    },
+    {
+      "file": "ch-tips.md",
+      "title": "6 Tips on Low Power Products",
+      "size": 5335,
+      "source_path": "application-notes/pg_power_saving_en/ch-tips.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-tips.html",
+      "source_sha256": "d8863c21051fc8a79a37a6df3dc411e719188189f93eb41ea315610ea1266fb8",
+      "conversion_source": "application-notes/pg_power_saving_en/ch-tips.html"
+    },
+    {
+      "file": "ch-faq.md",
+      "title": "7 FAQ",
+      "size": 1214,
+      "source_path": "application-notes/pg_power_saving_en/ch-faq.html",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-faq.html",
+      "source_sha256": "c790e66f2055c55c44ae0f46db3006dcfdffc80d0a9fe032aa76278fe0221f16",
+      "conversion_source": "application-notes/pg_power_saving_en/ch-faq.html"
+    }
+  ],
+  "warnings": [
+    "EPUB chapter mapping incomplete; using site HTML"
+  ]
+}

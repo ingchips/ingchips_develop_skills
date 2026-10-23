@@ -1,0 +1,74 @@
+{
+  "book": "user_guide",
+  "site_dir": "user_guide",
+  "source": "html",
+  "title": "INGCHIPS SDK User Guide",
+  "files": [
+    {
+      "file": "index.md",
+      "title": "INGCHIPS SDK User Guide",
+      "size": 378,
+      "source_path": "user_guide/index.html",
+      "source_url": "https://ingchips.github.io/user_guide/index.html",
+      "source_sha256": "beb97edf2bdc116e6c791b12478717c227b90e3faf1668437a00c8df87119475",
+      "conversion_source": "user_guide/index.html"
+    },
+    {
+      "file": "intro.md",
+      "title": "Chapter 2 Introduction",
+      "size": 6658,
+      "source_path": "user_guide/intro.html",
+      "source_url": "https://ingchips.github.io/user_guide/intro.html",
+      "source_sha256": "1736e577706fd0819a7983db4bf7c7d8b45e8ea7e80efb74c5d151c05143b458",
+      "conversion_source": "user_guide/intro.html"
+    },
+    {
+      "file": "tutorial.md",
+      "title": "Chapter 3 Tutorials",
+      "size": 42274,
+      "source_path": "user_guide/tutorial.html",
+      "source_url": "https://ingchips.github.io/user_guide/tutorial.html",
+      "source_sha256": "986f5d64bd49f20d76444e5f3acf9a9b63bf53df8d5e91eb4272da21c03b39fe",
+      "conversion_source": "user_guide/tutorial.html"
+    },
+    {
+      "file": "core-tools.md",
+      "title": "Chapter 4 Core Tools",
+      "size": 15138,
+      "source_path": "user_guide/core-tools.html",
+      "source_url": "https://ingchips.github.io/user_guide/core-tools.html",
+      "source_sha256": "8e97e9f44cf3557cd533493070233e877f50a09b8be66915ce5f54c683621b55",
+      "conversion_source": "user_guide/core-tools.html"
+    },
+    {
+      "file": "dive-into-sdk.md",
+      "title": "Chapter 5 Dive Into SDK",
+      "size": 11373,
+      "source_path": "user_guide/dive-into-sdk.html",
+      "source_url": "https://ingchips.github.io/user_guide/dive-into-sdk.html",
+      "source_sha256": "93dda3eb10508177bcea30aa54f413d655510006d54acbb871e4dfcfb79f792d",
+      "conversion_source": "user_guide/dive-into-sdk.html"
+    },
+    {
+      "file": "api-ref.md",
+      "title": "Chapter 6 Platform API Reference",
+      "size": 51819,
+      "source_path": "user_guide/api-ref.html",
+      "source_url": "https://ingchips.github.io/user_guide/api-ref.html",
+      "source_sha256": "bcd2edc9db3233df2f4a8d7038271117fa2a8fe7ab965c7825bc06e9ba5ce0d2",
+      "conversion_source": "user_guide/api-ref.html"
+    },
+    {
+      "file": "revision-history.md",
+      "title": "Chapter 7 Revision History",
+      "size": 1002,
+      "source_path": "user_guide/revision-history.html",
+      "source_url": "https://ingchips.github.io/user_guide/revision-history.html",
+      "source_sha256": "8323fdb9926ef69ee2d3dcebeff2418f5c841e41e52d7a180e2199716a1b961c",
+      "conversion_source": "user_guide/revision-history.html"
+    }
+  ],
+  "warnings": [
+    "EPUB chapter mapping incomplete; using site HTML"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "book": "an_aoa_positioning_cn",
+  "site_dir": "application-notes/an_aoa_positioning_cn",
+  "source": "html",
+  "title": "应用指南：BLE 定位解决方案",
+  "files": [
+    {
+      "file": "index.md",
+      "title": "应用指南：BLE 定位解决方案",
+      "size": 354,
+      "source_path": "application-notes/an_aoa_positioning_cn/index.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa_positioning_cn/index.html",
+      "source_sha256": "65e274f6b5944ba8b266eadd18e7a54e9be9f9d04883b968c7f70cdc471a548c",
+      "conversion_source": "application-notes/an_aoa_positioning_cn/index.html"
+    },
+    {
+      "file": "intro.md",
+      "title": "2 简介",
+      "size": 568,
+      "source_path": "application-notes/an_aoa_positioning_cn/intro.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa_positioning_cn/intro.html",
+      "source_sha256": "83cff7e1a63e8cbac24303cf1bfa288d7d3c7c2e0977886a2bfe588c03d600c9",
+      "conversion_source": "application-notes/an_aoa_positioning_cn/intro.html"
+    },
+    {
+      "file": "d-定位.md",
+      "title": "3 3D 定位",
+      "size": 17816,
+      "source_path": "application-notes/an_aoa_positioning_cn/d-定位.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html",
+      "source_sha256": "27c6cb915eb38c1aa2daaec20a9a5a45587df2ea45ee83b97f26d28faccd1e3d",
+      "conversion_source": "application-notes/an_aoa_positioning_cn/d-定位.html"
+    },
+    {
+      "file": "d-定位-1.md",
+      "title": "4 2D 定位",
+      "size": 8481,
+      "source_path": "application-notes/an_aoa_positioning_cn/d-定位-1.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位-1.html",
+      "source_sha256": "b43c1abf8d0584fde0a6e22a0bf208f9e979034dc9315eaa13ab41247d2a167c",
+      "conversion_source": "application-notes/an_aoa_positioning_cn/d-定位-1.html"
+    },
+    {
+      "file": "revision-history.md",
+      "title": "5 版本历史",
+      "size": 257,
+      "source_path": "application-notes/an_aoa_positioning_cn/revision-history.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa_positioning_cn/revision-history.html",
+      "source_sha256": "d8e48b923999d0f585bbf005b6d279c979286ea9d200aaa8434991203e9c7c5f",
+      "conversion_source": "application-notes/an_aoa_positioning_cn/revision-history.html"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,218 @@
+{
+  "book": "pg_ing20",
+  "site_dir": "drafts/pg_ing20",
+  "source": "html",
+  "title": "ING20XX 系列芯片外设开发者手册",
+  "files": [
+    {
+      "file": "index.md",
+      "title": "ING20XX 系列芯片外设开发者手册",
+      "size": 491,
+      "source_path": "drafts/pg_ing20/index.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/index.html",
+      "source_sha256": "bf55b199c287391c91368a3fcae679f88a8c867143456ab224897ccdc250ab5e",
+      "conversion_source": "drafts/pg_ing20/index.html"
+    },
+    {
+      "file": "ch-overview.md",
+      "title": "2 概览",
+      "size": 2297,
+      "source_path": "drafts/pg_ing20/ch-overview.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-overview.html",
+      "source_sha256": "c2b26796ea6370975f9fe5091b8d74870f30493ffb2bca6b1caf31aac3386488",
+      "conversion_source": "drafts/pg_ing20/ch-overview.html"
+    },
+    {
+      "file": "ch-adc.md",
+      "title": "3 ADC简介",
+      "size": 6566,
+      "source_path": "drafts/pg_ing20/ch-adc.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-adc.html",
+      "source_sha256": "b534aa9980fb792112ae9a250d434f4752102f9ca2a3870ca42b36f078265873",
+      "conversion_source": "drafts/pg_ing20/ch-adc.html"
+    },
+    {
+      "file": "ch-asdm.md",
+      "title": "4 ASDM简介",
+      "size": 15645,
+      "source_path": "drafts/pg_ing20/ch-asdm.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-asdm.html",
+      "source_sha256": "1c98931a24dc9cfcfec8ca676ef4640a18283a9fe9c46491ffe1ee65c3736e3a",
+      "conversion_source": "drafts/pg_ing20/ch-asdm.html"
+    },
+    {
+      "file": "ch-dma.md",
+      "title": "5 DMA简介",
+      "size": 11427,
+      "source_path": "drafts/pg_ing20/ch-dma.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-dma.html",
+      "source_sha256": "62e025472a557c0fc0f956ca790289a0a6ed5fec2259057177fb2d87570ca2c7",
+      "conversion_source": "drafts/pg_ing20/ch-dma.html"
+    },
+    {
+      "file": "ch-gpio.md",
+      "title": "6 通用输入输出（GPIO）",
+      "size": 11725,
+      "source_path": "drafts/pg_ing20/ch-gpio.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-gpio.html",
+      "source_sha256": "e1a5e80872b8022a552c65174cbb1a8fd8cc505c49deac62375b6fd18a9f70e5",
+      "conversion_source": "drafts/pg_ing20/ch-gpio.html"
+    },
+    {
+      "file": "ch-iic.md",
+      "title": "7 I2C总线",
+      "size": 41024,
+      "source_path": "drafts/pg_ing20/ch-iic.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-iic.html",
+      "source_sha256": "38897bb83a616628a9b1fb4b9a0343945c9022b175185a767fab284063c2c7c5",
+      "conversion_source": "drafts/pg_ing20/ch-iic.html"
+    },
+    {
+      "file": "ch-I2S.md",
+      "title": "8 I2S简介",
+      "size": 9919,
+      "source_path": "drafts/pg_ing20/ch-I2S.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-I2S.html",
+      "source_sha256": "94818bb50250f74f058e7ddcc5db31beb830f44f5133d04a9f572799417aa8e1",
+      "conversion_source": "drafts/pg_ing20/ch-I2S.html"
+    },
+    {
+      "file": "ch-keyscan.md",
+      "title": "9 硬件键盘扫描控制器（KEYSCAN）",
+      "size": 18013,
+      "source_path": "drafts/pg_ing20/ch-keyscan.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-keyscan.html",
+      "source_sha256": "9514408eb9a290f5d0d8afeae79ae900050ef0a5ab0f2640f37e6b4e1c9f7d80",
+      "conversion_source": "drafts/pg_ing20/ch-keyscan.html"
+    },
+    {
+      "file": "ch-pinctrl.md",
+      "title": "10 管脚管理（PINCTRL）",
+      "size": 12887,
+      "source_path": "drafts/pg_ing20/ch-pinctrl.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-pinctrl.html",
+      "source_sha256": "681da63bebfd629c24785d90b6c66602ab04e6f1e22ab59e4629735eea0ec764",
+      "conversion_source": "drafts/pg_ing20/ch-pinctrl.html"
+    },
+    {
+      "file": "ch-pwm.md",
+      "title": "11 增强型脉宽调制发生器（PWM）",
+      "size": 20043,
+      "source_path": "drafts/pg_ing20/ch-pwm.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-pwm.html",
+      "source_sha256": "2c6fd3f856f9630a7e1d779bd05d67157ded77b44c4f728baff6febc8c366c8c",
+      "conversion_source": "drafts/pg_ing20/ch-pwm.html"
+    },
+    {
+      "file": "ch-qdec.md",
+      "title": "12 QDEC简介",
+      "size": 6661,
+      "source_path": "drafts/pg_ing20/ch-qdec.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-qdec.html",
+      "source_sha256": "7f62b253316a4bd4239ec432fea9006fd2badf9d986af7fcc5bd63789862af15",
+      "conversion_source": "drafts/pg_ing20/ch-qdec.html"
+    },
+    {
+      "file": "ch-spi.md",
+      "title": "13 串行外围设备接口（SPI）",
+      "size": 25909,
+      "source_path": "drafts/pg_ing20/ch-spi.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-spi.html",
+      "source_sha256": "9a380969eb755c64cc2458f66fa28b887914d693565c2002e87c3ce0d7d2ce9b",
+      "conversion_source": "drafts/pg_ing20/ch-spi.html"
+    },
+    {
+      "file": "ch-sysctrl.md",
+      "title": "14 系统控制（SYSCTRL）",
+      "size": 14692,
+      "source_path": "drafts/pg_ing20/ch-sysctrl.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-sysctrl.html",
+      "source_sha256": "eb2b79d1eba66062179f8ee14b865a426fb63683557e4a1e8f9c82e0239d010f",
+      "conversion_source": "drafts/pg_ing20/ch-sysctrl.html"
+    },
+    {
+      "file": "ch-timer.md",
+      "title": "15 定时器（TIMER）",
+      "size": 9450,
+      "source_path": "drafts/pg_ing20/ch-timer.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-timer.html",
+      "source_sha256": "271f16b07023c8e91f1be696cdce2514f6e30de9b2d1fbb67e1170599902f7d8",
+      "conversion_source": "drafts/pg_ing20/ch-timer.html"
+    },
+    {
+      "file": "ch-uart.md",
+      "title": "16 通用异步收发传输器（UART）",
+      "size": 12498,
+      "source_path": "drafts/pg_ing20/ch-uart.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-uart.html",
+      "source_sha256": "695a36585aabf8f52253fa52a467d439d6203dcdb782fa8c88a5e2f8c38163a3",
+      "conversion_source": "drafts/pg_ing20/ch-uart.html"
+    },
+    {
+      "file": "ch-usb.md",
+      "title": "17 通用串行总线 (USB)",
+      "size": 21050,
+      "source_path": "drafts/pg_ing20/ch-usb.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-usb.html",
+      "source_sha256": "e855e6b6d054b9871c83ba9fc0415a2e3b2f2153abc6730f260418b2aa7900bb",
+      "conversion_source": "drafts/pg_ing20/ch-usb.html"
+    },
+    {
+      "file": "ch-watchdog.md",
+      "title": "18 看门狗（WATCHDOG）",
+      "size": 5502,
+      "source_path": "drafts/pg_ing20/ch-watchdog.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-watchdog.html",
+      "source_sha256": "51ef8517f19df2334abb6df2ffd6bdf7845bd57d47ace204b8b2dbddd4b1d5d1",
+      "conversion_source": "drafts/pg_ing20/ch-watchdog.html"
+    },
+    {
+      "file": "ch-eflash.md",
+      "title": "19 内置 Flash（EFlash）",
+      "size": 4858,
+      "source_path": "drafts/pg_ing20/ch-eflash.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-eflash.html",
+      "source_sha256": "414f67c802eed32dfcfb1afc67ce90f41aaab8d6ef84dbfa3bf095fb53935a82",
+      "conversion_source": "drafts/pg_ing20/ch-eflash.html"
+    },
+    {
+      "file": "ch-rtimer.md",
+      "title": "20 RTIMER简介 （Reduce Timer）",
+      "size": 4625,
+      "source_path": "drafts/pg_ing20/ch-rtimer.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-rtimer.html",
+      "source_sha256": "fe05d41c8cb4b93c0450d8ce1be547e6c965bb0e56b86cf0cd38de33b128ea5b",
+      "conversion_source": "drafts/pg_ing20/ch-rtimer.html"
+    },
+    {
+      "file": "ch-pte.md",
+      "title": "21 PTE简介 （Peripheral-Trigger-Engine）",
+      "size": 13459,
+      "source_path": "drafts/pg_ing20/ch-pte.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-pte.html",
+      "source_sha256": "c7ae6f1db095d06823991db6d7cc4423f7db008b74dfd9bf3a7255c4f3370f0c",
+      "conversion_source": "drafts/pg_ing20/ch-pte.html"
+    },
+    {
+      "file": "ch-gpiote.md",
+      "title": "22 GPIOTE简介 （GPIO tasks and events）",
+      "size": 2904,
+      "source_path": "drafts/pg_ing20/ch-gpiote.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-gpiote.html",
+      "source_sha256": "0cfbca601d10e8ac23f7b8cb59d073d07e05b0ed105913e424c1751cf762e2ef",
+      "conversion_source": "drafts/pg_ing20/ch-gpiote.html"
+    },
+    {
+      "file": "ch-note.md",
+      "title": "23 勘误",
+      "size": 10870,
+      "source_path": "drafts/pg_ing20/ch-note.html",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-note.html",
+      "source_sha256": "929316ded3e0121274450df6b64f589cc6079a0c5664487ff8d0b9b7a34e4bc1",
+      "conversion_source": "drafts/pg_ing20/ch-note.html"
+    }
+  ],
+  "warnings": [
+    "EPUB chapter mapping incomplete; using site HTML"
+  ]
+}

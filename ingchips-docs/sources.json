@@ -1,0 +1,2773 @@
+{
+  "schema_version": 1,
+  "selected": [
+    "blog"
+  ],
+  "excluded_books": [
+    "pg_ing918_cn",
+    "pg_ing20_cn"
+  ],
+  "unconverted_pdf": [
+    "application-notes/an_aoa/an_direction_finding.pdf",
+    "application-notes/an_libaudio_cn/an_libaudio.pdf",
+    "application-notes/pg_ble_stack_cn/pg_ble_stack.pdf",
+    "application-notes/pg_ing20_cn/pg_ing20.pdf",
+    "application-notes/pg_ing918_cn/pg_ing918.pdf",
+    "application-notes/pg_power_saving_en/pg_power_saving.pdf",
+    "docs-en/ref_design/ING04-01-05_module_um.pdf",
+    "docs-en/ref_design/ING04-01-07_module_um.pdf",
+    "docs-en/ref_design/ING918X_hardware_design_notes.pdf",
+    "docs/ref_design/ING04-01-05_module_um.pdf",
+    "docs/ref_design/ING04-01-07_module_um.pdf",
+    "docs/ref_design/ING918X_hardware_design_notes.pdf",
+    "drafts/pg_ing20/pg_ing20.pdf",
+    "drafts/pg_ing916/pg_ing916.pdf",
+    "drafts/pg_ing918/pg_ing918.pdf",
+    "user_guide/user_guide.pdf",
+    "user_guide_cn/user_guide.pdf"
+  ],
+  "files": [
+    {
+      "path": "an_aoa/index.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/index.html",
+      "source_sha256": "181e5fda9c0e34367fbb2628107ec5ee8d57be106fe76b5b7bc60aadf70e6ce0",
+      "generated_sha256": "3d672029288b12120f82ad18de021cc0d30db6b7fcf74e289bf6549a6e063428"
+    },
+    {
+      "path": "an_aoa/introduction.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/introduction.html",
+      "source_sha256": "b3f5b38167c218f8d27fe2d96b9931d49b385e0cd7aa38b6c7de38621f5e16f1",
+      "generated_sha256": "0d7738a112ce1e1f1546407c01d2bf25e2b30f029fb9cc105fc79437fdb2aadd"
+    },
+    {
+      "path": "an_aoa/fundamentals.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/fundamentals.html",
+      "source_sha256": "46f214023ead302407bd28518c82b5fdd03acde5623b6059e752a0007bc21843",
+      "generated_sha256": "aa92c0ba91133aef15361c286174f0edab64f69f9808a31c55a5eb1fc211a716"
+    },
+    {
+      "path": "an_aoa/quick-start.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/quick-start.html",
+      "source_sha256": "9116b1349668bc6995e7a3cc40e87579ebfda4915f7426df6660ec6c60e2ae6d",
+      "generated_sha256": "f78c23089cc7e150faeeabffefb74eeacbff332d464f6bb736fc28a138a009c4"
+    },
+    {
+      "path": "an_aoa/sdk-support.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/sdk-support.html",
+      "source_sha256": "faad1859c9e2ff91bf3dfa0684a12242639b5c51576663b278d04b724a415be0",
+      "generated_sha256": "4aea1f38d907ea6a5e358b7b42f04c374a76f880e3ea390c775b5c1ef5841122"
+    },
+    {
+      "path": "an_aoa/futher-info.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/futher-info.html",
+      "source_sha256": "a860360229cb0fa1cb0cf1a19ad996fd02388c61b1dd1092b4c342d5d48b7cb0",
+      "generated_sha256": "8e6934ab6ecdde0475fc74ff7b895356c73b26fe9468ce29b0112928d28e1aac"
+    },
+    {
+      "path": "an_aoa/revision-history.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/revision-history.html",
+      "source_sha256": "5e69f1028f9ed28a3386663d3610f701ec973aeb60ad8128617c51de894bf655",
+      "generated_sha256": "cd5c3e597398c20d3ef9a89089fbf469ae09ec0b1482cb34fb69923ee48f140e"
+    },
+    {
+      "path": "an_aoa_positioning_cn/index.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa_positioning_cn/index.html",
+      "source_sha256": "65e274f6b5944ba8b266eadd18e7a54e9be9f9d04883b968c7f70cdc471a548c",
+      "generated_sha256": "0789284aae6a495ac28f2cc0f981381876d7f2561b87e27796e2bff7c5dad94b"
+    },
+    {
+      "path": "an_aoa_positioning_cn/intro.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa_positioning_cn/intro.html",
+      "source_sha256": "83cff7e1a63e8cbac24303cf1bfa288d7d3c7c2e0977886a2bfe588c03d600c9",
+      "generated_sha256": "e60c36ee862b97bda9a99f9815a8eb32ab966e43a2f41958ae312f4629eb197e"
+    },
+    {
+      "path": "an_aoa_positioning_cn/d-定位.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位.html",
+      "source_sha256": "27c6cb915eb38c1aa2daaec20a9a5a45587df2ea45ee83b97f26d28faccd1e3d",
+      "generated_sha256": "507c99f9ed7c79f29ff7cc42da9a7f4f8afe7a4c2b56e29781320e77fad0ccc7"
+    },
+    {
+      "path": "an_aoa_positioning_cn/d-定位-1.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa_positioning_cn/d-定位-1.html",
+      "source_sha256": "b43c1abf8d0584fde0a6e22a0bf208f9e979034dc9315eaa13ab41247d2a167c",
+      "generated_sha256": "2660ffe0f1167b65cba95df7788e3c89c01394c5a9d612742b35bb2055072fca"
+    },
+    {
+      "path": "an_aoa_positioning_cn/revision-history.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa_positioning_cn/revision-history.html",
+      "source_sha256": "d8e48b923999d0f585bbf005b6d279c979286ea9d200aaa8434991203e9c7c5f",
+      "generated_sha256": "ffb5ffc2636e09d7354e164927854e6f4adbe68ec49b19022740773ebd9b4c0a"
+    },
+    {
+      "path": "an_libaudio_cn/index.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/index.html",
+      "source_sha256": "da04176049daebab26aaf7c69abe8028e7b38023f706cf758ca8ada7bcd85d41",
+      "generated_sha256": "7a203a6ea840c182513c09f1e47ee99a0d9d934bbf6f03f5c26699f943e4009c"
+    },
+    {
+      "path": "an_libaudio_cn/ch-overview.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-overview.html",
+      "source_sha256": "706ccb7ba102ca0fb87a07560de49ec6d2dbeb81086d1eedd764b6e9fe3b150a",
+      "generated_sha256": "15029c1a5323565ed8b280ca8fa0e0ee9cc1384807844702cd8cf4ffb4993f2f"
+    },
+    {
+      "path": "an_libaudio_cn/ch-denoise.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-denoise.html",
+      "source_sha256": "4846e686dffca7557113e332379827e36eecf9358fa35e3df4589ea279576b80",
+      "generated_sha256": "01fdc83373a67dd86787bf301a3ae1a82ca51524a788a2622c1496d8718c7a33"
+    },
+    {
+      "path": "an_libaudio_cn/ch-adpcm.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-adpcm.html",
+      "source_sha256": "b3d610858e063edd779f2f2e41ff4403f89dbf2e0f0d63b6f4146ad387ee1ea7",
+      "generated_sha256": "f0c24ee68947bb960b8abff367f6832af58cc25ec8364c98d24141e971e82647"
+    },
+    {
+      "path": "an_libaudio_cn/ch-sbc.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-sbc.html",
+      "source_sha256": "e24057e952ee67c08696d0d610967bf26e4a4d7759b52a4c29c37ab20d2b9c2b",
+      "generated_sha256": "44112635b4a5ae4fc7f1bc579d975c000fa350b1b0b69370ed119a94e22d6614"
+    },
+    {
+      "path": "an_libaudio_cn/ch-opus.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-opus.html",
+      "source_sha256": "4cfc05fe6dc353c102db6c60940adff565a106f082057b6cabc36bfb8874732a",
+      "generated_sha256": "7583da4275b64861b78115729bcab01bac8f10114143b23c903e2dcbbcf123b8"
+    },
+    {
+      "path": "an_libaudio_cn/ch-amr-wb.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-amr-wb.html",
+      "source_sha256": "4e9d59790e8e02d308b86d364e6dc6196de0bc3a1a74c9823937f9badc49d1d2",
+      "generated_sha256": "718e9fe1d0d44fddffb1fd338aa281d2ce6dde7970df5dd9e80a519a473de547"
+    },
+    {
+      "path": "an_libaudio_cn/ch-tts.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-tts.html",
+      "source_sha256": "6b5e77f26f751932511ef674dd249f9928e5cc6759466a5c6b83a8e31c9bb201",
+      "generated_sha256": "aa3ecbf6d872f414e22a5efa4f43880209742f5fe38f9e1b0ff8c2ff8b12a6b0"
+    },
+    {
+      "path": "an_libaudio_cn/ch-stretch.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-stretch.html",
+      "source_sha256": "52b0c63177ad79343eb02e9ef25d9523f827a20827a241bfa042d550043d3993",
+      "generated_sha256": "677c4ad73c33def4f26c2c9235ff924f701b7a587c49c1f6a97036a3c141431a"
+    },
+    {
+      "path": "an_libaudio_cn/ch-acknowledgement.md",
+      "source_url": "https://ingchips.github.io/application-notes/an_libaudio_cn/ch-acknowledgement.html",
+      "source_sha256": "5148c9f02a5c15c53e0f188f6a21320f496b6ead3ce30b6cf6ae6514a929ace7",
+      "generated_sha256": "f2b0370bfa2131f5660949d78dd2c5f394ec958e2ae964d7af096e229b948773"
+    },
+    {
+      "path": "blog/2020-10-13-sdk4.0_ext/index.md",
+      "source_url": "https://ingchips.github.io/blog/2020-10-13-sdk4.0_ext/",
+      "source_sha256": "07f77d6729e3b05714a68265abcd7473442101ec24767063d248b7f8dbd7ecd6",
+      "generated_sha256": "98bb9c3fa6848a67e38ceba0f0fdf9dcc6fce5c5729a89c0adb843652a9725e9"
+    },
+    {
+      "path": "blog/2020-10-26-next-g/index.md",
+      "source_url": "https://ingchips.github.io/blog/2020-10-26-next-g/",
+      "source_sha256": "b0b2826b6af92a50a157e723f22d2ec8ae6a13f785df3febd434202b7e41daee",
+      "generated_sha256": "efac2dc0a39bfbc7a1297ca1f877dbeafc57b415db89c66be1d7a6c1d16ac7f2"
+    },
+    {
+      "path": "blog/2021-01-13-stack-overflow/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-01-13-stack-overflow/",
+      "source_sha256": "e6b7de9f1c1ef8a4c537e17fc57a0291f890a40e7ed4f1ddf1e40c76ef4e0df8",
+      "generated_sha256": "de046fb2077c327bed5ffd56ad2604bddfe4b1a086a1ca6a5e2043b653350ce6"
+    },
+    {
+      "path": "blog/2021-01-25-zig-async/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-01-25-zig-async/",
+      "source_sha256": "0929a5ce6b189aee93dfc01a21c12c501f7e54e162b23836f01406a75d5dab64",
+      "generated_sha256": "5a0a72fc77f8b8bf867e44d1d77c292fbfe68ca65db022152d65f316e1714de7"
+    },
+    {
+      "path": "blog/2021-04-20-secure-fota/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-04-20-secure-fota/",
+      "source_sha256": "0d71eef0b71c32e941fc0b85ee1bf5af79f516808ddf5b93acba1e68cd1ec178",
+      "generated_sha256": "3259a4ba95a587e2ad83107623736a8aab0505130a3ef4a0744f312873979d69"
+    },
+    {
+      "path": "blog/2021-06-02-sdk-6/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-06-02-sdk-6/",
+      "source_sha256": "72b250f322ebd3d9998ac67d556dced8e91f4f2d905ab126d6c804457d8fb691",
+      "generated_sha256": "96d2f125ecd1c8981f6ead079e1de16d9fd9025482c576aa6164fe81b7404498"
+    },
+    {
+      "path": "blog/2021-06-17-sdk-6.1.0/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-06-17-sdk-6.1.0/",
+      "source_sha256": "510194250521fa49f5aa05c08da1097a8d05d7871edd330083db149520c42a9b",
+      "generated_sha256": "7c052d75fdf60d090ae5df8cc26c1c63843dbc00cd97cff89b802cac26e6442a"
+    },
+    {
+      "path": "blog/2021-07-29-vscode/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-07-29-vscode/",
+      "source_sha256": "5f55f2c4ce8ad094d7a16c945ef3e88271b38a9681626ae7d4008828a05c1014",
+      "generated_sha256": "0a07726928a5d9a0a38143405c0c2e21016543ccc768fc7477322c9e48899792"
+    },
+    {
+      "path": "blog/2021-09-03-sdk-6.3-new/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-09-03-sdk-6.3-new/",
+      "source_sha256": "6c21b141e069ebf89f3a37106dc617f64158c1ce03f64bfea908fd3b8599056b",
+      "generated_sha256": "15651de7b27463f142cf8d773b636ad6b6b55abce7dbdfd0f8b1c73a357e39d9"
+    },
+    {
+      "path": "blog/2021-09-29-sdk-6.5-new/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-09-29-sdk-6.5-new/",
+      "source_sha256": "d0e0c0b691bf9fa2412cb0015959f5740a3fabbe01769a85682d6ae99cdbab19",
+      "generated_sha256": "d01952d674741235b1f5aa54ed33d5c8569c4e09d006727a67a4f10a55fed804"
+    },
+    {
+      "path": "blog/2021-11-05-sdk-6.6-new/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-11-05-sdk-6.6-new/",
+      "source_sha256": "f9ae9aeff182dc3762d47344adc35c997aa28d8d3cdd28279cdaca3ad492d233",
+      "generated_sha256": "4877a27d7124d7106dc1375bbae5c8c7d85d53a7324c7850a9b3055771e573ff"
+    },
+    {
+      "path": "blog/2021-12-04-sdk-6.7-new/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-12-04-sdk-6.7-new/",
+      "source_sha256": "457022e6bf791c2413077946622f9f583ec4c85c157cb8fba2b9d3f826d5c107",
+      "generated_sha256": "a052578133afe1677d415b14624ed8e015e098ea1be4f793c578693e58d6aa0b"
+    },
+    {
+      "path": "blog/2021-12-27-sdk-7.0-new/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-12-27-sdk-7.0-new/",
+      "source_sha256": "6cd72c042678c4ac3f8edf460c3bebd92b9a5115912428550334a9547f4a430d",
+      "generated_sha256": "1f0f07a48b012619983c59003649f4f0bbea0fd538c220426bfbb97567ad552c"
+    },
+    {
+      "path": "blog/2021-7-29-vscode/index.md",
+      "source_url": "https://ingchips.github.io/blog/2021-7-29-vscode/",
+      "source_sha256": "b2dd634ece9f2c3a42a5cd90ca27f355fb0a809d7db51bbcf288c210fccbacea",
+      "generated_sha256": "e82bc40d1559f704edacb35a79f028f82bc57a7ce1cf245a92ed2ae57b05f8e3"
+    },
+    {
+      "path": "blog/2022-01-12-trace-over-the-air/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-01-12-trace-over-the-air/",
+      "source_sha256": "5c5dfacd48682d8d29595331905e539ebcef967d3397f95f2faa8e2137849534",
+      "generated_sha256": "2e9883aad0983711d8b99e4bf854cfd6794f56d7801c8a11397084292ff9876d"
+    },
+    {
+      "path": "blog/2022-01-23-trace-over-the-air/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-01-23-trace-over-the-air/",
+      "source_sha256": "29eeac5a920d3315ad4674cd1e0833cf2aa9441b7a6662b0ea6c266f3094a625",
+      "generated_sha256": "422e5f939cbab24a10accb2043320187bd6e2bf4980ca2c15f49c9460dbdf9e4"
+    },
+    {
+      "path": "blog/2022-01-28-sdk-8.0-new/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-01-28-sdk-8.0-new/",
+      "source_sha256": "a6d3028a86459134785f8cb12be6ed2e35986c8c003b86f3f9959790186b5d0d",
+      "generated_sha256": "decdac7b793ce9295bbbd0ec3b81a6faa4bc90664acd69ef083b01792fef2de0"
+    },
+    {
+      "path": "blog/2022-03-04-ing918-playground/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-03-04-ing918-playground/",
+      "source_sha256": "6bb22aa4fc1999c3e5b3d59b7968187303ba6fa133c986a7ea51ee644e28b52a",
+      "generated_sha256": "c95e350f6e5e847214389629cd4b8f6fae380b9905cd98cad40bb9c6e0c75970"
+    },
+    {
+      "path": "blog/2022-03-11-threadx-porting/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-03-11-threadx-porting/",
+      "source_sha256": "4cc714906b190c36cbbb966fd3d5d82ebe0e72cdfa41bf0e596788c992f0fa5e",
+      "generated_sha256": "5c2d57929d2842495b603597be5804456bcd3bbbc9d4700fb8a883648022b415"
+    },
+    {
+      "path": "blog/2022-06-02-sdk-8.1-new/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-06-02-sdk-8.1-new/",
+      "source_sha256": "d39cfa7cc13712ca149eb02e07ad6feada3091192a21eeb783a372fcc0776743",
+      "generated_sha256": "b8e13a5c0ef4dc34f64800228586122b9b755da2061e13e191fd0130124d5799"
+    },
+    {
+      "path": "blog/2022-08-08-ble_remote_ctrl_car/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-08-08-ble_remote_ctrl_car/",
+      "source_sha256": "5a628b8a3cdc282080b854a45e53db4dc2f372c36cbcab7fd7751770d86597dc",
+      "generated_sha256": "b85fcd374646388a4a2b49add85cfaa9d8397dcf8b367d2762a0d679c73d33ae"
+    },
+    {
+      "path": "blog/2022-08-09-ota_private_service/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-08-09-ota_private_service/",
+      "source_sha256": "779ed98b0810d70b3fbc48553ca7d57a00c0105cf1c4f498b2fa386aa47f43ba",
+      "generated_sha256": "633044f04888773c0fb0ba50b6977e76ab4484423fa9654c09f88d3b9eee7209"
+    },
+    {
+      "path": "blog/2022-08-12-ble-follower/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-08-12-ble-follower/",
+      "source_sha256": "45fa7d28b183c123680113d0c21d7b22841bea80072a4a511a601fc321ba804e",
+      "generated_sha256": "215eb78abfd6254ce4ee78ad9a68f5f162c82cb9ee021cb1207d92a219b961c8"
+    },
+    {
+      "path": "blog/2022-08-13-eink-word-builder/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-08-13-eink-word-builder/",
+      "source_sha256": "c1a0e1f38c4041b02d493f579e9f17974c200e8494a9cbfe73dd8bf7b5bb8731",
+      "generated_sha256": "654fc8145c95966d0cb24df4d5595165359321624776200b8f20e277fc007376"
+    },
+    {
+      "path": "blog/2022-09-24-use-rust/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-09-24-use-rust/",
+      "source_sha256": "3481ff4cb0faf23753b6428e01b0164b8f67bf3557fc792925ad14358677601c",
+      "generated_sha256": "c2384064a4fd2d7bfd013e5aa587b851ac328d9f031d973b59a499de826a06d0"
+    },
+    {
+      "path": "blog/2022-10-11-ram-limit/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-10-11-ram-limit/",
+      "source_sha256": "552169c7d6b8c62fd7f4a5c787dfff3a8af09b35d9a73a3fb1b7372e2894f562",
+      "generated_sha256": "0546a107cb55a2872ecfcb3513349223a312138e572ce46890307a141ad322bc"
+    },
+    {
+      "path": "blog/2022-11-30-sdk-8.2/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-11-30-sdk-8.2/",
+      "source_sha256": "0235505713dbfb80833eff2ca013a6b079cb6720c289e967daa97966c4dd0b94",
+      "generated_sha256": "15270e6bbd3d78d8ee8243d0833b4de2d5d5106c0e7d80f4538ccfff64d7ee3a"
+    },
+    {
+      "path": "blog/2022-12-16-cube/index.md",
+      "source_url": "https://ingchips.github.io/blog/2022-12-16-cube/",
+      "source_sha256": "a78bacbd8f5a712103f98b7460a63f86eb56608c755ec8b97cd127a4e7488131",
+      "generated_sha256": "45bae54f287361f86cb50299b2a505dfb1452e9be1468166d498bdd048d8757b"
+    },
+    {
+      "path": "blog/2023-02-15-sdk-8.3-new/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-02-15-sdk-8.3-new/",
+      "source_sha256": "0683fae8070ac1466f175ac4cb63577784eb59264c073d5a38d5bb5e804b4977",
+      "generated_sha256": "be932300fffdcb505d68f05d60b2d8e7ca0f1725d5965489f77cf8e6fa53bda5"
+    },
+    {
+      "path": "blog/2023-03-09-code-static-analysis/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-03-09-code-static-analysis/",
+      "source_sha256": "58c5c3c07c7569294fdc6cfe16ecdd49e101d624dafac6fcb116e5a6515b1140",
+      "generated_sha256": "7e318d33aabb26475f09a3fb7841087acfe8b605c2f01c0de53141b9d11be302"
+    },
+    {
+      "path": "blog/2023-03-11-legacy-aoa/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-03-11-legacy-aoa/",
+      "source_sha256": "8c2d6253e503a32cdfedf8edd951cef769228c2a1859cdb472571c6a8b0eb0fa",
+      "generated_sha256": "579ea15bfb903882f964d58de1b016f54628157076e8c61d809fa5488628dbdd"
+    },
+    {
+      "path": "blog/2023-03-11-sdk-8.3-new/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-03-11-sdk-8.3-new/",
+      "source_sha256": "4570a0e1dd6e624db1fc52964d263d552156ba4d26d3fac91fd3c261a4177255",
+      "generated_sha256": "db66bf520846e8fe0c85db442bc725fdd8ba161978eaf1cc8cf7bc2727d8c590"
+    },
+    {
+      "path": "blog/2023-03-17-cache_to_ram/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-03-17-cache_to_ram/",
+      "source_sha256": "ee4150cb066e60825c26bcb47e4139dce345aabb1a7e23a0f8e065c88bbb8808",
+      "generated_sha256": "ff44cc8e29a0d293e9ba5d64093e075827fdab940f259e5bc1ab1e11a8dcec32"
+    },
+    {
+      "path": "blog/2023-03-23-code-check-valgrind/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-03-23-code-check-valgrind/",
+      "source_sha256": "89409ce5b9d09a5a5c2ab05c607fcf538dba10c4cdc110175807026c87bc67be",
+      "generated_sha256": "516cfef137b13f0c2aa9a1f803ba7bcea95a94ac69a0d40b4fc346c061bc66e6"
+    },
+    {
+      "path": "blog/2023-05-08-uart_receives_variable_length_data/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-05-08-uart_receives_variable_length_data/",
+      "source_sha256": "08397e31bb699b9eb9f75a0caa944ab2f2efcf126b2dca5a09a7c59123b67dcf",
+      "generated_sha256": "9a4e0e27b988fbffd1a5553d21fb8323badac0749907c3f50f5d0d71c75ace53"
+    },
+    {
+      "path": "blog/2023-08-30-override-vector/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-08-30-override-vector/",
+      "source_sha256": "8c2dc86f7f4914de13f8f1a65689ee5f8b2a3611d8f0e7ddcd0648c5379f9468",
+      "generated_sha256": "300143673b6510301e18042205c1a059789cef420962b38a18b26d72ff23351a"
+    },
+    {
+      "path": "blog/2023-09-01-sdk-8.4-new/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-09-01-sdk-8.4-new/",
+      "source_sha256": "96234611dc6a8d492f32f2c1fd1e148116ef69598eff6a237f45b2e6f49f19d3",
+      "generated_sha256": "d33322bf15d888e35958c401f641cf97b94c05325f3ca5400177a20842a4c2bc"
+    },
+    {
+      "path": "blog/2023-11-02-axf-tool/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-11-02-axf-tool/",
+      "source_sha256": "fca50b50ec05a316cec011760cd6e2a49c1de47a82222bf120197359ceb2d2f8",
+      "generated_sha256": "c8990089b50a104684b20922ba3ad3fd7902a885b1b1e863114b03f0e3a40e14"
+    },
+    {
+      "path": "blog/2023-11-23-ing916-2nd-bootloader/index.md",
+      "source_url": "https://ingchips.github.io/blog/2023-11-23-ing916-2nd-bootloader/",
+      "source_sha256": "9353c608925c73bc7dacfb97b9e86871cf169c3549ae604378828986ea8330ce",
+      "generated_sha256": "e24cb81d0502fed3c9e5805c5b7c5bbd888a204a3bf3736ac771c9824e91adee"
+    },
+    {
+      "path": "blog/2024-02-05-external-flash/index.md",
+      "source_url": "https://ingchips.github.io/blog/2024-02-05-external-flash/",
+      "source_sha256": "9d8fabc49bb8c3984012845905532a5c91cc53a0d78834b1088386c9ef87047b",
+      "generated_sha256": "f972cfc542e25bd5f6f329ecba4e45ce8a93eebcf0ad3d2509dc9cd745653c91"
+    },
+    {
+      "path": "blog/2024-04-26-zephyr-setup/index.md",
+      "source_url": "https://ingchips.github.io/blog/2024-04-26-zephyr-setup/",
+      "source_sha256": "adf2097bbde07e7a9cd76cd783352730d9425e603b2d87d2822441cf5d2d2333",
+      "generated_sha256": "ba487433b28c73293b92a6520a57eef399cac3e5efd9cf99b3e820d5bde6952a"
+    },
+    {
+      "path": "blog/2024-11-28-dev-with-windsurf/index.md",
+      "source_url": "https://ingchips.github.io/blog/2024-11-28-dev-with-windsurf/",
+      "source_sha256": "a3a10a1d4bd4dd320d7901551be2cf1f544b05b67da40b38915b688f4fba65e8",
+      "generated_sha256": "75cc8b804ab9a9632fe906461af474087e5896591813e514ad4af8fa6ad80470"
+    },
+    {
+      "path": "blog/2024-11-28-llcp-preview/index.md",
+      "source_url": "https://ingchips.github.io/blog/2024-11-28-llcp-preview/",
+      "source_sha256": "6142843e9537237e34e7e959ea1a8ef5063319587279c3ad197c2583b0fe7ac4",
+      "generated_sha256": "5db06ebeb3c7852c6b02e0bcbb070f7c5839d41c4929668ac4a90d11f86f82e5"
+    },
+    {
+      "path": "blog/2025-04-22-sdk-8.5/index.md",
+      "source_url": "https://ingchips.github.io/blog/2025-04-22-sdk-8.5/",
+      "source_sha256": "53c8ba7fb3b384e3ed16acbc90333c319456e43213a4b7963579f514f9c0c666",
+      "generated_sha256": "9e7cca983b8890f0cf99fd89a9a98086cb8480f211618ea98775e89c014e8455"
+    },
+    {
+      "path": "blog/2025-06-13-create-independent-app/index.md",
+      "source_url": "https://ingchips.github.io/blog/2025-06-13-create-independent-app/",
+      "source_sha256": "79b7e784210f0b227a8d8f286c73fc55aa1398cf6605082954a7e78e484381f3",
+      "generated_sha256": "4c2a18319da1d97cbf9767b449464b4671c9f98843bb84afa4d25485fd9a467e"
+    },
+    {
+      "path": "blog/2025-09-12-sdk-9.0/index.md",
+      "source_url": "https://ingchips.github.io/blog/2025-09-12-sdk-9.0/",
+      "source_sha256": "9ce0e2468cc1621c2c6af8c9c6af4acccc45193ef7db4d3ad4f09e6bed711a8f",
+      "generated_sha256": "07fb4f6a5c5ca5b62ac2561ef65c1043e1398c0391ecb43d5876b7c752037efe"
+    },
+    {
+      "path": "blog/2026-05-15-sdk-9.1/index.md",
+      "source_url": "https://ingchips.github.io/blog/2026-05-15-sdk-9.1/",
+      "source_sha256": "bd3fa0a96567e0287525a4787135f09315f3716507c43a2fbdab9c81f057fe1a",
+      "generated_sha256": "2b09ddd6a86af67e775934ee352964a09cd92143d9d4b9445ecde5b517ade1e0"
+    },
+    {
+      "path": "blog/dual_role_zh/index.md",
+      "source_url": "https://ingchips.github.io/blog/dual_role_zh/",
+      "source_sha256": "437a05f674fed50424d0705114c61fd6ef13b82b901d9af6e332d829a1d670c5",
+      "generated_sha256": "159697b7ba708359316758150af3d8c6875777609ffe519c789bd4dc2d76e764"
+    },
+    {
+      "path": "blog/fota_demo_zh/index.md",
+      "source_url": "https://ingchips.github.io/blog/fota_demo_zh/",
+      "source_sha256": "7f3bdcf81c5d57d9b7692d8191b07dc647b211842328deb32a3c754555b4953a",
+      "generated_sha256": "6dad3925501f4807db4e7a528e9e6377d3febde5be5804fd62578a7024b9ec43"
+    },
+    {
+      "path": "blog/hello_world/index.md",
+      "source_url": "https://ingchips.github.io/blog/hello_world/",
+      "source_sha256": "f431a1ead2308d00864cb6605faeeb4a3f9a7b1ba0c061f5a04a7e9206b9f6cf",
+      "generated_sha256": "cc42472d6ef37c3fe0eec6ce9e062da15c871c8896440ca3de84a09318c2e889"
+    },
+    {
+      "path": "blog/ibeacon_zh/index.md",
+      "source_url": "https://ingchips.github.io/blog/ibeacon_zh/",
+      "source_sha256": "f76e4ad146240969ac50c1bb5650896df5f7f6bbfe3d77250cd3d30a39c1ac50",
+      "generated_sha256": "ac2ee4b7d959ec1e0088d73d70db98fd0ceb07066162b06f4174779402420605"
+    },
+    {
+      "path": "blog/sdk2.0_nim_zh/index.md",
+      "source_url": "https://ingchips.github.io/blog/sdk2.0_nim_zh/",
+      "source_sha256": "bcfc2cd4afb08d8f74f1025d5ef6e46765faae462c8d79a14ccc7f0d9dc55761",
+      "generated_sha256": "a33aec8e4d11b6f6aca90aab1d8d8ab4afcc458f7ff3d5f0af0bc401f7d0b968"
+    },
+    {
+      "path": "blog/throughput_zh/index.md",
+      "source_url": "https://ingchips.github.io/blog/throughput_zh/",
+      "source_sha256": "d115090cbef8ae6869cd90333418b1b59d51f35754305e88dde428610f71d794",
+      "generated_sha256": "122d4df8d4391395824f33e97db72a5ba26a992597fd3d9c7e1acc5cda302a10"
+    },
+    {
+      "path": "freertos_manual/01-About-the-FreeRTOS-kernel/01-FreeRTOS-kernel.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/01-About-the-FreeRTOS-kernel/01-FreeRTOS-kernel.md",
+      "source_sha256": null,
+      "generated_sha256": "af9ec0389afb7a83ee579ccbd3501860b00c9abaabcc815d4ddb294aafa3ddae"
+    },
+    {
+      "path": "freertos_manual/01-About-the-FreeRTOS-kernel/02-Quality-management.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/01-About-the-FreeRTOS-kernel/02-Quality-management.md",
+      "source_sha256": null,
+      "generated_sha256": "a3513c3a362abe8ac6670508c2a4b4274247b859c3e8f8bc8c4e92f38e871402"
+    },
+    {
+      "path": "freertos_manual/01-About-the-FreeRTOS-kernel/03-Download-freeRTOS/01-DownloadFreeRTOS.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/01-About-the-FreeRTOS-kernel/03-Download-freeRTOS/01-DownloadFreeRTOS.md",
+      "source_sha256": null,
+      "generated_sha256": "1f808ea6dc759da8104022ecf1f10687ddee115f08c8890f1f8aee92ff5dc7d2"
+    },
+    {
+      "path": "freertos_manual/01-About-the-FreeRTOS-kernel/04-Licensing.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/01-About-the-FreeRTOS-kernel/04-Licensing.md",
+      "source_sha256": null,
+      "generated_sha256": "562238ff09112046664f062d71bb03265daab2b527259b516eb090cad6200096"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/00-Developer-docs.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/00-Developer-docs.md",
+      "source_sha256": null,
+      "generated_sha256": "aea90458844af389b71caf828c600346c1b812fc77c1cd61fda328eccc272837"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/00-Tasks-and-co-routines.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/00-Tasks-and-co-routines.md",
+      "source_sha256": null,
+      "generated_sha256": "963de566c00ef6c9186aff8a20d30af11a495722eb03ed82530b76666bc87b14"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/01-Tasks-overview.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/01-Tasks-overview.md",
+      "source_sha256": null,
+      "generated_sha256": "2455ba098218c39fa5fc415fc2e6238513b0cd2fa6555f8cf969e10cc5fc19cb"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/02-Task-states.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/02-Task-states.md",
+      "source_sha256": null,
+      "generated_sha256": "c950029a206456e23909e22fb12ce4ef094b238f3672b2efd9965818bddc21d5"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/03-Task-priorities.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/03-Task-priorities.md",
+      "source_sha256": null,
+      "generated_sha256": "c6d90b9026980884c89502b4851b735536decbb69e5f2fce4054c25ed3ea18da"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/04-Task-scheduling.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/04-Task-scheduling.md",
+      "source_sha256": null,
+      "generated_sha256": "e8948d642671ee7419ad7e377d2f8afe679534b833bfadd353a166e8cd63b912"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/05-Implementing-a-task.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/05-Implementing-a-task.md",
+      "source_sha256": null,
+      "generated_sha256": "602fd54bfae2172d7f4027629bec3770da6a455449c687ef60a3f1717019ac88"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/06-Co-routine-overview.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/06-Co-routine-overview.md",
+      "source_sha256": null,
+      "generated_sha256": "ca5322d2ccd68681a55aa7e915688c9e768be6c9cbfbd88c35363615888d18a1"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/07-Co-routine-states.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/07-Co-routine-states.md",
+      "source_sha256": null,
+      "generated_sha256": "08f37a36722973cc647ca00b4ee40f2914d419ab8720b41e15fb9385f5c00028"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/08-Implementing-a-co-routine.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/08-Implementing-a-co-routine.md",
+      "source_sha256": null,
+      "generated_sha256": "efe242200b863484b0d02fe27f7e423d30742b311491887876166927dd3926ff"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/09-Co-routine-priorities.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/09-Co-routine-priorities.md",
+      "source_sha256": null,
+      "generated_sha256": "aae0d04d32212a4c5548f3699a634dadfb08030b400b15329516ade61fa6e94c"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/11-Scheduling-co-routines.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/11-Scheduling-co-routines.md",
+      "source_sha256": null,
+      "generated_sha256": "fdd721907bb61b14d43df3f686b368a3bcdabb296d4c7f397732d613525beed4"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/12-Limitations-and-restrictions.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/12-Limitations-and-restrictions.md",
+      "source_sha256": null,
+      "generated_sha256": "0bc2feee7f151bdddeedefd2abcf1a3cb76bba1e61a0d6e179a1c712f548a399"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/13-Co-routine-example.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/13-Co-routine-example.md",
+      "source_sha256": null,
+      "generated_sha256": "6cf82764cbf243a1067bf8efd8ce37c01272213af531b50c0c9050c55387b363"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/14-Standard-demo-examples.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/14-Standard-demo-examples.md",
+      "source_sha256": null,
+      "generated_sha256": "3b610f3ea282b047c31459ba3a3865d193a3973333a235c94ead091dad7089ad"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/15-Idle-task.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/15-Idle-task.md",
+      "source_sha256": null,
+      "generated_sha256": "b64181d832b406e72f95201173878928a259d03791dd83c9729e54209598c5f1"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/01-Tasks-and-co-routines/16-Thread-local-storage-pointers.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/16-Thread-local-storage-pointers.md",
+      "source_sha256": null,
+      "generated_sha256": "afc5603fb13e57c7bceb45efc8d9ef13544b1221db4a2480ea0dd5a72b442748"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/02-Queues-mutexes-and-semaphores/01-Queues.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/02-Queues-mutexes-and-semaphores/01-Queues.md",
+      "source_sha256": null,
+      "generated_sha256": "83c7cb77b766fe16c0a7b164e1a91417ae096237936f3f93dc33ef169ba12644"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/02-Queues-mutexes-and-semaphores/02-Binary-semaphores.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/02-Queues-mutexes-and-semaphores/02-Binary-semaphores.md",
+      "source_sha256": null,
+      "generated_sha256": "11dcd07173e22f322075c26706cb1d2676d1f2e1ec45b6cc185bf2e17091dc16"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/02-Queues-mutexes-and-semaphores/03-Counting-semaphores.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/02-Queues-mutexes-and-semaphores/03-Counting-semaphores.md",
+      "source_sha256": null,
+      "generated_sha256": "913bad01b13c855410d4ea6bb51443f487a33d4935a15913bdebb60d6624ec03"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/02-Queues-mutexes-and-semaphores/04-Mutexes.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/02-Queues-mutexes-and-semaphores/04-Mutexes.md",
+      "source_sha256": null,
+      "generated_sha256": "08edb07f3dedcae6f4a2aa3d0fbec29ed6ad1e1fd3002a438c27a67482fcbae7"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/02-Queues-mutexes-and-semaphores/05-Recursive-mutexes.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/02-Queues-mutexes-and-semaphores/05-Recursive-mutexes.md",
+      "source_sha256": null,
+      "generated_sha256": "36cf20f6c604c6483302148d0fafbfabd6a59cff0c5f87ce5d9b02afbd191a38"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/03-Direct-to-task-notifications/01-Task-notifications.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/03-Direct-to-task-notifications/01-Task-notifications.md",
+      "source_sha256": null,
+      "generated_sha256": "94c23e02311702ff03c477a2ef377e5b17ea9f2f2ab45ec7cca823eed0fca0f4"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/03-Direct-to-task-notifications/02-As-binary-semaphore.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/03-Direct-to-task-notifications/02-As-binary-semaphore.md",
+      "source_sha256": null,
+      "generated_sha256": "93956aa29147d0dddb78f78d0c7bbdd7db1b8e6168c9168200613eb3522b0e6e"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/03-Direct-to-task-notifications/03-As-counting-semaphore.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/03-Direct-to-task-notifications/03-As-counting-semaphore.md",
+      "source_sha256": null,
+      "generated_sha256": "15d34583bde3699480495b5402e9580809c22c0d031c2b7dc0148dd3f71e636d"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/03-Direct-to-task-notifications/04-As-event-group.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/03-Direct-to-task-notifications/04-As-event-group.md",
+      "source_sha256": null,
+      "generated_sha256": "ca165b0671c09a086f17edec167df39e2a921b1225d9b78feda2185327e5be09"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/03-Direct-to-task-notifications/05-As-mailbox.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/03-Direct-to-task-notifications/05-As-mailbox.md",
+      "source_sha256": null,
+      "generated_sha256": "40452965cfcecaa4a33b886f1febd8f064289c883406a3d1c6cfa6f96abee543"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/03-Direct-to-task-notifications/06-Inter-Task-Communication.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/03-Direct-to-task-notifications/06-Inter-Task-Communication.md",
+      "source_sha256": null,
+      "generated_sha256": "60873d8f7a0f8e0d767019fda796a6a16dd9df6e3e47df4b60ee0ced405c154c"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/04-Stream-and-message-buffers/01-RTOS-stream-and-message-buffers.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/04-Stream-and-message-buffers/01-RTOS-stream-and-message-buffers.md",
+      "source_sha256": null,
+      "generated_sha256": "b2d56a4a733ef1d9fe68fea65f295b6c8537f16317a7f7ffb3c4054a4ccbeacf"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/04-Stream-and-message-buffers/02-Stream-buffer-example.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/04-Stream-and-message-buffers/02-Stream-buffer-example.md",
+      "source_sha256": null,
+      "generated_sha256": "926748b688d129aa15520092cc65c9cb62cb69d07370ac822251e6371ff7432f"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/04-Stream-and-message-buffers/03-Message-buffer-example.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/04-Stream-and-message-buffers/03-Message-buffer-example.md",
+      "source_sha256": null,
+      "generated_sha256": "8a7118714add1c88104cd39f8a3275dc543e9d6d170a7e1bdf3e9676e49eddb3"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/05-Software-timers/01-Software-timers.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/05-Software-timers/01-Software-timers.md",
+      "source_sha256": null,
+      "generated_sha256": "96df2b3d81346303373298c168509992443fc823684e197f2b285aac4921bb33"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/05-Software-timers/02-Timer-service-daemon-task.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/05-Software-timers/02-Timer-service-daemon-task.md",
+      "source_sha256": null,
+      "generated_sha256": "626f4096ce459e4dd52fa4f3ede594ee6f3f752179a9d65a1b64f66a6e64b01c"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/05-Software-timers/03-Timer-daemon-configuration.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/05-Software-timers/03-Timer-daemon-configuration.md",
+      "source_sha256": null,
+      "generated_sha256": "70eb763a66f8297c69c7fb7190152463bf57377b236a62dd0a4fafd41f1c59c1"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/05-Software-timers/04-One-shot-vs-auto-load.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/05-Software-timers/04-One-shot-vs-auto-load.md",
+      "source_sha256": null,
+      "generated_sha256": "47bd243cdf61787eeb3ba8c3efd6ee9db551d9c8f05f918a230047dce858830a"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/05-Software-timers/05-Resetting-a-timer.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/05-Software-timers/05-Resetting-a-timer.md",
+      "source_sha256": null,
+      "generated_sha256": "afca6809b6d7a81eb8a74de49bbb5b053d13d34ecde9cfe25b9e700ed73a7a44"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/06-Event-groups.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/06-Event-groups.md",
+      "source_sha256": null,
+      "generated_sha256": "a38d99dd4f52866b324e06f3089630537286e20abd66cf8a3f8fe4807ce0efe1"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/07-Lower-power-support.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/07-Lower-power-support.md",
+      "source_sha256": null,
+      "generated_sha256": "8161c97da38e436db42696047c3676179915192690f58fefa8f93510417c4fe1"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/08-Run-time-statistics.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/08-Run-time-statistics.md",
+      "source_sha256": null,
+      "generated_sha256": "ae18e83388155997a516b0547d4cc0129c1b3751f3a768db8c5e856e634149b5"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/09-Memory-management/01-Memory-management.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/09-Memory-management/01-Memory-management.md",
+      "source_sha256": null,
+      "generated_sha256": "2c78c481ef2c91d20ad68ecfbf219c007a3c11afed53cf8056b1e9c5103130fc"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/09-Memory-management/02-Stack-usage-and-stack-overflow-checking.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/09-Memory-management/02-Stack-usage-and-stack-overflow-checking.md",
+      "source_sha256": null,
+      "generated_sha256": "ac99d31007644416e2884b5752bcf4009937d3bb5bc38252049911a9272de905"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/09-Memory-management/03-Static-vs-Dynamic-memory-allocation.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/09-Memory-management/03-Static-vs-Dynamic-memory-allocation.md",
+      "source_sha256": null,
+      "generated_sha256": "5e5bc69180cf52c88cd0a8ebf885a9f65c82770f68c3046e79ef07cc5f1e84af"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/09-Memory-management/04-Static-allocation-demo.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/09-Memory-management/04-Static-allocation-demo.md",
+      "source_sha256": null,
+      "generated_sha256": "98b7806508327410baae31c423d219bde865ba51fec0e934ccd965006ad54e84"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/09-RTOS-trace-feature.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/09-RTOS-trace-feature.md",
+      "source_sha256": null,
+      "generated_sha256": "08cb91edb9a2feb25d5254c1d6e70e186c44d37f9c09db4442704544a44b1019"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/10-Blocking-on-multiple-RTOS-objects.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/10-Blocking-on-multiple-RTOS-objects.md",
+      "source_sha256": null,
+      "generated_sha256": "fdbfd95d740028872b576f54d65b6353570de6d557839e196fa9cf52dd3dcfe7"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/11-Deferred-interrupt-handling.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/11-Deferred-interrupt-handling.md",
+      "source_sha256": null,
+      "generated_sha256": "ad2b88bfe081f0f36d032460376ad68cf4a5f3360d0067f96ce92883bcf46019"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/12-Hook-functions.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/12-Hook-functions.md",
+      "source_sha256": null,
+      "generated_sha256": "552006a3442033e9e810bf1246cbbd0c59e1d98d0f1209f79d6bdcd2a28eafae"
+    },
+    {
+      "path": "freertos_manual/02-Kernel-features/13-Symmetric-multiprocessing-introduction.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/02-Kernel-features/13-Symmetric-multiprocessing-introduction.md",
+      "source_sha256": null,
+      "generated_sha256": "6ca423be7ad59ea46478cfe95ea9a5fdcb6d7a258cbf3b217e47464393f0b665"
+    },
+    {
+      "path": "freertos_manual/04-API-references/01-Task-creation/00-TaskHandle.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/01-Task-creation/00-TaskHandle.md",
+      "source_sha256": null,
+      "generated_sha256": "49c940e847311d67ed7ce3bdf283bb23f46474d95c1f02757fdf117b5980bac9"
+    },
+    {
+      "path": "freertos_manual/04-API-references/01-Task-creation/01-xTaskCreate.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/01-Task-creation/01-xTaskCreate.md",
+      "source_sha256": null,
+      "generated_sha256": "ba62c1e9ef07ed17e353f8ef20dbbb929cacf277f5bd9d91a276077b4d3ded31"
+    },
+    {
+      "path": "freertos_manual/04-API-references/01-Task-creation/02-xTaskCreateStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/01-Task-creation/02-xTaskCreateStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "dae98abc2f28503e862e7dc9ced483dc0d721bc2ed18b1f320ee0df2d75ab00b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/01-Task-creation/03-vTaskDelete.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/01-Task-creation/03-vTaskDelete.md",
+      "source_sha256": null,
+      "generated_sha256": "46207b07368ae8d5ab5a94ae4f46df0c4656a7e7624a8ffe3288f9138144d419"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/00-Task-control.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/00-Task-control.md",
+      "source_sha256": null,
+      "generated_sha256": "f2197b780d50e6a7917db2959d31bd740f89f01f2c1a7c31f9cb9bb457cd5557"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/01-vTaskDelay.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/01-vTaskDelay.md",
+      "source_sha256": null,
+      "generated_sha256": "ab1168e2501e5619a15680416e3259e48b4714354a7436d2b7b7e62faa32b566"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/02-vTaskDelayUntil.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/02-vTaskDelayUntil.md",
+      "source_sha256": null,
+      "generated_sha256": "9043fd42ef79dbe75af91c655e9c46e7138aea84cf05568b55e56692737474cd"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/03-xTaskDelayUntil.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/03-xTaskDelayUntil.md",
+      "source_sha256": null,
+      "generated_sha256": "21fe95dac94e4412f58c260dfb54091ba01f032e3f9084397c28afecb8845aae"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/04-xTaskPeriodicDelay.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/04-xTaskPeriodicDelay.md",
+      "source_sha256": null,
+      "generated_sha256": "f51dfcf54261d73455e15e2f23c096141551352073a20d1127a8ec5b3253a2db"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/05-uxTaskPriorityGet.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/05-uxTaskPriorityGet.md",
+      "source_sha256": null,
+      "generated_sha256": "c543ff4d8c91c2801e124d8dadc36d6e18ad0dd3f1abd5d2962d5800b597dc17"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/06-vTaskPrioritySet.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/06-vTaskPrioritySet.md",
+      "source_sha256": null,
+      "generated_sha256": "3a805a53aa7ef90c8c80cb55311e9d9eae0c8c52f29b93a890bd6398be6b649f"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/07-vTaskSuspend.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/07-vTaskSuspend.md",
+      "source_sha256": null,
+      "generated_sha256": "93e2a5151d48a2125a95514c5967509ec29ede767989c8585e513d4cb6711fdf"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/08-vTaskResume.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/08-vTaskResume.md",
+      "source_sha256": null,
+      "generated_sha256": "42baec8ea38f2f3fd77b7c0eaa49bc369cfec84bc0f3355ed3dd1842cc4a1d02"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/09-xTaskResumeFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/09-xTaskResumeFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "1ada533bb1ec3e6cb1ffc903ac05bd57a5a3e8ad894cfcffb375432235897000"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/10-xTaskAbortDelay.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/10-xTaskAbortDelay.md",
+      "source_sha256": null,
+      "generated_sha256": "c8a8d5e7bf6b4768d0c9551be45d899217b7f9590feed0aac54b400a505d47c5"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/11-uxTaskPriorityGetFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/11-uxTaskPriorityGetFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "6da20a331afab64b23aa8f5894f5bf885b0980b94ef8457a40b556ad2adedbdc"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/12-uxTaskBasePriorityGet.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/12-uxTaskBasePriorityGet.md",
+      "source_sha256": null,
+      "generated_sha256": "8563eaf57803be8a7a81147a1dbf96bce18486de241d221a691b3ba5edeb0561"
+    },
+    {
+      "path": "freertos_manual/04-API-references/02-Task-control/13-uxTaskBasePriorityGetFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/02-Task-control/13-uxTaskBasePriorityGetFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "7e025cdd488094892583812d6571bf93aae55c9535ca66fa39ec10ad383154f4"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/00-Task-utilities.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/00-Task-utilities.md",
+      "source_sha256": null,
+      "generated_sha256": "890c93a05430415fc0d4bf5bebedb2327ead42c996f6cf836ad866a15dc44ef6"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/01-uxTaskGetSystemState.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/01-uxTaskGetSystemState.md",
+      "source_sha256": null,
+      "generated_sha256": "280ddad5279dbe9cdde1adc6a7a0b0d627d852d4a9025ee125e821681fe9b8d7"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/02-vTaskGetInfo.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/02-vTaskGetInfo.md",
+      "source_sha256": null,
+      "generated_sha256": "7097199e1630acb33a26c2d4410e93009c0b9f64d57624543f6ccf83baefc8c9"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/03-xTaskGetApplicationTaskTag.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/03-xTaskGetApplicationTaskTag.md",
+      "source_sha256": null,
+      "generated_sha256": "d49fdd52fbe8956779caa0432f401904c50bfd31e62bc8a9175fa8df2f927231"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/04-uxTaskGetStackHighWaterMark.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/04-uxTaskGetStackHighWaterMark.md",
+      "source_sha256": null,
+      "generated_sha256": "d1586c80b24f0c50a3e635123ab91267f238b805f9893492ca2664a89372dc1b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/05-xTaskCallApplicationTaskHook.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/05-xTaskCallApplicationTaskHook.md",
+      "source_sha256": null,
+      "generated_sha256": "9294dd531f9c077c13f9dcc96fb797a6ca63b719a9fadd93c69d613dc3e323dd"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/06-vTaskSetApplicationTag.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/06-vTaskSetApplicationTag.md",
+      "source_sha256": null,
+      "generated_sha256": "cd2130b377d086efa12c685753bd7d853a860d2825ea6450db1113d04ec0a580"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/07-vTaskSetThreadLocalStoragePointer.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/07-vTaskSetThreadLocalStoragePointer.md",
+      "source_sha256": null,
+      "generated_sha256": "2af01abd526991b5ffafc1819e44d9b923c7b4b722e1bd6b39d0a83de83a9c64"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/08-pvTaskGetThreadLocalStoragePointer.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/08-pvTaskGetThreadLocalStoragePointer.md",
+      "source_sha256": null,
+      "generated_sha256": "6848bf9648e00476e10f2378bef54438d7808117d8ec77db5c12a9858e20bfe2"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/09-vTaskSetTimeOutState.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/09-vTaskSetTimeOutState.md",
+      "source_sha256": null,
+      "generated_sha256": "333f81c616fbbd7ab174364278b646aa0843376900b3eb171c3bdf855ca001ae"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/10-xTaskCheckForTimeOut.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/10-xTaskCheckForTimeOut.md",
+      "source_sha256": null,
+      "generated_sha256": "0d8c361514d6e7a907976c959a78f33cf2570d953d29bb0d21b9be641c57f523"
+    },
+    {
+      "path": "freertos_manual/04-API-references/03-Task-utilities/11-eTaskConfirmSleepModeStatus.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/03-Task-utilities/11-eTaskConfirmSleepModeStatus.md",
+      "source_sha256": null,
+      "generated_sha256": "9171c44f5048ab7bc7ffae081ecba7885348a8793ad805fab46e23fa4dc92765"
+    },
+    {
+      "path": "freertos_manual/04-API-references/04-RTOS-kernel-control/00-Kernel-control.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/04-RTOS-kernel-control/00-Kernel-control.md",
+      "source_sha256": null,
+      "generated_sha256": "735ac6f74b6a2d687292401ad31b3d5420d75e2132ca0eec1a3db4176bbae1c7"
+    },
+    {
+      "path": "freertos_manual/04-API-references/04-RTOS-kernel-control/01-taskENTER_CRITICAL_taskEXIT_CRITICAL.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/04-RTOS-kernel-control/01-taskENTER_CRITICAL_taskEXIT_CRITICAL.md",
+      "source_sha256": null,
+      "generated_sha256": "ba805fe606b83a8cf324169e0a584652a6697357d998bd29e9bf8a03824ad698"
+    },
+    {
+      "path": "freertos_manual/04-API-references/04-RTOS-kernel-control/02-taskENTER_CRITICAL_FROM_ISR_taskEXIT_CRITICAL_FROM_ISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/04-RTOS-kernel-control/02-taskENTER_CRITICAL_FROM_ISR_taskEXIT_CRITICAL_FROM_ISR.md",
+      "source_sha256": null,
+      "generated_sha256": "f8ba00ff74869450e91fe0efc0caad48c55a7a446bcc6e214adfc06b7f8bff28"
+    },
+    {
+      "path": "freertos_manual/04-API-references/04-RTOS-kernel-control/03-vTaskStartScheduler.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/04-RTOS-kernel-control/03-vTaskStartScheduler.md",
+      "source_sha256": null,
+      "generated_sha256": "033cb5119b686b4e63fbb6f5f143a0f786c5b4d5f1e7b88fac07eccc06b3288c"
+    },
+    {
+      "path": "freertos_manual/04-API-references/04-RTOS-kernel-control/04-vTaskEndScheduler.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/04-RTOS-kernel-control/04-vTaskEndScheduler.md",
+      "source_sha256": null,
+      "generated_sha256": "0095ecbabbd1a49b46c7b8dce4375289c0b589f1f28482e6b6ca21f781a8fab9"
+    },
+    {
+      "path": "freertos_manual/04-API-references/04-RTOS-kernel-control/05-vTaskSuspendAll.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/04-RTOS-kernel-control/05-vTaskSuspendAll.md",
+      "source_sha256": null,
+      "generated_sha256": "7c23f0b5b9cb3ecad959a7ba6ead26af0d779a0257f6dda2c533f16d3e91c25a"
+    },
+    {
+      "path": "freertos_manual/04-API-references/04-RTOS-kernel-control/06-xTaskResumeAll.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/04-RTOS-kernel-control/06-xTaskResumeAll.md",
+      "source_sha256": null,
+      "generated_sha256": "b7368cc724848b2b647573dda1d330642e1a2dcfe4fad72ad3d75bf0e1dc8119"
+    },
+    {
+      "path": "freertos_manual/04-API-references/04-RTOS-kernel-control/07-vTaskStepTick.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/04-RTOS-kernel-control/07-vTaskStepTick.md",
+      "source_sha256": null,
+      "generated_sha256": "65c589c9cc98c12364c75ea42b557cf02c4360ff40e755fe21358909de98f526"
+    },
+    {
+      "path": "freertos_manual/04-API-references/04-RTOS-kernel-control/08-xTaskCatchUpTicks.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/04-RTOS-kernel-control/08-xTaskCatchUpTicks.md",
+      "source_sha256": null,
+      "generated_sha256": "450e826fd73dca8b00c873e65216ad2f722dbf6f0d136e2ddad85f04f321a446"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/00-RTOS-task-notifications.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/00-RTOS-task-notifications.md",
+      "source_sha256": null,
+      "generated_sha256": "2d596a040930c87ae42c6410d44b0bba7c88fa3a94aeea6e1c0ed7876b53428c"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/01-xTaskNotifyGive.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/01-xTaskNotifyGive.md",
+      "source_sha256": null,
+      "generated_sha256": "5d5510031826117bf3414e4f5e5e8a3520bbe6471a8a574e6686f160bda56367"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/02-vTaskNotifyGiveFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/02-vTaskNotifyGiveFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "3a58f56622b9d9b1bbbecde10155e5deb2a9cf10f9b1577dacac2e1b2dff535c"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/03-ulTaskNotifyTake.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/03-ulTaskNotifyTake.md",
+      "source_sha256": null,
+      "generated_sha256": "b5dc4f0b01642dd94a6740dbe7e4654bb24ac1ba9a58acc8d66b138ae4cb6bbc"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/04-xTaskNotify.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/04-xTaskNotify.md",
+      "source_sha256": null,
+      "generated_sha256": "917f057abb3f14e3888ca89823636321c6874bcd9622a66d7aa7bd25b758cd09"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/05-xTaskNotifyAndQuery.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/05-xTaskNotifyAndQuery.md",
+      "source_sha256": null,
+      "generated_sha256": "07c2fa6d988d8d12ef1623906d62a03253e3f663db33828b059ecb9094231ccf"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/06-xTaskNotifyAndQueryFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/06-xTaskNotifyAndQueryFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "644dfb6442304eb46ff999d8edb37140d51ffc82f0732cf2ae0c20b6dab1462b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/07-xTaskNotifyFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/07-xTaskNotifyFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "58dc7a7363b913e2a980476c39bebf3c94491fdb9febd6aae2ed4d092224c66f"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/08-xTaskNotifyWait.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/08-xTaskNotifyWait.md",
+      "source_sha256": null,
+      "generated_sha256": "dab2e6dd161518da3c135f312e748a88cb7a820fc2b7aaf8740f7a042202bf7d"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/09-xTaskNotifyStateClear.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/09-xTaskNotifyStateClear.md",
+      "source_sha256": null,
+      "generated_sha256": "92e08f2aa86f4653e658ae17c0e4b62c8d4d9c72b1ed08a5565dcbbd2802e1d5"
+    },
+    {
+      "path": "freertos_manual/04-API-references/05-Direct-to-task-notifications/10-ulTasknotifyValueClear.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/05-Direct-to-task-notifications/10-ulTasknotifyValueClear.md",
+      "source_sha256": null,
+      "generated_sha256": "033da707cce7ffb87b2806e47b543d0803f0525a68705310760663375f9ca0ae"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/00-QueueManagement.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/00-QueueManagement.md",
+      "source_sha256": null,
+      "generated_sha256": "14722fb4a0da6ea22bfb425b6ec3993d17800d5bc931c8c97dc125705acbd67b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/01-xQueueCreate.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/01-xQueueCreate.md",
+      "source_sha256": null,
+      "generated_sha256": "14302a3a589b7eeb5b12bcbbecb6627a817672b35e94bbb24bda10568e6e60cc"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/02-xQueueCreateStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/02-xQueueCreateStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "d67ed4d21d36ad4e0924e3ca3ba2a9b221b1a8499d7b17e162f19c20791527e6"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/03-xQueueSend.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/03-xQueueSend.md",
+      "source_sha256": null,
+      "generated_sha256": "b3d5ba7d4f61aa4c33e5df5a496a2ad5826c144b8b9d44ec7f20d1aa9b2ab81b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/04-xQueueSendFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/04-xQueueSendFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "5391eb01989e12556fd6749698daa1e3880589bb5bdb2538c8347320019acaea"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/05-xQueueSendToBack.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/05-xQueueSendToBack.md",
+      "source_sha256": null,
+      "generated_sha256": "5cffee83ba827e1414924a642d12183103e667ab282a0454b6694c7ee55ae625"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/06-xQueueSendToBackFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/06-xQueueSendToBackFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "65a0d1436c400365a6d0d34766adfe850a0d730410c630c50d59779d90d4c815"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/07-xQueueSendToFront.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/07-xQueueSendToFront.md",
+      "source_sha256": null,
+      "generated_sha256": "ebd15573c603c0e6679347afdbf0ebd1e8efecc9c1b9a1a8cdb46c8f78957e3d"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/08-xQueueSendToFrontFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/08-xQueueSendToFrontFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "130cb9985ea88a7b24ca0c085943d186635829e1e8facce41a5bb0ccbc9e9c30"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/09-xQueueReceive.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/09-xQueueReceive.md",
+      "source_sha256": null,
+      "generated_sha256": "53af62de5634ee30cefec3441dd3f73b2fe5576d93fe656d6f798545b980ed7f"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/10-xQueueReceiveFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/10-xQueueReceiveFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "2ea53ada5eb3c3c8851e01306e336ce05088ac4fed223df43cd3d6f2205d09cc"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/11-xQueueOverwrite.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/11-xQueueOverwrite.md",
+      "source_sha256": null,
+      "generated_sha256": "a4cec195ab647c456cd69c4ad6ece019d5aeb2cebbefafdc046faa832366dcaa"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/12-xQueueOverwriteFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/12-xQueueOverwriteFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "8059d113407a4909b0ddd975b3cfe1f865c90636748c6175f9f12da088402477"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/13-xQueuePeek.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/13-xQueuePeek.md",
+      "source_sha256": null,
+      "generated_sha256": "94586a842bdf9ce05cd21a13331dd8c041c6066ca4f8f9c9ac70049f319c44af"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/14-xQueuePeekFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/14-xQueuePeekFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "473c6a44fcef8f43a5a7feb0ab33df33aee5ced3670ac26f170e6c11d36cbec7"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/15-vQueueAddToRegistry.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/15-vQueueAddToRegistry.md",
+      "source_sha256": null,
+      "generated_sha256": "9c1a826b119cb02df851008a8488b16578aebc325cd83abbeca0754c2dbeb272"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/16-vQueueUnregisterQueue.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/16-vQueueUnregisterQueue.md",
+      "source_sha256": null,
+      "generated_sha256": "baeea6e4b44add319c50b446dd7dec1893a0f7d41b0913d7da78e128f444a4c8"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/17-pcQueueGetName.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/17-pcQueueGetName.md",
+      "source_sha256": null,
+      "generated_sha256": "a675153b57d86dd482916a4650c405064bca0bd0238adbe67a511c8e4ad2d07b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/06-Queues/18-xQueueGetStaticBuffers.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/06-Queues/18-xQueueGetStaticBuffers.md",
+      "source_sha256": null,
+      "generated_sha256": "34eda05b0b244e2766b88b69e9bba1d94411ccc69cf645e49484a595bc0ee78f"
+    },
+    {
+      "path": "freertos_manual/04-API-references/07-Queue-sets/00-RTOS-queue-sets.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/07-Queue-sets/00-RTOS-queue-sets.md",
+      "source_sha256": null,
+      "generated_sha256": "66dccdbf536bd97aab8a1b6377156b02f874918f2de0ef98b51b0592990d04a8"
+    },
+    {
+      "path": "freertos_manual/04-API-references/07-Queue-sets/01-xQueueCreateSet.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/07-Queue-sets/01-xQueueCreateSet.md",
+      "source_sha256": null,
+      "generated_sha256": "0b03193c0f4cfa72710fd8e1d1db9469f28709e43e84373aeb0335b268f3d9ee"
+    },
+    {
+      "path": "freertos_manual/04-API-references/07-Queue-sets/02-xQueueCreateSetStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/07-Queue-sets/02-xQueueCreateSetStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "c5bb564380cac287ad67240873129e58f537463d85d9ff2f0b1953054ef32dad"
+    },
+    {
+      "path": "freertos_manual/04-API-references/07-Queue-sets/03-xQueueAddToSet.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/07-Queue-sets/03-xQueueAddToSet.md",
+      "source_sha256": null,
+      "generated_sha256": "bc7b69a4961f0f2b636228aaa82a1b947e6d0de2701521b18918c568ed236c7d"
+    },
+    {
+      "path": "freertos_manual/04-API-references/07-Queue-sets/04-xQueueRemoveFromSet.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/07-Queue-sets/04-xQueueRemoveFromSet.md",
+      "source_sha256": null,
+      "generated_sha256": "e5fc1685f00ee02efb8decba8626313be1f2cf7a1147ece04a45ab8caf7c77b5"
+    },
+    {
+      "path": "freertos_manual/04-API-references/07-Queue-sets/05-xQueueSelectFromSet.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/07-Queue-sets/05-xQueueSelectFromSet.md",
+      "source_sha256": null,
+      "generated_sha256": "a5bb9fa21c0f3ef7f0cdc59d791fb9ada74ca9844975a0d67e96d887d278da3e"
+    },
+    {
+      "path": "freertos_manual/04-API-references/07-Queue-sets/06-xQueueSelectFromSetFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/07-Queue-sets/06-xQueueSelectFromSetFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "1a57d1154e240f2111393d67c2cd6b4477ec28b43df144fae2949c79098ef240"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/00-RTOS-stream-buffer-API.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/00-RTOS-stream-buffer-API.md",
+      "source_sha256": null,
+      "generated_sha256": "8b4c74ac2d234e9855637af42bd8abb8a576315e9286c28e4df1e910f65d2895"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/01-xStreamBufferCreate.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/01-xStreamBufferCreate.md",
+      "source_sha256": null,
+      "generated_sha256": "b5e28f74c4b99845c7c530055487f879ab4a21c6ca63819a279cad42d6d8202d"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/02-xStreamBufferCreateStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/02-xStreamBufferCreateStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "3857c8f2c50e4f76596fcd23404abf0fc3f722f317b2f17c59027d936936fdb9"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/03-xStreamBufferSend.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/03-xStreamBufferSend.md",
+      "source_sha256": null,
+      "generated_sha256": "d7a847b5c943b89e52a62686cfd044017f17c2d61426eb079d06148962cc03fa"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/04-xStreamBufferSendFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/04-xStreamBufferSendFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "ae14fc9ac3928b80d73ad00402e54f8e5f8dc3446fd2245f717cc81ea4cd3593"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/05-xStreamBufferReceive.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/05-xStreamBufferReceive.md",
+      "source_sha256": null,
+      "generated_sha256": "939857130c00e750be6b6003e461b3b2b2f7756dd197c5e0b6fda4201b11dbd5"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/06-xStreamBufferReceiveFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/06-xStreamBufferReceiveFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "a42f2a3e3bafabd58ef39fda522e7f13ddd8b3e6a05f7aed271b954c06ef714c"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/07-vStreamBufferDelete.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/07-vStreamBufferDelete.md",
+      "source_sha256": null,
+      "generated_sha256": "5e576b3bc0a1a97ea4a93ec4b6d246bc8acab5dd6f0cd01e5c121aeab0e3ba73"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/08-xStreamBufferBytesAvailable.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/08-xStreamBufferBytesAvailable.md",
+      "source_sha256": null,
+      "generated_sha256": "0a7d0b7b34ac0b9a7e43ad13c6bca2b2b0650810fd6876b7d7f38d0c6198a1b3"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/09-xStreamBufferSpacesAvailable.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/09-xStreamBufferSpacesAvailable.md",
+      "source_sha256": null,
+      "generated_sha256": "1155d6ce6d15bd4f0429861bbe7de2a5392fea6c044ebc4c018184f54f6f2acd"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/10-xStreamBufferSetTriggerLevel.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/10-xStreamBufferSetTriggerLevel.md",
+      "source_sha256": null,
+      "generated_sha256": "a0481760c1cbd3ad69727c1da12cb7a7b15c4336307bb18d652bfb3c8b02df69"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/11-xStreamBufferReset.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/11-xStreamBufferReset.md",
+      "source_sha256": null,
+      "generated_sha256": "89e2b400d36242a1740a0c26fed317edb5fbf42330aa461d7c18132d7bcb91c1"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/12-xStreamBufferIsEmpty.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/12-xStreamBufferIsEmpty.md",
+      "source_sha256": null,
+      "generated_sha256": "80893ccec72352a3cd763e17e6d13acb6b5f2606ad53253e8362cc101ea3528f"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/13-xStreamBufferIsFull.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/13-xStreamBufferIsFull.md",
+      "source_sha256": null,
+      "generated_sha256": "dfd112805e1e7d9ecd92800b67dcd78c3fc8fc99043eb57ce5704d8d709de31d"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/14-xStreamBufferResetFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/14-xStreamBufferResetFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "f0e61270a7469ff35f284dde2b8773b1de7a6768f25b363d4574ee0a1f509c35"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/15-xStreamBufferGetStaticBuffers.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/15-xStreamBufferGetStaticBuffers.md",
+      "source_sha256": null,
+      "generated_sha256": "e81213be2b0943b23459cd4430b3352601ed667bc631805c6015f38df188260b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/16-uxStreamBufferGetStreamBufferNotificationIndex.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/16-uxStreamBufferGetStreamBufferNotificationIndex.md",
+      "source_sha256": null,
+      "generated_sha256": "44eb03e934e8ecb73bc1a3c0a8bf7349025046c16c47dbf327e8c16355d0cc5b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/17-vStreamBufferSetStreamBufferNotificationIndex.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/17-vStreamBufferSetStreamBufferNotificationIndex.md",
+      "source_sha256": null,
+      "generated_sha256": "d337e5d293e9f9f9477fa5dde20c3b051ce46912bd19466541131d661c02fda1"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/18-xStreamBatchingBufferCreate.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/18-xStreamBatchingBufferCreate.md",
+      "source_sha256": null,
+      "generated_sha256": "445e56d69127c6b5c4e1dc7f5b9e4fdd74169c2df11084081322356048780089"
+    },
+    {
+      "path": "freertos_manual/04-API-references/08-Stream-buffers/19-xStreamBatchingBufferCreateStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/08-Stream-buffers/19-xStreamBatchingBufferCreateStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "def7dd5b107ad9f4c6d7cb6a4c5d778b523cfcfaeb8fedccbc30e1db3e81d2eb"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/00-RTOS-message-buffer-API.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/00-RTOS-message-buffer-API.md",
+      "source_sha256": null,
+      "generated_sha256": "117ea0613d6e0f566adf45eafa89ae002cd7826910fb1635b7ea56c431590f81"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/01-xMessageBufferCreate.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/01-xMessageBufferCreate.md",
+      "source_sha256": null,
+      "generated_sha256": "ace7596886486a7aeaedcb8672a7df623e8f7187380813f80f0d5b269f2e7120"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/02-xMessageBufferCreateStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/02-xMessageBufferCreateStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "876bcdb22f8f8d49def8d7e8c6cbf8752f9b68b359f8f62e6475f8f077338b2d"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/03-xMessageBufferSend.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/03-xMessageBufferSend.md",
+      "source_sha256": null,
+      "generated_sha256": "56a901877eaf180618637bb95a1b0c8dcbc555917e82587124825ffd788ee24c"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/04-xMessageBufferSendFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/04-xMessageBufferSendFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "de72ea5c64d5224d9881b78c270c8c817994b4bc5d88f16ded1dbb5ac5949993"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/05-xMessageBufferReceive.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/05-xMessageBufferReceive.md",
+      "source_sha256": null,
+      "generated_sha256": "18e2d8d5783d0b2eb9b32de308430ca015ee268882f5dd6b774303beedfcd386"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/06-xMessageBufferReceiveFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/06-xMessageBufferReceiveFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "6b0f99b3dd947e1d09657f780353608505dc310cc4747910cf7298abd94ff2cc"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/07-vMessageBufferDelete.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/07-vMessageBufferDelete.md",
+      "source_sha256": null,
+      "generated_sha256": "e6b358df72ad058a22b4d1f1b770c86210be9ef68ea24075ad41aa1562368a85"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/08-xMessageBufferSpacesAvailable.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/08-xMessageBufferSpacesAvailable.md",
+      "source_sha256": null,
+      "generated_sha256": "48ceb14290e688df04d43751efb8b01b9a694e91a3d31257f8de4bcc2a0957fe"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/09-xMessageBufferReset.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/09-xMessageBufferReset.md",
+      "source_sha256": null,
+      "generated_sha256": "c3ce6b3e1290502020afff6a4f6973c44795a344350c0121d75851ec0d4dfcc3"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/10-xMessageBufferIsEmpty.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/10-xMessageBufferIsEmpty.md",
+      "source_sha256": null,
+      "generated_sha256": "7ada693581db8b5a9f71d96869891ef8c75061491b3e10329bf743ee81bb6149"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/11-xMessageBufferIsFull.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/11-xMessageBufferIsFull.md",
+      "source_sha256": null,
+      "generated_sha256": "bc80d4c16a1914d40dd23c5533f2185ce71ed097511055ea6f374865ca51461b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/12-xMessageBufferResetFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/12-xMessageBufferResetFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "24c7b020c475ae564445b8c835e9b0121ba247588499062a9f976ba60d7289c2"
+    },
+    {
+      "path": "freertos_manual/04-API-references/09-Message-buffers/13-xMessageBufferGetStaticBuffers.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/09-Message-buffers/13-xMessageBufferGetStaticBuffers.md",
+      "source_sha256": null,
+      "generated_sha256": "a266eedda4634f5238e79ce2cde7b4e26f4583f1d29f34575ab789217366b2ff"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/00-Semaphores.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/00-Semaphores.md",
+      "source_sha256": null,
+      "generated_sha256": "fcae87bd3811bc339b62bdd3d2ffc0857d917ace053511823be72ce22e3c4e31"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/01-xSemaphoreCreateBinary.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/01-xSemaphoreCreateBinary.md",
+      "source_sha256": null,
+      "generated_sha256": "394a3342a950151113bbee693683b353ef1780f08e20d48662a5b48d7af13439"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/02-xSemaphoreCreateBinaryStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/02-xSemaphoreCreateBinaryStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "62c554d8d3be67f34bb5eda6f0d783f710b8984beb3276ea73c8e655c43d57f6"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/03-vSemaphoreCreateBinary.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/03-vSemaphoreCreateBinary.md",
+      "source_sha256": null,
+      "generated_sha256": "0acedb8f4db9ec3b348aba5ab970ff73926714a0f18c6c360fa0be28e273717b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/04-xSemaphoreCreateCounting.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/04-xSemaphoreCreateCounting.md",
+      "source_sha256": null,
+      "generated_sha256": "b7761878ae8becb33ba69142c91953b819a4b3a3221cf016e160aad528ea1f7e"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/05-xSemaphoreCreateCountingStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/05-xSemaphoreCreateCountingStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "787e0f7d2b0e55a0d3eb2360aac64e09b40fd446dcbcb2030560012809ca83f8"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/06-xSemaphoreCreateMutex.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/06-xSemaphoreCreateMutex.md",
+      "source_sha256": null,
+      "generated_sha256": "59f186354cd79b38acf392f3dc7e57afb008c857abd7e18f2546bd7201c0f236"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/07-xSemaphoreCreateMutexStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/07-xSemaphoreCreateMutexStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "1367e5bc0698f2d898f072ed6ab0d90fbe55866aea4bbda773321887cf44fd5a"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/08-xSemaphoreCreateRecursiveMutex.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/08-xSemaphoreCreateRecursiveMutex.md",
+      "source_sha256": null,
+      "generated_sha256": "65045b5fb0362025d2a154825545a889e851d9b7854b1acbca876c9684cd67d2"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/09-xSemaphoreCreateRecursiveMutexStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/09-xSemaphoreCreateRecursiveMutexStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "631aed5802420cf20db875c5bcf93c5788818ab6834933a90419f80107b04146"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/10-xSemaphoreGetMutexHolder.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/10-xSemaphoreGetMutexHolder.md",
+      "source_sha256": null,
+      "generated_sha256": "9edc5be918a9f4a25e640d3c223d4992fff0db8a021d11359bf8145307a84764"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/11-uxSemaphoreGetCount.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/11-uxSemaphoreGetCount.md",
+      "source_sha256": null,
+      "generated_sha256": "4f654168afaa886b458e8a2155bac245413e3a2c863ec60c46c4826cd38184e5"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/12-xSemaphoreTake.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/12-xSemaphoreTake.md",
+      "source_sha256": null,
+      "generated_sha256": "e7a0e16f1c6e0da9671494c2edb6da6d689b2d4579b55e207d32efecf77750c2"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/13-xSemaphoreTakeFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/13-xSemaphoreTakeFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "3ec4ac9357c550f6e53d902e19c06dbee21b98b28f5a0ad4df2e71bc4299692c"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/14-xSemaphoreTakeRecursive.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/14-xSemaphoreTakeRecursive.md",
+      "source_sha256": null,
+      "generated_sha256": "aeab482bd35cb77c6a6dfb2bef9f4d23f53fd15121e748c1dc0240cb259063b9"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/15-xSemaphoreGive.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/15-xSemaphoreGive.md",
+      "source_sha256": null,
+      "generated_sha256": "043fe76422d1a0be0e52b471aa1701524f4d8966fe1a0e0cc4e73e48dcbc9696"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/16-xSemaphoreGiveRecursive.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/16-xSemaphoreGiveRecursive.md",
+      "source_sha256": null,
+      "generated_sha256": "221ce40d2ff1da5e91344db7aeb192934e1f34bfbbcac9d12be3648625e452d1"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/17-xSemaphoreGiveFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/17-xSemaphoreGiveFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "8dfb23e0ee96138ae671ec1a8f67b82046eefa3f76132fc6251b4f8749c64ab0"
+    },
+    {
+      "path": "freertos_manual/04-API-references/10-Semaphore-and-Mutexes/18-vSemaphoreDelete.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/10-Semaphore-and-Mutexes/18-vSemaphoreDelete.md",
+      "source_sha256": null,
+      "generated_sha256": "28a7a9451de2b0ff0bef9e673224b75160a4d6339962e192f360f22c935ae429"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/00-FreeRTOS-Software-Timer-API-Functions.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/00-FreeRTOS-Software-Timer-API-Functions.md",
+      "source_sha256": null,
+      "generated_sha256": "806f834c7a8dc4a8a917a8c6e06fe399564f857752f014af50ed03f53998c094"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/01-xTimerCreate.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/01-xTimerCreate.md",
+      "source_sha256": null,
+      "generated_sha256": "43874c9d221b681082375cc5ea349c49e9f678a803c838c6f84dd489da3fd912"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/03-xTimerIsTimerActive.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/03-xTimerIsTimerActive.md",
+      "source_sha256": null,
+      "generated_sha256": "96d8e73573476657bcf6ff4c4ba938613a7c6c2f2129bd540f1d386336a37c75"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/04-xTimerStart.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/04-xTimerStart.md",
+      "source_sha256": null,
+      "generated_sha256": "41c2bf47051b1a453e32e7fbc59716a314ed72302f94a5ce6b3a053bf5b0da2e"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/05-xTimerStop.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/05-xTimerStop.md",
+      "source_sha256": null,
+      "generated_sha256": "08669214ce9e5900a1b3601257fb7b27aa6477128941fb1d105bca09ca3f1a6d"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/06-xTimerChangePeriod.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/06-xTimerChangePeriod.md",
+      "source_sha256": null,
+      "generated_sha256": "721377437cfa247124438fd487c3c62c058faa24012fc594e87909871d6ddc7e"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/07-xTimerDelete.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/07-xTimerDelete.md",
+      "source_sha256": null,
+      "generated_sha256": "f1ef684c3c3295c76c687436ca25cc333723d7f2b5a144a3d7108bedc66b2e88"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/08-xTimerReset.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/08-xTimerReset.md",
+      "source_sha256": null,
+      "generated_sha256": "8c294ae801edfc8c7955a2656bc8d5f3bc61c8c0b6ba54e9bd00106494677ccb"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/09-xTimerStartFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/09-xTimerStartFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "27bb19a647803ec48629d2dd6ec7ecc79d117aadb5001a7603513e673b284a45"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/10-xTimerStopFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/10-xTimerStopFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "052f8176a33cb8068a33ac13b26e6a0ccd335b2832ef06d6887c9205b166b196"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/11-xTimerChangePeriodFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/11-xTimerChangePeriodFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "523bd7b6f3febae61752df09bd8e72de0f980f779e133062ca26c454f4fc7636"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/12-xTimerResetFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/12-xTimerResetFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "b0d34ec65e9e25ba60345ff8c00e5ded4f13dc32e37502b469b137e380893115"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/13-pvTimerGetTimerID.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/13-pvTimerGetTimerID.md",
+      "source_sha256": null,
+      "generated_sha256": "869dad5e1f24a549f5fd77c7d791b5a3020d4aaad22ae6b08fa4ca3c0d870639"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/14-vTimerSetReloadMode.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/14-vTimerSetReloadMode.md",
+      "source_sha256": null,
+      "generated_sha256": "4567b13d19df7d19a28f988cfe4e2c6f579edea0c005113f0653f28d2f216926"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/15-vTimerSetTimerID.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/15-vTimerSetTimerID.md",
+      "source_sha256": null,
+      "generated_sha256": "895a3f374e3ecd1d8caff6346853484d1eb670fc634c492ba32f4dff58428a7b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/17-xTimerPendFunctionCall.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/17-xTimerPendFunctionCall.md",
+      "source_sha256": null,
+      "generated_sha256": "362dde996f4981be63c71d97ad12477536656190d4c8d7daeb0047513b2bdd5d"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/18-xTimerPendFunctionCallFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/18-xTimerPendFunctionCallFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "57998a0b12dffb062bfd58728e0bc4a086ca012979851de79032157a359d3c65"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/19-pcTimerGetName.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/19-pcTimerGetName.md",
+      "source_sha256": null,
+      "generated_sha256": "4a11647150bae1a7f91b11968ed842ced6cfec5ad00a3b0bc08c88bb0aabba50"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/20-xTimerGetPeriod.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/20-xTimerGetPeriod.md",
+      "source_sha256": null,
+      "generated_sha256": "fe92421a4fbec3fa549ed42ba9b248526f2547b272a3a74dce20b24307238126"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/21-xTimerGetExpiryTime.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/21-xTimerGetExpiryTime.md",
+      "source_sha256": null,
+      "generated_sha256": "e09553881c7230daa493e8f9aa654a00edd956e164d63f12f977b65714b18ace"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/22-xTimerCreateStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/22-xTimerCreateStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "01facc92247680ff677c5c519707148c54014e58c33985ade5921ec18e31b4bb"
+    },
+    {
+      "path": "freertos_manual/04-API-references/11-Software-timers/23-xTimerGetReloadMode.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/11-Software-timers/23-xTimerGetReloadMode.md",
+      "source_sha256": null,
+      "generated_sha256": "a269b0914a24d90136fb9ad72854c4c2a61f3755b0e32423b8ea5bc02441d6b5"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/00-Event-groups.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/00-Event-groups.md",
+      "source_sha256": null,
+      "generated_sha256": "51db6f882eab82218b9291a4ceabb9ff586bbff0d806de82b8ed8e7bded2c9c6"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/01-xEventGroupCreate.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/01-xEventGroupCreate.md",
+      "source_sha256": null,
+      "generated_sha256": "c325f3f1ec356e78eaa751c8e5222d47225d6f15a2c54552873998966da2c285"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/02-xEventGroupCreateStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/02-xEventGroupCreateStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "f9749507e68297437ff4c1761805e905cb737839a51f87967d65d453a7aaa94b"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/03-vEventGroupDelete.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/03-vEventGroupDelete.md",
+      "source_sha256": null,
+      "generated_sha256": "c49b5d3bf738ea466aa2ab489f4e38b486afca13b3d8d6770d0c533aaf2d9347"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/04-xEventGroupWaitBits.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/04-xEventGroupWaitBits.md",
+      "source_sha256": null,
+      "generated_sha256": "83e7bd7027c69e5501a9f744253954a1c5e730b0ac7a789648cd902b43f9de22"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/05-xEventGroupSetBits.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/05-xEventGroupSetBits.md",
+      "source_sha256": null,
+      "generated_sha256": "abd33d3e82baf5ba6e94c9528a58fb83a8107bf657eed81ad3dbe712c08d5510"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/06-xEventGroupSetBitsFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/06-xEventGroupSetBitsFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "34433b0b946199acb5bfaea938d37e946e8821efb8d3baffc8f9146fc3dd233d"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/07-xEventGroupClearBits.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/07-xEventGroupClearBits.md",
+      "source_sha256": null,
+      "generated_sha256": "ea145e962bf1fc518f65947d3ebc79bbcd01ef3ba75e5851c3f61cceffd5f800"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/08-xEventGroupClearBitsFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/08-xEventGroupClearBitsFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "8f5749dd99bed8f0ae9687dc15a66c3a3b652eebd79afa36cdac4bcd3beb9703"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/09-xEventGroupGetBits.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/09-xEventGroupGetBits.md",
+      "source_sha256": null,
+      "generated_sha256": "d8d5a0cf4b4cb8b101f5a62e4772d5aefdb850c83abecd4470074d591e1f00e2"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/10-xEventGroupGetBitsFromISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/10-xEventGroupGetBitsFromISR.md",
+      "source_sha256": null,
+      "generated_sha256": "9cdca38761f8581d299d8741b131eb82da9b2abfcec61b16ab032f1d057e35f4"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/11-xEventGroupSync.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/11-xEventGroupSync.md",
+      "source_sha256": null,
+      "generated_sha256": "4595b290024bba563a3d48cde04b9f14e139adc8e876b9c5726bbd8484d273a8"
+    },
+    {
+      "path": "freertos_manual/04-API-references/12-Event-groups-or-flags/12-xEventGroupGetStaticBuffer.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/12-Event-groups-or-flags/12-xEventGroupGetStaticBuffer.md",
+      "source_sha256": null,
+      "generated_sha256": "3512fdd7d16d92f62c990ce6156f074ec9cbde420be7e0553e2b4e64a3e14191"
+    },
+    {
+      "path": "freertos_manual/04-API-references/13-FreeRTOS-MPU-specific/00-FreeRTOS-MPU-specific.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/13-FreeRTOS-MPU-specific/00-FreeRTOS-MPU-specific.md",
+      "source_sha256": null,
+      "generated_sha256": "24a58d7af024fc86da52daf04601c7409ca9efd1a18ef40e6bdca65cfbe4ebd4"
+    },
+    {
+      "path": "freertos_manual/04-API-references/13-FreeRTOS-MPU-specific/01-xTaskCreateRestricted.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/13-FreeRTOS-MPU-specific/01-xTaskCreateRestricted.md",
+      "source_sha256": null,
+      "generated_sha256": "3a2717ed940849b7f50701549a815cf7d3ea15ef6234ebd807b506e09a2be7e9"
+    },
+    {
+      "path": "freertos_manual/04-API-references/13-FreeRTOS-MPU-specific/02-xTaskCreateRestrictedStatic.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/13-FreeRTOS-MPU-specific/02-xTaskCreateRestrictedStatic.md",
+      "source_sha256": null,
+      "generated_sha256": "0d841e6a222e602414b725d6933dbc894bb34538b20c4804600c17f3573226ed"
+    },
+    {
+      "path": "freertos_manual/04-API-references/13-FreeRTOS-MPU-specific/03-vTaskAllocateMPURegions.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/13-FreeRTOS-MPU-specific/03-vTaskAllocateMPURegions.md",
+      "source_sha256": null,
+      "generated_sha256": "54f1a51b7e352cffff1a4cba944dfdb45f6cfa2db0cc1869a40efcff44233f60"
+    },
+    {
+      "path": "freertos_manual/04-API-references/13-FreeRTOS-MPU-specific/04-portSWITCH_TO_USER_MODE.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/13-FreeRTOS-MPU-specific/04-portSWITCH_TO_USER_MODE.md",
+      "source_sha256": null,
+      "generated_sha256": "5c465fede51c49c7dd760cd1cf3e66a6d78a968b20c524ce3c0524d3cf43176e"
+    },
+    {
+      "path": "freertos_manual/04-API-references/13-FreeRTOS-MPU-specific/05-vGrantAccessTo-and-vRevokeAccessTo.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/13-FreeRTOS-MPU-specific/05-vGrantAccessTo-and-vRevokeAccessTo.md",
+      "source_sha256": null,
+      "generated_sha256": "151cae3774440bcec67483d3b9c4e1f99af1cf07b039f3692c4d44d823048643"
+    },
+    {
+      "path": "freertos_manual/04-API-references/14-Co-routines/00-Co-routine-API.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/14-Co-routines/00-Co-routine-API.md",
+      "source_sha256": null,
+      "generated_sha256": "efba2a199de26a414ca02d83e9626734788c33597f2d99cbc2be0cd225106e75"
+    },
+    {
+      "path": "freertos_manual/04-API-references/14-Co-routines/01-xCoRoutineCreate.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/14-Co-routines/01-xCoRoutineCreate.md",
+      "source_sha256": null,
+      "generated_sha256": "6b7aa6206694c1a51c01067099080b52b6533c86e5ff6dcb658f8478c33b7026"
+    },
+    {
+      "path": "freertos_manual/04-API-references/14-Co-routines/02-crDELAY.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/14-Co-routines/02-crDELAY.md",
+      "source_sha256": null,
+      "generated_sha256": "e75ae81bd5476821d5b39cedbf9e9bd466b9acad90cb3936b3749ca0276acb67"
+    },
+    {
+      "path": "freertos_manual/04-API-references/14-Co-routines/03-crQUEUE_SEND.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/14-Co-routines/03-crQUEUE_SEND.md",
+      "source_sha256": null,
+      "generated_sha256": "6c2ce4c63fa882af8afc31493960168a007959887379e16a3fb941882d143788"
+    },
+    {
+      "path": "freertos_manual/04-API-references/14-Co-routines/04-crQUEUE_RECEIVE.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/14-Co-routines/04-crQUEUE_RECEIVE.md",
+      "source_sha256": null,
+      "generated_sha256": "6c8fadb6022d49923af32f7f7abbfc316eb08991d5f4789cfde333a601eb00d0"
+    },
+    {
+      "path": "freertos_manual/04-API-references/14-Co-routines/05-crQUEUE_SEND_FROM_ISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/14-Co-routines/05-crQUEUE_SEND_FROM_ISR.md",
+      "source_sha256": null,
+      "generated_sha256": "12f50b33bd314e1e66058ae45e3d64ebf4226c5635668e2deb2c8c63c2a2a9b1"
+    },
+    {
+      "path": "freertos_manual/04-API-references/14-Co-routines/06-crQUEUE_RECEIVE_FROM_ISR.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/14-Co-routines/06-crQUEUE_RECEIVE_FROM_ISR.md",
+      "source_sha256": null,
+      "generated_sha256": "38262b26497a084862e9ea73fc9dc229ed1692c72a8b956adf1f84e10a1bc069"
+    },
+    {
+      "path": "freertos_manual/04-API-references/14-Co-routines/07-vCoRoutineSchedule.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/04-API-references/14-Co-routines/07-vCoRoutineSchedule.md",
+      "source_sha256": null,
+      "generated_sha256": "cf0b7fd63a8cd45264324812f4c0e21c3cf0befd367290ac64f49437d4f409fb"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/01-RTOS-implementation.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/01-RTOS-implementation.md",
+      "source_sha256": null,
+      "generated_sha256": "b0f4b2b2da828803c8755243fcd28949f5a580153c8132a2f663954dc0e7c364"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/02-Building-blocks/01-Building-blocks.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/02-Building-blocks/01-Building-blocks.md",
+      "source_sha256": null,
+      "generated_sha256": "ba827cfd8efdcd6e10ac41cdc3e2c018c39b814e0f521b19c72aa407a05eb95f"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/02-Building-blocks/02-C-development-tools.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/02-Building-blocks/02-C-development-tools.md",
+      "source_sha256": null,
+      "generated_sha256": "597d9687c44d3cd419f6418913f8ec64eeb5e10f9338c2c6568d38eccf28360c"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/02-Building-blocks/03-The-RTOS-tick.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/02-Building-blocks/03-The-RTOS-tick.md",
+      "source_sha256": null,
+      "generated_sha256": "cd136617b304dd30fc0bc162ccb3af378519f59c3670e3730581a8b72226d150"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/02-Building-blocks/05-GCC-signal-attribute.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/02-Building-blocks/05-GCC-signal-attribute.md",
+      "source_sha256": null,
+      "generated_sha256": "2fae90578b5a41ba478a3e47c9d94a08a5add02ac2caa1531ee3287f6b76c376"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/02-Building-blocks/06-GCC-naked-attributes.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/02-Building-blocks/06-GCC-naked-attributes.md",
+      "source_sha256": null,
+      "generated_sha256": "6c4efb8a2aa8a347cda9b4ccc9067876abb8d84b945835b2b8c6318d9f1ab283"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/02-Building-blocks/07-FreeRTOS-tick-code.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/02-Building-blocks/07-FreeRTOS-tick-code.md",
+      "source_sha256": null,
+      "generated_sha256": "3bb652be126709bc12aa1680716100270e3cb31a518e25052cc7fd483f2c1886"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/02-Building-blocks/08-The-AVR-context.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/02-Building-blocks/08-The-AVR-context.md",
+      "source_sha256": null,
+      "generated_sha256": "412d5bcdddce10781366c7448b3ac59c948561344a95ede3c76bde02faa76a19"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/02-Building-blocks/09-Saving-the-RTOS-task-context.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/02-Building-blocks/09-Saving-the-RTOS-task-context.md",
+      "source_sha256": null,
+      "generated_sha256": "cd159aa0a1f01673a61a3b943e6022bd8b7147b9028ba7c6bbc8c695a056c74c"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/02-Building-blocks/10-Restoring-the-context.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/02-Building-blocks/10-Restoring-the-context.md",
+      "source_sha256": null,
+      "generated_sha256": "2bbd1b05e88f706669995f06adddc5aca662f8a6ba0b0f85532a8102b877cf6b"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/02-Building-blocks/11-Tick-Resolution.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/02-Building-blocks/11-Tick-Resolution.md",
+      "source_sha256": null,
+      "generated_sha256": "8ed7f3700f89463425107f9813a0019c34f41e33de4b5b86b84f5558385271b2"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/03-Detailed-example/01-Putting-it-all-together.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/03-Detailed-example/01-Putting-it-all-together.md",
+      "source_sha256": null,
+      "generated_sha256": "7f56b3c6e7fb8ad7e274640e914a3d1567bc20688f390fe9dcd7b01989e5af9d"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/03-Detailed-example/02-Step-1.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/03-Detailed-example/02-Step-1.md",
+      "source_sha256": null,
+      "generated_sha256": "074762ffde15bcaf225ec4da093e90b0824fc7ed33ea39a9e3a300fddd48db50"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/03-Detailed-example/03-Step-2.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/03-Detailed-example/03-Step-2.md",
+      "source_sha256": null,
+      "generated_sha256": "eadb2752531b731730c7444a59ee84c9a0de4302c7db21656208b441e2079072"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/03-Detailed-example/04-Step-3.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/03-Detailed-example/04-Step-3.md",
+      "source_sha256": null,
+      "generated_sha256": "e8697b45504bec5c8981135de9fb2390d26f797f04c14f9ef446d10921131b23"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/03-Detailed-example/05-Step-4.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/03-Detailed-example/05-Step-4.md",
+      "source_sha256": null,
+      "generated_sha256": "d63665c555879358516bde84850ab32a4873fe3fff0a736e5ddbb28a9ba47f7b"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/03-Detailed-example/06-Step-5.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/03-Detailed-example/06-Step-5.md",
+      "source_sha256": null,
+      "generated_sha256": "afc7a1c8325b698ab571d85c6cce2f030017041d66efb35a1f0ded3121e9f34e"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/03-Detailed-example/07-Step-6.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/03-Detailed-example/07-Step-6.md",
+      "source_sha256": null,
+      "generated_sha256": "00b77eff60bef2660496323788f212bede4d1b994bcad017ee2d52c98d634cf8"
+    },
+    {
+      "path": "freertos_manual/05-RTOS-implementation-tutorial/03-Detailed-example/08-Step-7.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/05-RTOS-implementation-tutorial/03-Detailed-example/08-Step-7.md",
+      "source_sha256": null,
+      "generated_sha256": "38268bcf89bbcccc45f8e8cbc51c63fa1b7453d2a871d10147d0fcb009771c2e"
+    },
+    {
+      "path": "freertos_manual/06-Coding-guidelines/01-Source-code-organization.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/06-Coding-guidelines/01-Source-code-organization.md",
+      "source_sha256": null,
+      "generated_sha256": "956120a000be91b756c0874fbf33454956e903885c2a3b804fa09ba0b9abc9b1"
+    },
+    {
+      "path": "freertos_manual/06-Coding-guidelines/02-FreeRTOS-Coding-Standard-and-Style-Guide.md.md",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS-Website-Content/tree/main/content/en-us/Documentation/02-Kernel/06-Coding-guidelines/02-FreeRTOS-Coding-Standard-and-Style-Guide.md",
+      "source_sha256": null,
+      "generated_sha256": "651b29de644003394779b3a00159c59876ca869d8803151cd85c8694a7676c58"
+    },
+    {
+      "path": "pg_ble_stack_cn/index.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/index.html",
+      "source_sha256": "6f08ebc045f26ee71b3cc8f957a30d321b0d4b3c63f64dd6d13fdbd97acc0e44",
+      "generated_sha256": "ff0faa2a7b976a62fdc1d021c30dfa70d9d967715a7f14b1fb4a9eaec744e99b"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-intro.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-intro.html",
+      "source_sha256": "a4e42ac203abd671024320002072122e3d64e43cb6e5505454a4e4b46bf16cbd",
+      "generated_sha256": "79360bf0559d13164d09c6def3f1b1da51f9e8bdd046c61da1d4de592d1d2b76"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-overview.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-overview.html",
+      "source_sha256": "649188df25fe1e0507485166c97e57e1cccb2e7420122df9b03b70fb3e77a773",
+      "generated_sha256": "1225552522900142bd435933e995076518c481b3b0ade19459a406e214c8d6e6"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-features.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-features.html",
+      "source_sha256": "4f76ab9e43bb7a7ceb404a8a913d96e81b12ea4b250a454f96591f97f6db100e",
+      "generated_sha256": "d0e70c3a213030a45accb774d80f9b237dae61aca6f0b9754849e9d33e575454"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-adv.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-adv.html",
+      "source_sha256": "809ec13d7507b48e79e0f98727025a6eff24738f793072130d34587b11af6bfe",
+      "generated_sha256": "ccb001b801c15ea7ddaa270d1155bf47076d4e96696ae67d2b3ee83ac1a1775c"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-scan.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-scan.html",
+      "source_sha256": "430bad140471c33fcc2c8192e53b2606f2bfea718d7dc4da38e2eee42224d2ce",
+      "generated_sha256": "05815ada09d1682c1c7cb5ce9d4c35bb1948905135e6c1c21cedecd9ba4aaef5"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-conn.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-conn.html",
+      "source_sha256": "a4c5e8520d063486a8d6ef3dd4191ef2ea8b5804b0b54ffd1f3a1fe44d1ac1a8",
+      "generated_sha256": "fa7182a158598f20f5c370d607319f13fbd1dd0ad07cf7d910ea3c3d85c9b8e8"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-gatt-server.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-gatt-server.html",
+      "source_sha256": "f923c0eef31fc4c73aeea0a5ca835b90781ff328ed573df85a6ca159aabfb2ec",
+      "generated_sha256": "bdf3285a8d7959b5f1d1c6688342146d8210b75e64da7e03c17ec34e8ad1175a"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-gatt-client.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-gatt-client.html",
+      "source_sha256": "517c5d5c12318ead25160d09c18df9f8a35b8bb7b62782c731db5fa54993a6d2",
+      "generated_sha256": "35f1047e33d759d3f578f883bfd6eb08abf0a16aac85662a4c35a2600ea86b0a"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-l2cap.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-l2cap.html",
+      "source_sha256": "54f3cacd54a7614b540c0dad6011e00a683b360d9856c6eafe0538aac2756b93",
+      "generated_sha256": "48bd0ff9a89499c64c037a2ca8669593ad1acb85abd0deda797c3c38890dc2a3"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-sm.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-sm.html",
+      "source_sha256": "87afa73ccc253eb2299484b3804bc7f76a7285bba5db9642d70584343827e5fe",
+      "generated_sha256": "a448ec9154f30c815cfd1c55e3940d5b95644359ad4ffc3b9abc8c32503ee56d"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-controller.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-controller.html",
+      "source_sha256": "e5303ecf598efe54ed05af9fbb81e666b55bcb55e73d298aa2c75777e6e706af",
+      "generated_sha256": "a1fb1313163949dc9470478cf8a984cdaab17c1b32e248d45e943b052f56c39c"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-eatt.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-eatt.html",
+      "source_sha256": "8c510bdd95aed867884ce120249192d8d5fe668ec0b656c82f0b5cd3e3ef7bf6",
+      "generated_sha256": "954b68b15b7625c66baad12daf1c93df0cf650db1098e4dc45eba98c16f7b875"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-misc.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-misc.html",
+      "source_sha256": "9f6c21f327db0355343d47e9f83d42735fdbd3602376e1661994969ce150db40",
+      "generated_sha256": "a64fa7acc1dcb966ac6c013ced5e0e3d4de0cc655a8bd28e97e2675fef731458"
+    },
+    {
+      "path": "pg_ble_stack_cn/ch-cap.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_ble_stack_cn/ch-cap.html",
+      "source_sha256": "f9781e7fdb9cbbd039d242c7890298d2d2a6203c8f75c63b390edd478269ede1",
+      "generated_sha256": "596ef89fc521e08543eb0324236ab9ed7a39271121f10e48bcf10bf88104aadc"
+    },
+    {
+      "path": "pg_ing20/index.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/index.html",
+      "source_sha256": "bf55b199c287391c91368a3fcae679f88a8c867143456ab224897ccdc250ab5e",
+      "generated_sha256": "a3dfdaa36b60282880ab7e4d2187f55e63eaaa99ddbc11a28146fb446a4a05a6"
+    },
+    {
+      "path": "pg_ing20/ch-overview.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-overview.html",
+      "source_sha256": "c2b26796ea6370975f9fe5091b8d74870f30493ffb2bca6b1caf31aac3386488",
+      "generated_sha256": "eb8833a4ea10b69b509092843439842d6d3b3193555431936f5a4b39295be5dd"
+    },
+    {
+      "path": "pg_ing20/ch-adc.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-adc.html",
+      "source_sha256": "b534aa9980fb792112ae9a250d434f4752102f9ca2a3870ca42b36f078265873",
+      "generated_sha256": "27a023b3977e85c5b87eca459cd34738b258d29cde6befe3fa71ea82f35d0d2f"
+    },
+    {
+      "path": "pg_ing20/ch-asdm.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-asdm.html",
+      "source_sha256": "1c98931a24dc9cfcfec8ca676ef4640a18283a9fe9c46491ffe1ee65c3736e3a",
+      "generated_sha256": "f3db36951f4d7521edf409d7de2a3dbad7d2445e923433d2cdbef30da2a04842"
+    },
+    {
+      "path": "pg_ing20/ch-dma.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-dma.html",
+      "source_sha256": "62e025472a557c0fc0f956ca790289a0a6ed5fec2259057177fb2d87570ca2c7",
+      "generated_sha256": "3652d59150e361f050af5e631e1a9c87d153d653ee91062c753e4f6fd54dee4c"
+    },
+    {
+      "path": "pg_ing20/ch-gpio.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-gpio.html",
+      "source_sha256": "e1a5e80872b8022a552c65174cbb1a8fd8cc505c49deac62375b6fd18a9f70e5",
+      "generated_sha256": "fcc7ee29ce9b06cc67a4dedb9bb4c30d75e22b0bbb45b58b1fe671ba20079f48"
+    },
+    {
+      "path": "pg_ing20/ch-iic.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-iic.html",
+      "source_sha256": "38897bb83a616628a9b1fb4b9a0343945c9022b175185a767fab284063c2c7c5",
+      "generated_sha256": "5123585bf09d157101cd94eaa479a8e5cdeb6c7615ca99639c25dff260113535"
+    },
+    {
+      "path": "pg_ing20/ch-I2S.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-I2S.html",
+      "source_sha256": "94818bb50250f74f058e7ddcc5db31beb830f44f5133d04a9f572799417aa8e1",
+      "generated_sha256": "8859861fc555f2c6f7881d3ad14b1df33a4ffc302fad15dce8f0af383fb08a07"
+    },
+    {
+      "path": "pg_ing20/ch-keyscan.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-keyscan.html",
+      "source_sha256": "9514408eb9a290f5d0d8afeae79ae900050ef0a5ab0f2640f37e6b4e1c9f7d80",
+      "generated_sha256": "2914102f43155d89c6e7133b33ebc5b4d2df79de91418ba0456bd5f4cff54b74"
+    },
+    {
+      "path": "pg_ing20/ch-pinctrl.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-pinctrl.html",
+      "source_sha256": "681da63bebfd629c24785d90b6c66602ab04e6f1e22ab59e4629735eea0ec764",
+      "generated_sha256": "429974109dd11e9f0f6193c8dedca534de8b68bc2685eba4eeb2b92c84c241c9"
+    },
+    {
+      "path": "pg_ing20/ch-pwm.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-pwm.html",
+      "source_sha256": "2c6fd3f856f9630a7e1d779bd05d67157ded77b44c4f728baff6febc8c366c8c",
+      "generated_sha256": "2d124667a5aa03d886c0498ebefe57211b4e0d44c0099aa535ac3ff2eb3401cd"
+    },
+    {
+      "path": "pg_ing20/ch-qdec.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-qdec.html",
+      "source_sha256": "7f62b253316a4bd4239ec432fea9006fd2badf9d986af7fcc5bd63789862af15",
+      "generated_sha256": "b5171ad9a47185fa99f30618af88e7cc56ede13778833f7d99f7f3804e36ecb7"
+    },
+    {
+      "path": "pg_ing20/ch-spi.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-spi.html",
+      "source_sha256": "9a380969eb755c64cc2458f66fa28b887914d693565c2002e87c3ce0d7d2ce9b",
+      "generated_sha256": "6748db16fb6426aca27162a975c868e4dca303b5b6f9c9596ca5ee1aa2a153fd"
+    },
+    {
+      "path": "pg_ing20/ch-sysctrl.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-sysctrl.html",
+      "source_sha256": "eb2b79d1eba66062179f8ee14b865a426fb63683557e4a1e8f9c82e0239d010f",
+      "generated_sha256": "58c9b5cd108eb9ca469533422bb97cc74f10c73f57fe87d566cfb2f65c33336e"
+    },
+    {
+      "path": "pg_ing20/ch-timer.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-timer.html",
+      "source_sha256": "271f16b07023c8e91f1be696cdce2514f6e30de9b2d1fbb67e1170599902f7d8",
+      "generated_sha256": "1db95106df38be1cb5a6f62a61ed203435a8c905f5198678beac2260fd7da18b"
+    },
+    {
+      "path": "pg_ing20/ch-uart.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-uart.html",
+      "source_sha256": "695a36585aabf8f52253fa52a467d439d6203dcdb782fa8c88a5e2f8c38163a3",
+      "generated_sha256": "a87828b98e409c01b805a17790348314cc2d0666e19c95d6ed0dd2aaa1808363"
+    },
+    {
+      "path": "pg_ing20/ch-usb.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-usb.html",
+      "source_sha256": "e855e6b6d054b9871c83ba9fc0415a2e3b2f2153abc6730f260418b2aa7900bb",
+      "generated_sha256": "090c598a53fd5cca51cadc77d54b89f843fa9ad49dc4ff749d6eaa206f7b0a3b"
+    },
+    {
+      "path": "pg_ing20/ch-watchdog.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-watchdog.html",
+      "source_sha256": "51ef8517f19df2334abb6df2ffd6bdf7845bd57d47ace204b8b2dbddd4b1d5d1",
+      "generated_sha256": "d592f48035a9da28e72656ac661c2030cb90068ab480515e7624511d84947569"
+    },
+    {
+      "path": "pg_ing20/ch-eflash.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-eflash.html",
+      "source_sha256": "414f67c802eed32dfcfb1afc67ce90f41aaab8d6ef84dbfa3bf095fb53935a82",
+      "generated_sha256": "339c9e123b05a6355deb5705d311e0b12e4515fe1c43e53bc22bcd62d1a4ba8e"
+    },
+    {
+      "path": "pg_ing20/ch-rtimer.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-rtimer.html",
+      "source_sha256": "fe05d41c8cb4b93c0450d8ce1be547e6c965bb0e56b86cf0cd38de33b128ea5b",
+      "generated_sha256": "d046a7753dc9fe82df5ce7c33857f56e638a8de7946cad5d1c9d8f9232f60038"
+    },
+    {
+      "path": "pg_ing20/ch-pte.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-pte.html",
+      "source_sha256": "c7ae6f1db095d06823991db6d7cc4423f7db008b74dfd9bf3a7255c4f3370f0c",
+      "generated_sha256": "038234ecd6e4e23b45a835e5c479eb6f2858b3b3f53fb66de60a5a4005a1ebb1"
+    },
+    {
+      "path": "pg_ing20/ch-gpiote.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-gpiote.html",
+      "source_sha256": "0cfbca601d10e8ac23f7b8cb59d073d07e05b0ed105913e424c1751cf762e2ef",
+      "generated_sha256": "eb2b2f9ee177eacf58faa0a5e0a3c843116728195a12215d2739d81aed7517c0"
+    },
+    {
+      "path": "pg_ing20/ch-note.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing20/ch-note.html",
+      "source_sha256": "929316ded3e0121274450df6b64f589cc6079a0c5664487ff8d0b9b7a34e4bc1",
+      "generated_sha256": "f4f3592665d1e4b091c10e5eac25419305f8b31d7159df0570336ca44d031be7"
+    },
+    {
+      "path": "pg_ing916/index.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/index.html",
+      "source_sha256": "b12744b61d9feb8d57d9fd801aaa801674984612f21fb9856747be87c227d304",
+      "generated_sha256": "6a0f164ae0953a691644d8bd9564ea96c0e9208c7f7fb45da73e7850a26e646a"
+    },
+    {
+      "path": "pg_ing916/ch-overview.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-overview.html",
+      "source_sha256": "039d305dac4a58c029c0e1279cd9a74a8079d9598ef64f54f6d608ef8936323f",
+      "generated_sha256": "2199c3abab7519435f763110a5f1bbef83ce69de53f9e896b1a3ab98626ce718"
+    },
+    {
+      "path": "pg_ing916/ch-adc.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-adc.html",
+      "source_sha256": "ca5872697e47724ed6f055f6b0b6422bd159919f62c32772bdb99b727490aa8b",
+      "generated_sha256": "9bb838619ba30d2d1c85ec015f1895913e6c9adb7ca092f2b1418313febf6123"
+    },
+    {
+      "path": "pg_ing916/ch-comparator.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-comparator.html",
+      "source_sha256": "2266352f17ac7d546c60c237622e08ad0d51e29d8feb112ee0facd7e4e193a3d",
+      "generated_sha256": "520790ee5e699890acfede998cd9f4b5416a0b7f6cb225e2224969ab430877d0"
+    },
+    {
+      "path": "pg_ing916/ch-dma.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-dma.html",
+      "source_sha256": "9407a84a042fb3be931a93e8085b62fa41bb3676fb0796685108d79128ddee71",
+      "generated_sha256": "dfa33bcb61296f94201183bc106e7192b21c42ac849e665ab9bec3b1d9023c22"
+    },
+    {
+      "path": "pg_ing916/ch-efuse.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-efuse.html",
+      "source_sha256": "1b1bfa3dc716a0bd2c0fb5dc77f035b6d8a6baced3479be5fadaf21c4c530d78",
+      "generated_sha256": "7599a0966486c69df5110a1e9d0f1f19ab89a98e73d593a9d22cd5ea48e53066"
+    },
+    {
+      "path": "pg_ing916/ch-gpio.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-gpio.html",
+      "source_sha256": "88976121be043987cd552619e30f7652cccbb6a3efc20b88a316ad2c7d082c2c",
+      "generated_sha256": "2e6701f227158fa068d937f8333a4a3d3ac0492b5a7b53f1bad9a0015bbecfd1"
+    },
+    {
+      "path": "pg_ing916/ch-iic.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-iic.html",
+      "source_sha256": "b63c3dfd73b0fdf347255f4ff66f838d978cf1bdadbda08f383aecbde86cd2ad",
+      "generated_sha256": "db365516dc0384d37e9e2cf92777aef827bdeccc19e11876c3aa5c1dbd05e0da"
+    },
+    {
+      "path": "pg_ing916/ch-I2S.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-I2S.html",
+      "source_sha256": "8fc85bfd64704d6f8bc439e5e8ffab39314a8531cc208baf88bc5ed27d00c846",
+      "generated_sha256": "bc7ddfbeeab1e6b5dfdbcc9429ee8093bca176bc0b170d478839563995abfecd"
+    },
+    {
+      "path": "pg_ing916/ch-ir.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-ir.html",
+      "source_sha256": "443b4a9bec263c4ff432e9de3bec09a04710eb4801ff7a77cfa398296314b0c2",
+      "generated_sha256": "99ec1860d404f42cdc658235cec9ee636b367b4e1165bc1819d91dc220186e51"
+    },
+    {
+      "path": "pg_ing916/ch-keyscan.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-keyscan.html",
+      "source_sha256": "6639e6f63b08d0d4531a95214fa27a43c8d9146b708fb4dc163b56a656838648",
+      "generated_sha256": "00134361554529a1bb5f9dc68bc541c891aab5c2d635d3ab2beaec902a8d45d3"
+    },
+    {
+      "path": "pg_ing916/ch-PDM.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-PDM.html",
+      "source_sha256": "8c4ce4c65ff806531d69acc7498c3d979cd95f8f48980aec46f8467162ea5321",
+      "generated_sha256": "386d2d0ebb1c48c85e197d5a0e95bc9241b4aba2fbfc59277512c906f9d15877"
+    },
+    {
+      "path": "pg_ing916/ch-pinctrl.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-pinctrl.html",
+      "source_sha256": "c62b830bee99456101502a4b2846c721b551e89feafa2909381c8c847e7cede6",
+      "generated_sha256": "8742794f21eb7cecc7d74c9424d91e77588b2a7a013ad1de9b6a4e431be4cf1b"
+    },
+    {
+      "path": "pg_ing916/ch-pte.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-pte.html",
+      "source_sha256": "9237bb345c0cc8def2118fd2ad9ff57963b6a3bba58e279e8ccad515d42d453f",
+      "generated_sha256": "8a6751e281ee62ca487ade780f3b005e7bdf9289c2979ee3e984628899cfa062"
+    },
+    {
+      "path": "pg_ing916/ch-pwm.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-pwm.html",
+      "source_sha256": "389c1c282b3fd90c193732f39020794d7a7a65bf66df4b1aef7d75205b2314aa",
+      "generated_sha256": "a2a336529379ed7e41689a809520cffd98a2ec8e16974c907c8d20fe1bdb00c7"
+    },
+    {
+      "path": "pg_ing916/ch-qdec.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-qdec.html",
+      "source_sha256": "6216b711f23caa8c0a71b2b91f2ca0b7927ddb4829dbcd0986333facd6ae2ea7",
+      "generated_sha256": "ff9c2339b3cc53010972e5dacf8464f9485cf2af3bd956692e153c973c11bc6d"
+    },
+    {
+      "path": "pg_ing916/ch-rtc.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-rtc.html",
+      "source_sha256": "97a39784858de145073103473a88c5088802729d4883b169a8eceff6ccb007be",
+      "generated_sha256": "c049c0504b3af66fe2eee9ce3bfa3bea319f62aec82c6022596132237e3b6c7d"
+    },
+    {
+      "path": "pg_ing916/ch-spi.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-spi.html",
+      "source_sha256": "fceeae2e8d7125e1d188933376a6397a41764ccddca878a2143449701fded58a",
+      "generated_sha256": "958ec565cc9bbebcc8c1114f05f428174bcf7d2192c1a0d44727210e6bd122e1"
+    },
+    {
+      "path": "pg_ing916/ch-sysctrl.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-sysctrl.html",
+      "source_sha256": "7a63f33d47750a2fb99616917677c1cf31959b95b4ce1d2b57a07d15c9748b0e",
+      "generated_sha256": "95500a4dd4a09f24202b1cadb074164a3bd5552b0810da991b8b5b0226f774db"
+    },
+    {
+      "path": "pg_ing916/ch-timer.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-timer.html",
+      "source_sha256": "23c94d5620b5e698f4bc813261ccd1d1513542aae727e26eb279fff30beb3ba8",
+      "generated_sha256": "f3965809b2ac0c027812b9f5bde455ea6be6fa111f24adeabea39e76998e2831"
+    },
+    {
+      "path": "pg_ing916/ch-uart.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-uart.html",
+      "source_sha256": "85c502a0da5a471b593d905ece8c56b36e3362f9e7d44bf345f6f28dbe3be4be",
+      "generated_sha256": "4b6857c77dd53497423d9ab34539cedb656ce08fae6656d5b83826d4b4afa50a"
+    },
+    {
+      "path": "pg_ing916/ch-usb.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-usb.html",
+      "source_sha256": "2a3a7c2b79a5425e3343209671cd8063011e216b56a36cf8637e902f8dd7ac86",
+      "generated_sha256": "c27193c5da20b0b871132772c130928cca86cb2f97712854af01c8e8ae6b49dd"
+    },
+    {
+      "path": "pg_ing916/ch-watchdog.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-watchdog.html",
+      "source_sha256": "813fe843681c79a3c9f8ff5ee2380411f95b220c6b3a9ea0c723f1403cf0a7c1",
+      "generated_sha256": "7e6028837a99363327df299fd582e2a87e9ce0de0d241b3936e258562057a44c"
+    },
+    {
+      "path": "pg_ing916/ch-eflash.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing916/ch-eflash.html",
+      "source_sha256": "fbc49029366a41cf8b78921447c08d7924c66316f8c57d9c21556605e9939fe6",
+      "generated_sha256": "ae0c90eb41e7dcbce16dbfae18f2715723fd1b2b367642641219877abacd5c6b"
+    },
+    {
+      "path": "pg_ing918/index.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/index.html",
+      "source_sha256": "12396fe7b9c33e0703be93989a6229b6d34e55469bfe69457c27526355424279",
+      "generated_sha256": "27b6bd21e1a456af969d4dd4f0c25c009e6ac92564c3725ff7367bfea4f7390c"
+    },
+    {
+      "path": "pg_ing918/ch-overview.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-overview.html",
+      "source_sha256": "b4c22b44fae123a70e1f02b0e98c2a6acd361c08000f91f08567b66c83b4a15e",
+      "generated_sha256": "2129c8cfc05fb13ff2f2d7e82d3a41295e853b89f5a28434ff9f93712ab41b0b"
+    },
+    {
+      "path": "pg_ing918/ch-adc.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-adc.html",
+      "source_sha256": "1458e857d9a4719980ec543e90c0f21da98bd3792306c3a4ec6d91517832f568",
+      "generated_sha256": "f98a126432f1e52cfe1a3a1cdee7c5e546721fc943c0e852baf78fc0ca46d9c6"
+    },
+    {
+      "path": "pg_ing918/ch-eflash.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-eflash.html",
+      "source_sha256": "84ca8fa02f6025b34eea3f473d206073387459944b43abb6f04e61807f52ef40",
+      "generated_sha256": "1412ca96fe0e9af5c9d1a082252b77168a0096df040e91c4f435b65d3d0d2df4"
+    },
+    {
+      "path": "pg_ing918/ch-gpio.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-gpio.html",
+      "source_sha256": "e61300e2e50ebab1573268ac065ab39105b9d32d24347f29d01211c4d271c541",
+      "generated_sha256": "53684adbba50fd96c599f6e48be8edf54d715672bd72c21d926729bc1d68544f"
+    },
+    {
+      "path": "pg_ing918/ch-i2c.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-i2c.html",
+      "source_sha256": "9a202954646df83feb4738e02cd56ac56dc78fffdfb4dfa605595363b4aa9bc7",
+      "generated_sha256": "505467fb95037f4ca3dd73bf753d945a95fa2a3373247c1eec443341d91bca68"
+    },
+    {
+      "path": "pg_ing918/ch-pinctrl.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-pinctrl.html",
+      "source_sha256": "751c9af9fd8e134d960c5bff5d49e3bab7e40c6dbb9035333351dde52199c97b",
+      "generated_sha256": "7e35e920478d34397e6e75960ddcf040c217d117dce4c8bc7290cdede0185ed1"
+    },
+    {
+      "path": "pg_ing918/ch-pwm.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-pwm.html",
+      "source_sha256": "8399258a1d68d085209435093f4ed821bc600ac83dd6d862bdcd6ea21572e652",
+      "generated_sha256": "f7d0d4f9eaf57d470cd26297e4a962e0d0d056c7a769392a1db65e36bab8f635"
+    },
+    {
+      "path": "pg_ing918/ch-rtc.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-rtc.html",
+      "source_sha256": "bab0f60d48c67b34e0797553775c4f5ed90feb4cec5745a44b890bf9f2e1749b",
+      "generated_sha256": "bb97ed24f988a5ca1ead55d1a03fb0d5e02585e9797b45c1589457ca248b7666"
+    },
+    {
+      "path": "pg_ing918/ch-spi.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-spi.html",
+      "source_sha256": "84df7fb1db865e661c52b1ed362797b1991045f657a2b6a214aa2e5b37a6a6a1",
+      "generated_sha256": "627f7bd71bcfff33bfe6cf4e4f95478e01560a8fdd0a6c11ef9ec7751946ffa4"
+    },
+    {
+      "path": "pg_ing918/ch-sysctrl.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-sysctrl.html",
+      "source_sha256": "a68c98ae4ccd6d2afbad8892f7d85c92561240e9d2787747eee72be226cadf81",
+      "generated_sha256": "607a7a5b7e6422efba6d7b598132deafc68b5b659fa1eceb0208aa1f5d72dcf2"
+    },
+    {
+      "path": "pg_ing918/ch-timer.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-timer.html",
+      "source_sha256": "5cede55a8524ae85a0c076a4c1902c1e9e4dd82536796c14964cfa645a0e81e9",
+      "generated_sha256": "c0ed007cf54c75276c95e04e822d19aebc0ef5d793baa89f1883fc117a5b99fc"
+    },
+    {
+      "path": "pg_ing918/ch-uart.md",
+      "source_url": "https://ingchips.github.io/drafts/pg_ing918/ch-uart.html",
+      "source_sha256": "025c0907b936d69b4c1efe8624b5652a58a38d49fefe9564ed4ca8dd266f5a54",
+      "generated_sha256": "d81e4991fab092a2e3612f6742db4c73b298968cb498b5c28b1b8422e81f8336"
+    },
+    {
+      "path": "pg_power_saving_en/index.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/index.html",
+      "source_sha256": "bf95874a37dbf29fb3000102b1d0156425268cc6d1653f3996bd1005cb1964d1",
+      "generated_sha256": "084334b9ff30b394e5c54b4a1059a640f1f450757ab9f1f7a23ae7c3acaa3cc7"
+    },
+    {
+      "path": "pg_power_saving_en/ch-intro.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-intro.html",
+      "source_sha256": "5597ba482fa09f0db3fdee608eb5efba6384494358c98f710874a3f0f41d13dd",
+      "generated_sha256": "3ae7ac658943f3b896bf0966c17f4d3ded1684bfc375933e69fca68ac1c88bd7"
+    },
+    {
+      "path": "pg_power_saving_en/ch-framework.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-framework.html",
+      "source_sha256": "80e4102588f9b680b66aeaecc03cc86c464a64cf7b28c46a4d2868735cadba31",
+      "generated_sha256": "87f97df8564c7a078e3b70c21feb3256d8f2a97a937b0c2fb7e3ea5069afccb8"
+    },
+    {
+      "path": "pg_power_saving_en/ch-api.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-api.html",
+      "source_sha256": "ce3ef8953d0550296651ee63a4d336c11624df5cedd983a53a3ce19e849289d8",
+      "generated_sha256": "581ff004421600765c06dd3bb04035dcea9df6eec6693b2a48dd4e4237506be2"
+    },
+    {
+      "path": "pg_power_saving_en/ch-porting.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-porting.html",
+      "source_sha256": "762e3aeb5069cf47dd98ec989833ac33f08cbbc63b911adc1a521245310f826d",
+      "generated_sha256": "c512f49634e74fdeb7bca20033ee5e2857fb49a1b06f0a84a5220d3b9db737e6"
+    },
+    {
+      "path": "pg_power_saving_en/ch-tips.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-tips.html",
+      "source_sha256": "d8863c21051fc8a79a37a6df3dc411e719188189f93eb41ea315610ea1266fb8",
+      "generated_sha256": "3dac08f97febc357839ab3f8a6c370b516b39a2ef067727ccb8b155e503167a9"
+    },
+    {
+      "path": "pg_power_saving_en/ch-faq.md",
+      "source_url": "https://ingchips.github.io/application-notes/pg_power_saving_en/ch-faq.html",
+      "source_sha256": "c790e66f2055c55c44ae0f46db3006dcfdffc80d0a9fe032aa76278fe0221f16",
+      "generated_sha256": "cc8cc9e464ba5c75f882f87f58968e78afb1cce7d60b3808b037f47a9158cc53"
+    },
+    {
+      "path": "site_docs/about/index.md",
+      "source_url": "https://ingchips.github.io/docs/about/",
+      "source_sha256": "804c0a44bf07b81dc6af4334fc48af3f8e3669ec2f76a4d728e9e77cde1e9023",
+      "generated_sha256": "9f17b161b199384ff7a65867aeba6aaedec7b94ba8cf2c81e9c03e20d525d5c5"
+    },
+    {
+      "path": "site_docs/about/jobs/index.md",
+      "source_url": "https://ingchips.github.io/docs/about/jobs/",
+      "source_sha256": "f118cdacd3c56d4e72d41b78594d71a4514fed560817223340176c85ec7b8560",
+      "generated_sha256": "ea9474fe7f590fadd5fc56f6ebc59dfb6fdba0f4afee7eae3ba0954704144994"
+    },
+    {
+      "path": "site_docs/about/partners/index.md",
+      "source_url": "https://ingchips.github.io/docs/about/partners/",
+      "source_sha256": "d1d20f2aa6e80d41d1aec587c384ca540067f76d554da176321ba94ec986fbcc",
+      "generated_sha256": "d6b288069bfc3268632263e9c9531f7b9758821f8d097d2fb28ef82d9045bc0a"
+    },
+    {
+      "path": "site_docs/application-notes/index.md",
+      "source_url": "https://ingchips.github.io/docs/application-notes/",
+      "source_sha256": "4235e3aba6c3eb3461df70897becb44079aa84ca526bdf56b467c12103170a06",
+      "generated_sha256": "2df3f9204bcba7ca951dcb2ff246cd595490d628773062cddf1f4e55545144ab"
+    },
+    {
+      "path": "site_docs/community/index.md",
+      "source_url": "https://ingchips.github.io/docs/community/",
+      "source_sha256": "695c6fe60fd6b9808e7cc4f0bdc44d36c28fbc7bf1e6ea3f4221ac9716c4e7e4",
+      "generated_sha256": "6f28b8c86c0d645e316582a0478ee7e4eabdbfabccb32b47644d3e738e9a32d9"
+    },
+    {
+      "path": "site_docs/faq/iar/index.md",
+      "source_url": "https://ingchips.github.io/docs/faq/iar/",
+      "source_sha256": "bb3818686cfd87c63f25d22c2ef503a37d6032cf5fde55d7d87421770adbe0da",
+      "generated_sha256": "b5ba8edb6a339fcc6f026871bb4156b0443d1241b68d7f9c6fca9f4bfca2023d"
+    },
+    {
+      "path": "site_docs/faq/index.md",
+      "source_url": "https://ingchips.github.io/docs/faq/",
+      "source_sha256": "4c747afa3335879b795459ecca959c4412dfabf81496c3d513ec6b440bc31512",
+      "generated_sha256": "e79bab06cc8786ef1a403e1dd944c48f1370ceb7d7cbd98e8b871eefb913507c"
+    },
+    {
+      "path": "site_docs/getting-started/ai_assistant/index.md",
+      "source_url": "https://ingchips.github.io/docs/getting-started/ai_assistant/",
+      "source_sha256": "27917b9ccfdd34fe90cd83a8fbed7f741d2c6fd5807f38db5ae3ee086b1664d2",
+      "generated_sha256": "3206f7e694be06914f3f1fc14372830ac1137cb263463119cfbad542e18c2bfd"
+    },
+    {
+      "path": "site_docs/getting-started/dev_board/index.md",
+      "source_url": "https://ingchips.github.io/docs/getting-started/dev_board/",
+      "source_sha256": "b2604327472511893b39498ccb18303884ec5dd9ed7e84bb22f86ed6c6ef629d",
+      "generated_sha256": "2f4863e7e68980e86fb1308c989d8463d487b0ede0b482a08360fa8221961716"
+    },
+    {
+      "path": "site_docs/getting-started/dev_board_91682/index.md",
+      "source_url": "https://ingchips.github.io/docs/getting-started/dev_board_91682/",
+      "source_sha256": "2d2b24ab832f0037054b36f7c988cf8af2bdc1840e6f2c6b6ff006a8b88f92e0",
+      "generated_sha256": "f57da54ce17f2aad533d8084435dce471e23961fda5aa5c9cb2f9b6908a7e2d6"
+    },
+    {
+      "path": "site_docs/getting-started/dev_board_91880/index.md",
+      "source_url": "https://ingchips.github.io/docs/getting-started/dev_board_91880/",
+      "source_sha256": "795873fd54f72e6aa212cc2ae2e3185bd6660d538e15bd151b85eed42053760a",
+      "generated_sha256": "0ed8842b369f4bb1234d5ac30a2870248adae0a5fc8f90d2940d5b90382af177"
+    },
+    {
+      "path": "site_docs/getting-started/dev_board_91881B/index.md",
+      "source_url": "https://ingchips.github.io/docs/getting-started/dev_board_91881B/",
+      "source_sha256": "4d1841721b148f185a8191b33f57b8cea0646ceb31a771b8ca8e621deefd5eca",
+      "generated_sha256": "7a9230416115eca5a987e382280351cbf5a29616baa7cc7717612cffc4bbc934"
+    },
+    {
+      "path": "site_docs/getting-started/dev_board_db72c8k1a/index.md",
+      "source_url": "https://ingchips.github.io/docs/getting-started/dev_board_db72c8k1a/",
+      "source_sha256": "ac1c125ea9fd67b3eb2a75525793056f71129b353cf1d098bdb364ac1ba7441d",
+      "generated_sha256": "53dbc898740ad40fc78c5037827feff8049a0342cf9f3799fc897aa9e1063e20"
+    },
+    {
+      "path": "site_docs/getting-started/index.md",
+      "source_url": "https://ingchips.github.io/docs/getting-started/",
+      "source_sha256": "b5542a5a8382b382ab4a1c0a026003f3bd83dbf45585d89444b865bebb49f76a",
+      "generated_sha256": "99b5c4263c7dd6ec4ce8fb4175e36d7f38b838e81a26f0bb708f227bdeb89d19"
+    },
+    {
+      "path": "site_docs/getting-started/playground/index.md",
+      "source_url": "https://ingchips.github.io/docs/getting-started/playground/",
+      "source_sha256": "7b07aa6624e9621ca65ee15a449f5880e3c08df108d6b43d1b4ea4486c13b8e1",
+      "generated_sha256": "d300aa25af5bee340164e68e4bcebcbc3bf7727cb6c14c4ae4c7cd18c4f8be81"
+    },
+    {
+      "path": "site_docs/getting-started/setup_debuggers/index.md",
+      "source_url": "https://ingchips.github.io/docs/getting-started/setup_debuggers/",
+      "source_sha256": "efa589dd94ff29295371b868703e68496faa59d24edeb1db41aa2e789bd1d0f8",
+      "generated_sha256": "d6133ae8bd02e161fb9d9c8f50cb3d9087a7c8391d013e7686a171105eac31be"
+    },
+    {
+      "path": "site_docs/index.md",
+      "source_url": "https://ingchips.github.io/docs/",
+      "source_sha256": "a0f0aaf2019dcbddd09785443790760fffae8fe139ba9ac8127957b74ae66e24",
+      "generated_sha256": "653b1fd67d86a69b634fcdcb98ca31b9021d8cd1f854abd3e49844ddd769b440"
+    },
+    {
+      "path": "site_docs/mass_production/index.md",
+      "source_url": "https://ingchips.github.io/docs/mass_production/",
+      "source_sha256": "e66b9a7e5cb120206ae6a6959f68a766711467a4eb3911d30d6a1be5475fcbad",
+      "generated_sha256": "c2d14421a66f45c792d77689b19041e771f04b71918755b26c05a4235bef1501"
+    },
+    {
+      "path": "site_docs/mass_production/ip_protection/index.md",
+      "source_url": "https://ingchips.github.io/docs/mass_production/ip_protection/",
+      "source_sha256": "81044f06152fcf9a89edf85ac83f13824b4a7c390f95891f0e0e7864d2216dca",
+      "generated_sha256": "54d7cf96de722d786b5a2e75623832f44f7caf7e080af5fe028efc1954ef831f"
+    },
+    {
+      "path": "site_docs/mass_production/prod_suite/index.md",
+      "source_url": "https://ingchips.github.io/docs/mass_production/prod_suite/",
+      "source_sha256": "dacbc0958c517b87438f25be78f7215e82cea3ca8f98e801190a2e667e293e56",
+      "generated_sha256": "3876564b2a7c939a8a08d1e94ee61f32abfb81cd1931a6335960a8de1ce7be3d"
+    },
+    {
+      "path": "site_docs/mass_production/swd_burn/index.md",
+      "source_url": "https://ingchips.github.io/docs/mass_production/swd_burn/",
+      "source_sha256": "fac593bd6746cd7942a60b6bd0ef4384b24f1a668a1a8783ce5c4d00c0f2e02d",
+      "generated_sha256": "3f42f66c46224f2e4013514f850152567787e79b24a184ab7690cb99490a3019"
+    },
+    {
+      "path": "site_docs/mass_production/uart_burn/index.md",
+      "source_url": "https://ingchips.github.io/docs/mass_production/uart_burn/",
+      "source_sha256": "7d4f2dcae599b8ea4d0436d1827b33e4bfeea9ea3944992de797b3d8eaacd193",
+      "generated_sha256": "880091e4371f58a71d13f3f92b9c50b073a4057769b5a2dc449474d7f11cfa02"
+    },
+    {
+      "path": "site_docs/products/index.md",
+      "source_url": "https://ingchips.github.io/docs/products/",
+      "source_sha256": "b6c008679fe7ee075a3706e160a575b2dc64086e280058621d602019ec5461d5",
+      "generated_sha256": "d703f7d5bc1b08ced4c7db1082196c6febfe16485a66d313c1cf9137403d9a9d"
+    },
+    {
+      "path": "site_docs/products/ing9168xx/index.md",
+      "source_url": "https://ingchips.github.io/docs/products/ing9168xx/",
+      "source_sha256": "69fc0611a058de4020bacec36ca6b0fedbafe2b714c525e0be0ee899a3a962e7",
+      "generated_sha256": "abc023625016ebeff9a321365c384c89f9309e9a4fa1998f824f7d7080f3db21"
+    },
+    {
+      "path": "site_docs/products/ing9187xx/index.md",
+      "source_url": "https://ingchips.github.io/docs/products/ing9187xx/",
+      "source_sha256": "1535c3849b98b56c12e5645009804927a82c3e909aab9e91bf07823498f18785",
+      "generated_sha256": "43bb4be9fce4c01995306b8a2388890315deaf6f21fb9de2ed68538cee47f05f"
+    },
+    {
+      "path": "site_docs/products/ing9188xx/index.md",
+      "source_url": "https://ingchips.github.io/docs/products/ing9188xx/",
+      "source_sha256": "4c1269e0fa8c636ae7bb3dec80baf9efb618346c90963d994d715643371d6f0c",
+      "generated_sha256": "8e5baea92329fa5c67131188f307e9a6abe2c4e427d9248849ed4409c14f0dc9"
+    },
+    {
+      "path": "site_docs/ref_design/index.md",
+      "source_url": "https://ingchips.github.io/docs/ref_design/",
+      "source_sha256": "61f941084e95e18017187688910610dbd13915e710ab34f6fd5623b7bb02d5d1",
+      "generated_sha256": "37e14da9f20f360546feb9b84ed9aed4227403aabee10207c4c85e7ff28c372f"
+    },
+    {
+      "path": "site_docs/ref_design/ing02-03/index.md",
+      "source_url": "https://ingchips.github.io/docs/ref_design/ing02-03/",
+      "source_sha256": "fec1bc39730a2e8bb1931bec239e61de52579327ba903beb13a95cdf3c064209",
+      "generated_sha256": "f94f16829a4ee804afe61f229591b32cbca1eb75ed2889addce04ed57a3eb713"
+    },
+    {
+      "path": "site_docs/ref_design/ing04-01-05/index.md",
+      "source_url": "https://ingchips.github.io/docs/ref_design/ing04-01-05/",
+      "source_sha256": "a5705069045897ebc203c9706f065e6d2f18bb294aff2877a8411ed6d18f36da",
+      "generated_sha256": "0dfa8236e44c916096c0f4d988abbec7b896ffe10148378fc41905d01e839e90"
+    },
+    {
+      "path": "site_docs/ref_design/ing04-01-07/index.md",
+      "source_url": "https://ingchips.github.io/docs/ref_design/ing04-01-07/",
+      "source_sha256": "edfbfbe19756f208a060ba8d0f326e2b6d68e08993c5ab5ab27652b8d81f36ab",
+      "generated_sha256": "1dfc4c33c9cfca43f93e1e65a5dfb04b610654fbeee7458042932ebddbd74f76"
+    },
+    {
+      "path": "site_docs/ref_design/ing918_hardware_design_notes/index.md",
+      "source_url": "https://ingchips.github.io/docs/ref_design/ing918_hardware_design_notes/",
+      "source_sha256": "3530e058c1ba7795194add38dda20b46f805e4a8f03f712524dd0181c2d34b6a",
+      "generated_sha256": "0dc7ca9eac4e826652607e0f4cf98f80b26f35cb669b45d56258eb6dc890ec09"
+    },
+    {
+      "path": "site_docs/sdk/apps/index.md",
+      "source_url": "https://ingchips.github.io/docs/sdk/apps/",
+      "source_sha256": "57cf50fc402364af9ebaf29dfd0302f4ac0a1c581adc0798b531ae0e0c3a0ecc",
+      "generated_sha256": "6075efb4331974e7b9ac0ecbc5385fdd74abe224f1c5d3f36abc21c6ac75d9eb"
+    },
+    {
+      "path": "site_docs/sdk/download/index.md",
+      "source_url": "https://ingchips.github.io/docs/sdk/download/",
+      "source_sha256": "be4c7789e226712f3ff519055d21211b4c84abf350c435ee855a7b768e35fb54",
+      "generated_sha256": "3aa060a3af79994fa9cef5406237b14fca0d72690de25f8d12178d11a83d86b0"
+    },
+    {
+      "path": "site_docs/sdk/index.md",
+      "source_url": "https://ingchips.github.io/docs/sdk/",
+      "source_sha256": "d63385a4a82d26256dbcdb2359fd924b4895c35a27b10da4e567cfd87ae7cfc5",
+      "generated_sha256": "7664eaa7f282ad599a51abcb8e8cf47c66bcf4260cd5e84144dc205b8b423679"
+    },
+    {
+      "path": "user_guide/index.md",
+      "source_url": "https://ingchips.github.io/user_guide/index.html",
+      "source_sha256": "beb97edf2bdc116e6c791b12478717c227b90e3faf1668437a00c8df87119475",
+      "generated_sha256": "79e4f0baa41c0297e7e103d1675b44380429c3600e158823ec793759314251bd"
+    },
+    {
+      "path": "user_guide/intro.md",
+      "source_url": "https://ingchips.github.io/user_guide/intro.html",
+      "source_sha256": "1736e577706fd0819a7983db4bf7c7d8b45e8ea7e80efb74c5d151c05143b458",
+      "generated_sha256": "e1e73d71e41224a262697883a33cecf6d457873cf7c86402f63ca5b49ff05ee4"
+    },
+    {
+      "path": "user_guide/tutorial.md",
+      "source_url": "https://ingchips.github.io/user_guide/tutorial.html",
+      "source_sha256": "986f5d64bd49f20d76444e5f3acf9a9b63bf53df8d5e91eb4272da21c03b39fe",
+      "generated_sha256": "3486703030422801976c3aa26ad54d1cad596428d5a575b7cb438cc5ae51ae95"
+    },
+    {
+      "path": "user_guide/core-tools.md",
+      "source_url": "https://ingchips.github.io/user_guide/core-tools.html",
+      "source_sha256": "8e97e9f44cf3557cd533493070233e877f50a09b8be66915ce5f54c683621b55",
+      "generated_sha256": "d49dedd20a10922326464b81222ed31f3bb54ba0dfc9ba8fb966232abeddc535"
+    },
+    {
+      "path": "user_guide/dive-into-sdk.md",
+      "source_url": "https://ingchips.github.io/user_guide/dive-into-sdk.html",
+      "source_sha256": "93dda3eb10508177bcea30aa54f413d655510006d54acbb871e4dfcfb79f792d",
+      "generated_sha256": "3aac8865dfa8e3b82c2bb9d232342c2358adf71073e2b8113c328873670e000a"
+    },
+    {
+      "path": "user_guide/api-ref.md",
+      "source_url": "https://ingchips.github.io/user_guide/api-ref.html",
+      "source_sha256": "bcd2edc9db3233df2f4a8d7038271117fa2a8fe7ab965c7825bc06e9ba5ce0d2",
+      "generated_sha256": "cee3d78a6cd7d88ff5dd9c9c7c8cea89ef2ad1ab7b00b6534840806a1a8d877f"
+    },
+    {
+      "path": "user_guide/revision-history.md",
+      "source_url": "https://ingchips.github.io/user_guide/revision-history.html",
+      "source_sha256": "8323fdb9926ef69ee2d3dcebeff2418f5c841e41e52d7a180e2199716a1b961c",
+      "generated_sha256": "79e4c611c467dc89b6cbe7001b43b4887e96c94c6f8751fd8eae79086e605f51"
+    },
+    {
+      "path": "user_guide_cn/index.md",
+      "source_url": "https://ingchips.github.io/user_guide_cn/index.html",
+      "source_sha256": "9aece857b32be421ea93444fd5bbca8533f9059801566f59bb82310b1487c914",
+      "generated_sha256": "43a9b08dac9f9cf2797a1fad04b1c50a91f475dc3595489e5a663a74c45de782"
+    },
+    {
+      "path": "user_guide_cn/intro.md",
+      "source_url": "https://ingchips.github.io/user_guide_cn/intro.html",
+      "source_sha256": "0b4a45d00fec016fb1602604805c2a3d1024dbbe98d183777177e5f53a5dfd85",
+      "generated_sha256": "57e107d59c1538dded5f3e522527d0de57eb3387247eab12eb9468228850dab5"
+    },
+    {
+      "path": "user_guide_cn/tutorial.md",
+      "source_url": "https://ingchips.github.io/user_guide_cn/tutorial.html",
+      "source_sha256": "572a9cebb5646d43c01377074783a7374181a9191aa917471cf1b2ec5e7d4410",
+      "generated_sha256": "e801726a0a845ba1220f6a04ee5095ddcf0391493d0f31987c792663eb8e5319"
+    },
+    {
+      "path": "user_guide_cn/core-tools.md",
+      "source_url": "https://ingchips.github.io/user_guide_cn/core-tools.html",
+      "source_sha256": "84e98e9a0a96ae4b1e1689363e6be5c7151ed6ddf9d169ef2b008e34d93cebac",
+      "generated_sha256": "925e305ae957b4b970f085a9651a00dc2ca247c4386fb2f9a4af6b038fbd2da2"
+    },
+    {
+      "path": "user_guide_cn/dive-into-sdk.md",
+      "source_url": "https://ingchips.github.io/user_guide_cn/dive-into-sdk.html",
+      "source_sha256": "a85461af543140babc41227428f52a4a08b268372ad1df8fe0589a2b4cd22570",
+      "generated_sha256": "ef81f7ab954a3290e3cdc81b8e7598ea4bc289d6488acacfdc0a80ce02df4e9b"
+    },
+    {
+      "path": "user_guide_cn/api-ref.md",
+      "source_url": "https://ingchips.github.io/user_guide_cn/api-ref.html",
+      "source_sha256": "4d0f08ff9d8bb8827ac246e1d08f8b9e5483b18790b2d469c8ce8447d26b4c78",
+      "generated_sha256": "30f67cbfc5a6634734231f75764eba6f789d4c82a097e2797eeb91b0d2364964"
+    },
+    {
+      "path": "user_guide_cn/revision-history.md",
+      "source_url": "https://ingchips.github.io/user_guide_cn/revision-history.html",
+      "source_sha256": "11b54dad6a8efff36bdbf4478e33a0ee2befc5cacfe89e9de4fc58e78bfae62f",
+      "generated_sha256": "cedffde9fff38ec69ec7e7baaf7b7a87f01bd65a03be6c7490fcc0dedd0aee48"
+    },
+    {
+      "path": "examples.md",
+      "source_url": "examples.docx",
+      "source_sha256": "25e5aa9bf0acff6ec317f2d66b3c62bbae095d21cf824b39779907b9756c3a7e",
+      "generated_sha256": "2f56a346ead903b7a7baa88c24197cc9ea35111f14ee91d85c6e950a65129267"
+    }
+  ]
+}

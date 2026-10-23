@@ -1,0 +1,74 @@
+{
+  "book": "an_aoa",
+  "site_dir": "application-notes/an_aoa",
+  "source": "html",
+  "title": "Application Note: Direction Finding Solution",
+  "files": [
+    {
+      "file": "index.md",
+      "title": "Application Note: Direction Finding Solution",
+      "size": 362,
+      "source_path": "application-notes/an_aoa/index.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/index.html",
+      "source_sha256": "181e5fda9c0e34367fbb2628107ec5ee8d57be106fe76b5b7bc60aadf70e6ce0",
+      "conversion_source": "application-notes/an_aoa/index.html"
+    },
+    {
+      "file": "introduction.md",
+      "title": "2 Introduction",
+      "size": 1793,
+      "source_path": "application-notes/an_aoa/introduction.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/introduction.html",
+      "source_sha256": "b3f5b38167c218f8d27fe2d96b9931d49b385e0cd7aa38b6c7de38621f5e16f1",
+      "conversion_source": "application-notes/an_aoa/introduction.html"
+    },
+    {
+      "file": "fundamentals.md",
+      "title": "3 Direction Finding Fundamentals",
+      "size": 9078,
+      "source_path": "application-notes/an_aoa/fundamentals.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/fundamentals.html",
+      "source_sha256": "46f214023ead302407bd28518c82b5fdd03acde5623b6059e752a0007bc21843",
+      "conversion_source": "application-notes/an_aoa/fundamentals.html"
+    },
+    {
+      "file": "quick-start.md",
+      "title": "4 Quick-Start Guide",
+      "size": 15050,
+      "source_path": "application-notes/an_aoa/quick-start.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/quick-start.html",
+      "source_sha256": "9116b1349668bc6995e7a3cc40e87579ebfda4915f7426df6660ec6c60e2ae6d",
+      "conversion_source": "application-notes/an_aoa/quick-start.html"
+    },
+    {
+      "file": "sdk-support.md",
+      "title": "5 SDK Support of Direction Finding",
+      "size": 3953,
+      "source_path": "application-notes/an_aoa/sdk-support.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/sdk-support.html",
+      "source_sha256": "faad1859c9e2ff91bf3dfa0684a12242639b5c51576663b278d04b724a415be0",
+      "conversion_source": "application-notes/an_aoa/sdk-support.html"
+    },
+    {
+      "file": "futher-info.md",
+      "title": "6 Further Information",
+      "size": 3687,
+      "source_path": "application-notes/an_aoa/futher-info.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/futher-info.html",
+      "source_sha256": "a860360229cb0fa1cb0cf1a19ad996fd02388c61b1dd1092b4c342d5d48b7cb0",
+      "conversion_source": "application-notes/an_aoa/futher-info.html"
+    },
+    {
+      "file": "revision-history.md",
+      "title": "7 Revision History",
+      "size": 451,
+      "source_path": "application-notes/an_aoa/revision-history.html",
+      "source_url": "https://ingchips.github.io/application-notes/an_aoa/revision-history.html",
+      "source_sha256": "5e69f1028f9ed28a3386663d3610f701ec973aeb60ad8128617c51de894bf655",
+      "conversion_source": "application-notes/an_aoa/revision-history.html"
+    }
+  ],
+  "warnings": [
+    "EPUB chapter mapping incomplete; using site HTML"
+  ]
+}
